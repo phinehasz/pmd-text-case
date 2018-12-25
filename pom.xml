@@ -746,11 +746,6 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.apache.velocity</groupId>
-                <artifactId>velocity</artifactId>
-                <version>1.7</version>
-            </dependency>
-            <dependency>
                 <groupId>org.antlr</groupId>
                 <artifactId>antlr4-runtime</artifactId>
                 <version>${antlr.version}</version>
@@ -990,5 +985,6 @@
         <module>pmd-test</module>
         <module>pmd-vm</module>
         <module>pmd-xml</module>
+        <module>pmd-text</module>
     </modules>
 </project>
