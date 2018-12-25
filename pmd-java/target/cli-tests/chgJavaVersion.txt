@@ -1,0 +1,132 @@
+Start running test chgJavaVersion
+Loaded rule ImmutableField
+Loaded rule NonThreadSafeSingleton
+Loaded rule EqualsNull
+Loaded rule ConstructorCallsOverridableMethod
+Loaded rule PreserveStackTrace
+Loaded rule InstantiationToGetClass
+Loaded rule CompareObjectsWithEquals
+Loaded rule AvoidSynchronizedAtMethodLevel
+Loaded rule AccessorClassGeneration
+Loaded rule UseLocaleWithCaseConversions
+Loaded rule ClassWithOnlyPrivateConstructorsShouldBeFinal
+Loaded rule SingleMethodSingleton
+Loaded rule AvoidProtectedMethodInFinalClassNotExtending
+Loaded rule AssignmentToNonFinalStatic
+Loaded rule SimplifyConditional
+Loaded rule EmptyMethodInAbstractClassShouldBeAbstract
+Loaded rule AvoidDeeplyNestedIfStmts
+Loaded rule FieldDeclarationsShouldBeAtStartOfClass
+Loaded rule IdempotentOperations
+Loaded rule AvoidProtectedFieldInFinalClass
+Loaded rule UseUtilityClass
+Loaded rule AvoidInstanceofChecksInCatchClause
+Loaded rule UncommentedEmptyMethodBody
+Loaded rule ReturnEmptyArrayRatherThanNull
+Loaded rule MissingBreakInSwitch
+Loaded rule UnsynchronizedStaticDateFormatter
+Loaded rule TooFewBranchesForASwitchStatement
+Loaded rule NonStaticInitializer
+Loaded rule NonCaseLabelInSwitchStatement
+Loaded rule SingletonClassReturningNewInstance
+Loaded rule MissingStaticMethodInNonInstantiatableClass
+Loaded rule PositionLiteralsFirstInComparisons
+Loaded rule UseCollectionIsEmpty
+Loaded rule AbstractClassWithoutAbstractMethod
+Loaded rule UseNotifyAllInsteadOfNotify
+Loaded rule GodClass
+Loaded rule LogicInversion
+Loaded rule FinalFieldCouldBeStatic
+Loaded rule SingularField
+Loaded rule ConstantsInInterface
+Loaded rule SimpleDateFormatNeedsLocale
+Loaded rule AbstractClassWithoutAnyMethod
+Loaded rule UncommentedEmptyConstructor
+Loaded rule PositionLiteralsFirstInCaseInsensitiveComparisons
+Loaded rule SwitchDensity
+Loaded rule CloseResource
+Loaded rule ConfusingTernary
+Loaded rule SwitchStmtsShouldHaveDefault
+Loaded rule SimplifyBooleanReturns
+Loaded rule BadComparison
+Loaded rule AvoidReassigningParameters
+Loaded rule AvoidConstantsInterface
+Loaded rule OptimizableToArrayCall
+Loaded rule UseVarargs
+Loaded rule DefaultLabelNotLastInSwitchStmt
+Loaded rule SimplifyBooleanExpressions
+Loaded rule UnnecessaryLocalBeforeReturn
+Using Java version: Java 1.5
+Loaded rule ImmutableField
+Loaded rule NonThreadSafeSingleton
+Loaded rule EqualsNull
+Loaded rule ConstructorCallsOverridableMethod
+Loaded rule PreserveStackTrace
+Loaded rule InstantiationToGetClass
+Loaded rule CompareObjectsWithEquals
+Loaded rule AvoidSynchronizedAtMethodLevel
+Loaded rule AccessorClassGeneration
+Loaded rule UseLocaleWithCaseConversions
+Loaded rule ClassWithOnlyPrivateConstructorsShouldBeFinal
+Loaded rule SingleMethodSingleton
+Loaded rule AvoidProtectedMethodInFinalClassNotExtending
+Loaded rule AssignmentToNonFinalStatic
+Loaded rule SimplifyConditional
+Loaded rule EmptyMethodInAbstractClassShouldBeAbstract
+Loaded rule AvoidDeeplyNestedIfStmts
+Loaded rule FieldDeclarationsShouldBeAtStartOfClass
+Loaded rule IdempotentOperations
+Loaded rule AvoidProtectedFieldInFinalClass
+Loaded rule UseUtilityClass
+Loaded rule AvoidInstanceofChecksInCatchClause
+Loaded rule UncommentedEmptyMethodBody
+Loaded rule ReturnEmptyArrayRatherThanNull
+Loaded rule MissingBreakInSwitch
+Loaded rule UnsynchronizedStaticDateFormatter
+Loaded rule TooFewBranchesForASwitchStatement
+Loaded rule NonStaticInitializer
+Loaded rule NonCaseLabelInSwitchStatement
+Loaded rule SingletonClassReturningNewInstance
+Loaded rule MissingStaticMethodInNonInstantiatableClass
+Loaded rule PositionLiteralsFirstInComparisons
+Loaded rule UseCollectionIsEmpty
+Loaded rule AbstractClassWithoutAbstractMethod
+Loaded rule UseNotifyAllInsteadOfNotify
+Loaded rule GodClass
+Loaded rule LogicInversion
+Loaded rule FinalFieldCouldBeStatic
+Loaded rule SingularField
+Loaded rule ConstantsInInterface
+Loaded rule SimpleDateFormatNeedsLocale
+Loaded rule AbstractClassWithoutAnyMethod
+Loaded rule UncommentedEmptyConstructor
+Loaded rule PositionLiteralsFirstInCaseInsensitiveComparisons
+Loaded rule SwitchDensity
+Loaded rule CloseResource
+Loaded rule ConfusingTernary
+Loaded rule SwitchStmtsShouldHaveDefault
+Loaded rule SimplifyBooleanReturns
+Loaded rule BadComparison
+Loaded rule AvoidReassigningParameters
+Loaded rule AvoidConstantsInterface
+Loaded rule OptimizableToArrayCall
+Loaded rule UseVarargs
+Loaded rule DefaultLabelNotLastInSwitchStmt
+Loaded rule SimplifyBooleanExpressions
+Loaded rule UnnecessaryLocalBeforeReturn
+Processing D:\workspace\pmd-src-5.5.2\pmd-java\src\test\resources\net\sourceforge\pmd\cli\EmptyIfStatement.java
+Could not find class EmptyIfStatement, due to: java.lang.ClassNotFoundException: EmptyIfStatement
+Unable to use RuleChain for for XPath: 
+TypeDeclaration[count(../TypeDeclaration) = 1]/ClassOrInterfaceDeclaration
+[@Final = 'false']
+[count(./ClassOrInterfaceBody/ClassOrInterfaceBodyDeclaration/ConstructorDeclaration[@Private = 'true']) >= 1 ]
+[count(./ClassOrInterfaceBody/ClassOrInterfaceBodyDeclaration/ConstructorDeclaration[(@Public = 'true') or (@Protected = 'true') or (@PackagePrivate = 'true')]) = 0 ]
+[not(.//ClassOrInterfaceDeclaration)]
+             
+Unable to use RuleChain for for XPath: 
+TypeDeclaration[count(../TypeDeclaration) = 1]/ClassOrInterfaceDeclaration
+[@Final = 'false']
+[count(./ClassOrInterfaceBody/ClassOrInterfaceBodyDeclaration/ConstructorDeclaration[@Private = 'true']) >= 1 ]
+[count(./ClassOrInterfaceBody/ClassOrInterfaceBodyDeclaration/ConstructorDeclaration[(@Public = 'true') or (@Protected = 'true') or (@PackagePrivate = 'true')]) = 0 ]
+[not(.//ClassOrInterfaceDeclaration)]
+             

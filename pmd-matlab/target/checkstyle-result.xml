@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.2">
+<file name="D:\workspace\pmd-src-5.5.2\pmd-matlab\src\main\java\net\sourceforge\pmd\cpd\MatlabLanguage.java">
+<error line="0" severity="warning" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-matlab\src\main\java\net\sourceforge\pmd\cpd\MatlabTokenizer.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-matlab\src\main\java\net\sourceforge\pmd\lang\matlab\MatlabHandler.java">
+<error line="0" severity="warning" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-matlab\src\main\java\net\sourceforge\pmd\lang\matlab\MatlabLanguageModule.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-matlab\src\main\java\net\sourceforge\pmd\lang\matlab\MatlabParser.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-matlab\src\main\java\net\sourceforge\pmd\lang\matlab\MatlabTokenManager.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-matlab\target\generated-sources\javacc\net\sourceforge\pmd\lang\matlab\ast\MatlabParserConstants.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-matlab\target\generated-sources\javacc\net\sourceforge\pmd\lang\matlab\ast\MatlabParserTokenManager.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-matlab\target\generated-sources\javacc\net\sourceforge\pmd\lang\matlab\ast\Token.java">
+</file>
+</checkstyle>

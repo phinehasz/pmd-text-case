@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.119" tests="46" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2018.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="maven.skip.test" value="true"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shinelon\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_151\bin;D:\javacc\javacc-5.0\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;D:\pscp.exe;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\ProgramData\Oracle\Java\javapath;D:\Develop\apache-maven-3.3.9\\bin;D:\Develop\python3.6\Scripts\;D:\Develop\python3.6;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\Gradle\gradle-4.9/bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\MySQL Server 5.5\bin;D:\Develop\Git\cmd;D:\Develop\Git\mingw64\bin;D:\Develop\Git\usr\bin;F:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;D:\Develop\Anaconda2.2;D:\Develop\Anaconda2.2\Scripts;C:\Program Files (x86)\Calibre2\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\ssh secure;C:\Users\Shinelon\AppData\Roaming\npm;F:\Program Files\Microsoft VS Code\bin;C:\Users\Shinelon\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Shinelon"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Shinelon"/>
+    <property name="java.class.path" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;F:\IntelliJ IDEA 2018.2.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.1 install -Dmaven.skip.test=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="AvoidCatchingGenericException::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="AvoidCatchingGenericException::1 catching another type, ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="AvoidCatchingGenericException::2 throwing it, ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="AvoidCatchingNPE::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.001"/>
+  <testcase name="AvoidCatchingNPE::1 catching another type, ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="AvoidCatchingNPE::2 throwing it, ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="AvoidCatchingThrowable::0 simple failure case" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="AvoidCatchingThrowable::1 ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="AvoidLosingExceptionInformation::0 basic failure case" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="AvoidLosingExceptionInformation::1 fetch the value returned by getMessage(), ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="AvoidLosingExceptionInformation::2 fetch the value returned by getCause(), ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="AvoidLosingExceptionInformation::3 a mix of guilty calls to getMessage(), getLocalizedMessage(), getCause() or getStackTrace(), failure" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="AvoidLosingExceptionInformation::4 a larger mix of guilty calls to getMessage(), getLocalizedMessage(), getCause(), getStackTrace() or toString(), failure" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.004"/>
+  <testcase name="AvoidRethrowingException::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="AvoidRethrowingException::1 doing something else before throwing it, ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="AvoidRethrowingException::2 throwing the return value of a method call on the exception, ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="AvoidRethrowingException::3 throwing a different exception, ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="AvoidThrowingNewInstanceOfSameException::0 basic failure case" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="AvoidThrowingNewInstanceOfSameException::1 do something else before throwing a new instance of the same exception, ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="AvoidThrowingNewInstanceOfSameException::2 repackage cause as an instance of the same exception, failure" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="AvoidThrowingNewInstanceOfSameException::3 throw new instance of the same exception with a different message, ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="AvoidThrowingNewInstanceOfSameException::4 throw new instance of the same exception with the same message, failure" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="AvoidThrowingNewInstanceOfSameException::5 throws a new instance of the same exception without any arguments, ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.001"/>
+  <testcase name="AvoidThrowingNewInstanceOfSameException::6 throws a new instance of the same exception from a nested try/catch block, ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="AvoidThrowingNewInstanceOfSameException::7 wraps the exception in a new instance of the same exception from a nested try/catch block, ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="AvoidThrowingNullPointerException::0 throwing various types" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="AvoidThrowingRawExceptionTypes::0 throwing various types" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="AvoidThrowingRawExceptionTypes::1 Bug 1796928 : The code uses a classe that use the same names that the one this rule is 				looking for..." classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="AvoidThrowingRawExceptionTypes::2 #1337: False positive &quot;Avoid throwing raw exception types&quot; when exception is not thrown" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="DoNotExtendJavaLangError::0 Extends with fully qualified name" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="DoNotExtendJavaLangError::1 Extends with implicit import" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="DoNotExtendJavaLangError::2 Extends something else" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="DoNotThrowExceptionInFinally::0 classic failure case" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="ExceptionAsFlowControl::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="ExceptionAsFlowControl::1 normal throw catch" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.002"/>
+  <testcase name="ExceptionAsFlowControl::2 BUG 996007" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.004"/>
+  <testcase name="ExceptionAsFlowControl::3 NPE" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="SignatureDeclareThrowsException::0 method throws Exception" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="SignatureDeclareThrowsException::1 ok" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="SignatureDeclareThrowsException::2 constructor throws Exception" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="SignatureDeclareThrowsException::3 skip junit setUp method" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="SignatureDeclareThrowsException::4 skip junit tearDown method" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="SignatureDeclareThrowsException::5 Generics" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+  <testcase name="SignatureDeclareThrowsException::6 skip any method starting with &apos;test&apos;" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.004"/>
+  <testcase name="SignatureDeclareThrowsException::7 #913 SignatureDeclareThrowsException is raised twice" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.004"/>
+  <testcase name="SignatureDeclareThrowsException::8 #1535 [java] SignatureDeclareThrowsException: ClassCastException with Annotation" classname="net.sourceforge.pmd.lang.java.rule.strictexception.StrictExceptionRulesTest" time="0.003"/>
+</testsuite>

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="4.904" tests="446" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="idea.version" value="2018.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="maven.skip.test" value="true"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shinelon\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_151\bin;D:\javacc\javacc-5.0\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;D:\pscp.exe;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\ProgramData\Oracle\Java\javapath;D:\Develop\apache-maven-3.3.9\\bin;D:\Develop\python3.6\Scripts\;D:\Develop\python3.6;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\Gradle\gradle-4.9/bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\MySQL Server 5.5\bin;D:\Develop\Git\cmd;D:\Develop\Git\mingw64\bin;D:\Develop\Git\usr\bin;F:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;D:\Develop\Anaconda2.2;D:\Develop\Anaconda2.2\Scripts;C:\Program Files (x86)\Calibre2\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\ssh secure;C:\Users\Shinelon\AppData\Roaming\npm;F:\Program Files\Microsoft VS Code\bin;C:\Users\Shinelon\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Shinelon"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Shinelon"/>
+    <property name="java.class.path" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;F:\IntelliJ IDEA 2018.2.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.1 install -Dmaven.skip.test=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="AbstractClassWithoutAbstractMethod::0 concrete class" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="AbstractClassWithoutAbstractMethod::1 failure case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="AbstractClassWithoutAbstractMethod::2 failure case, 1 method" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="AbstractClassWithoutAbstractMethod::3 abstract class with abstract method" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="AbstractClassWithoutAbstractMethod::4 abstract class implements interface" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="AbstractClassWithoutAnyMethod::0 Empty abstract method should trigger the rule nonetheless" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AbstractClassWithoutAnyMethod::1 An abstract method without any method at all (Basic test case)" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AbstractClassWithoutAnyMethod::2 An abstract method with constructors" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AbstractClassWithoutAnyMethod::3 An abstract class with method, no violation" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AccessorClassGeneration::0 inner class has private constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="AccessorClassGeneration::1 inner class has public constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="AccessorClassGeneration::2 outer class has public constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AccessorClassGeneration::3 final inner class" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="AccessorClassGeneration::4 interface inner class has private constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AccessorClassGeneration::5 there&apos;s a check for int declaration - not sure right now why" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="AccessorClassGeneration::6 #1452 ArrayIndexOutOfBoundsException with Annotations for AccessorClassGenerationRule" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AssignmentToNonFinalStatic::0 clear rule violation" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AssignmentToNonFinalStatic::1 ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="AvoidConstantsInterface::0 clear rule violation" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AvoidConstantsInterface::1 ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AvoidDeeplyNestedIfStmts::0 Bad, very deep" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="AvoidDeeplyNestedIfStmts::1 OK, not so deep" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AvoidInstanceofChecksInCatchClause::0 bad, instanceof FooException" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="AvoidInstanceofChecksInCatchClause::1 ok, no instanceof" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="AvoidProtectedFieldInFinalClass::0 ok, protected field in non final class" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AvoidProtectedFieldInFinalClass::1 bad, protected field in final class" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AvoidProtectedFieldInFinalClass::2 ok, private field in final class" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AvoidProtectedFieldInFinalClass::3 protected field in inner class is ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="AvoidProtectedMethodInFinalClassNotExtending::0 ok, protected method in non final class" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AvoidProtectedMethodInFinalClassNotExtending::1 bad, protected method in final class that doesn&apos;t extend anything" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="AvoidProtectedMethodInFinalClassNotExtending::2 bad, protected method in final class that doesn&apos;t extend anything but implements interface" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AvoidProtectedMethodInFinalClassNotExtending::3 ok, protected method in final class that does extend something" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="AvoidProtectedMethodInFinalClassNotExtending::4 ok, private method in final class" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AvoidProtectedMethodInFinalClassNotExtending::5 protected method in non-final inner class is ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AvoidProtectedMethodInFinalClassNotExtending::6 protected method in final inner class that extends something is ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="AvoidProtectedMethodInFinalClassNotExtending::7 protected method in final inner class that does not extend something is bad" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AvoidProtectedMethodInFinalClassNotExtending::8 #1241 False+ AvoidProtectedMethodInFinalClassNotExtending" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AvoidReassigningParameters::0 reassigned parameter, bad" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="AvoidReassigningParameters::1 one parameter, not reassigned, good" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AvoidReassigningParameters::2 instance variable and parameter have same name" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="AvoidReassigningParameters::3 qualified instance variable same name as parameter" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="AvoidReassigningParameters::4 qualified name same as parameter" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="AvoidReassigningParameters::5 assignment to parameter public field" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="AvoidReassigningParameters::6 assignment to array parameter slot" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="AvoidReassigningParameters::7 throws a stacktrace" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="AvoidReassigningParameters::8 postfix increment in array dereference is bad" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="AvoidReassigningParameters::9 assignment to array slot" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="AvoidReassigningParameters::10 assignment to array" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="AvoidReassigningParameters::11 The rule should also detect parameter reassignment in constructors (at least to help young programmers still learning java basic)" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="AvoidReassigningParameters::12 The rule should take into account uses of field names, inherited or not, matching the method parameter name." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="AvoidReassigningParameters::13 parameter name starting with &quot;this&quot; or &quot;super&quot; should still be flagged" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="AvoidReassigningParameters::14 local variables should not be flagged" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="AvoidReassigningParameters::15 2410201, False+ AvoidReassigningParameters" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="AvoidReassigningParameters::16 #1330 AvoidReassigningParameters does not work with varargs" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="AvoidSynchronizedAtMethodLevel::0 TEST1" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="AvoidSynchronizedAtMethodLevel::1 TEST2" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="AvoidSynchronizedAtMethodLevel::2 #991 AvoidSynchronizedAtMethodLevel for static methods - bad case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="AvoidSynchronizedAtMethodLevel::3 #991 AvoidSynchronizedAtMethodLevel for static methods - good case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="BadComparison::0 comparison to Double.NaN" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="BadComparison::1 ok equality comparison" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="BadComparison::2 comparison to Float.NaN" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ClassWithOnlyPrivateConstructorsShouldBeFinal::0 Simple violation" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="ClassWithOnlyPrivateConstructorsShouldBeFinal::1 ok, class is final" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="ClassWithOnlyPrivateConstructorsShouldBeFinal::2 One public constructor, not required to be final" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.015"/>
+  <testcase name="ClassWithOnlyPrivateConstructorsShouldBeFinal::3 Ok, subclass using the private constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="ClassWithOnlyPrivateConstructorsShouldBeFinal::4 Ok, subclass using the private constructor of another subclass" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ClassWithOnlyPrivateConstructorsShouldBeFinal::5 Ok, two classes" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ClassWithOnlyPrivateConstructorsShouldBeFinal::6 One protected constructor, not required to be final" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ClassWithOnlyPrivateConstructorsShouldBeFinal::7 One package private constructor, not required to be final" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="CloseResource::0 connection is closed, ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="CloseResource::1 connection not closed, should have failed" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="CloseResource::2 ResultSet not closed, should have failed" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="CloseResource::3 Statement not closed, should have failed" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="CloseResource::4 Bad, no closeTargets properties for statements" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="CloseResource::5 Ok, closeTargets properties for statements" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.018"/>
+  <testcase name="CloseResource::6 Add type param" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.015"/>
+  <testcase name="CloseResource::7 OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="CloseResource::8 New use case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="CloseResource::9 [1964798] 3 bugs in CloseResourceRule : Case failing with complete name" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="CloseResource::10 [1964798] 3 bugs in CloseResourceRule : null object is passed to close conection method (1)" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="CloseResource::11 [1964798] 3 bugs in CloseResourceRule : null object is passed to close conection method (2)" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="CloseResource::12 [1964798] 3 bugs in CloseResourceRule : If connection is returned, we should not log a violation." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="CloseResource::13 invoke an external method that close the resource bug 2920057" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.015"/>
+  <testcase name="CloseResource::14 invoke an external method that closes the resource, but one is not the right method and an another is not the right variable see bug 2920057" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.018"/>
+  <testcase name="CloseResource::15 #1011 CloseResource Rule ignores Constructors" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="CloseResource::16 #1011 CloseResource Rule ignores Constructors - closed in finally" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="CloseResource::17 #1011 CloseResource Rule ignores Constructors - not a problem - instance variable" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="CloseResource::18 #1029 No instance level check in the close resource rule" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="CloseResource::19 #947 CloseResource rule fails if field is marked with annotation" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="CloseResource::20 #992 Class java.beans.Statement triggered in CloseResource rule" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="CloseResource::21 Custom close method, should be ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="CloseResource::22 bug #1131 CloseResource should complain if code between declaration of resource and try: Code between declaration and try, should fail" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="CloseResource::23 bug #1131 CloseResource should complain if code between declaration of resource and try: Creation inside try, ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="CloseResource::24 bug #1131 CloseResource should complain if code between declaration of resource and try: No sentences between creation and try, ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="CloseResource::25 #1259 CloseResource rule ignores conditionals within finally blocks" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="CloseResource::26 #1375 CloseResource not detected properly - ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="CloseResource::27 #1375 CloseResource not detected properly - false negative" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="CloseResource::28 #1372 False Negative for CloseResource rule." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.017"/>
+  <testcase name="CloseResource::29 #1387 CloseResource has false positive for ResultSet" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="CloseResource::30 Verify closeAsDefaultTarget property" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="CloseResource::31 #1479 CloseResource false positive on Statement" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="CompareObjectsWithEquals::0 simple failure with method params" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="CompareObjectsWithEquals::1 primitives are ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="CompareObjectsWithEquals::2 skip nulls" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="CompareObjectsWithEquals::3 missed hit - qualified names.  that&apos;s ok, we can&apos;t resolve the types yet, so better to skip this for now" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="CompareObjectsWithEquals::4 more qualified name skippage" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="CompareObjectsWithEquals::5 locals" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="CompareObjectsWithEquals::6 2 locals declared on one line" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="CompareObjectsWithEquals::7 array element comparison" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="CompareObjectsWithEquals::8 Comparing against new object should always return false" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="CompareObjectsWithEquals::9 qualified call in allocation" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="CompareObjectsWithEquals::10 #1028 False-positive: Compare objects with equals for Enums" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="CompareObjectsWithEquals::11 #1128 CompareObjectsWithEquals False Positive comparing boolean (primitive) values" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="CompareObjectsWithEquals::12 #1376 CompareObjectsWithEquals fails for type annotated method parameter" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ConfusingTernary::0 !=, bad" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ConfusingTernary::1 ==, good" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.015"/>
+  <testcase name="ConfusingTernary::2 != inside if, bad" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="ConfusingTernary::3 match &amp;&amp; match, not confusing, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ConfusingTernary::4 A couple of bad and good cases" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.021"/>
+  <testcase name="ConfusingTernary::5 #1161 Confusing Ternary should skip else if statements (or have a property to do so) (ignoreElseIf=false)" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="ConfusingTernary::6 #1161 Confusing Ternary should skip else if statements (or have a property to do so) (ignoreElseIf=true)" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.015"/>
+  <testcase name="ConfusingTernary::7 #1198 ConfusingTernary does not ignore else if blocks even when property is set" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="ConstantsInInterface::0 constants in interface, no methods" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ConstantsInInterface::1 constants in interface, with methods, ignoreIfHasMethods is false" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="ConstantsInInterface::2 constants in interface, with methods, ignoreIfHasMethods is true" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.015"/>
+  <testcase name="ConstantsInInterface::3 #1505 [java] ConstantsInInterface false negative" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ConstructorCallsOverridableMethod::0 calling public method from constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ConstructorCallsOverridableMethod::1 calling protected method from constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ConstructorCallsOverridableMethod::2 calling package private method from constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ConstructorCallsOverridableMethod::3 calling private method, ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="ConstructorCallsOverridableMethod::4 overloaded constructors, calling public method" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="ConstructorCallsOverridableMethod::5 calling method on literal bug" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="ConstructorCallsOverridableMethod::6 method in anonymous inner class is ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="ConstructorCallsOverridableMethod::7 bug report 975407" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="ConstructorCallsOverridableMethod::8 ignore abstract methods" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="ConstructorCallsOverridableMethod::9 Generics" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ConstructorCallsOverridableMethod::10 985989, base line" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ConstructorCallsOverridableMethod::11 985989, inner static class should be checked as well" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="ConstructorCallsOverridableMethod::12 bug #1005 False + for ConstructorCallsOverridableMethod - overloaded methods" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ConstructorCallsOverridableMethod::13 bug #1127 False positive: Constructor Calls Overridable Method" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="ConstructorCallsOverridableMethod::14 NullPointer while analyzing ExcessiveLengthRule" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="ConstructorCallsOverridableMethod::15 #1388 ConstructorCallsOverridableMethodRule doesn&apos;t work with params?" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="DefaultLabelNotLastInSwitchStmt::0 ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="DefaultLabelNotLastInSwitchStmt::1 bad" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="DefaultLabelNotLastInSwitchStmt::2 ok, no default" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="EmptyMethodInAbstractClassShouldBeAbstract::0 void return method, with no return statement." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="EmptyMethodInAbstractClassShouldBeAbstract::1 non-void return method, with just a, most likely, dummy return statement." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="EmptyMethodInAbstractClassShouldBeAbstract::2 A method with just a return statement, but a meaningful one." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="EmptyMethodInAbstractClassShouldBeAbstract::3 Other valid methods." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="EmptyMethodInAbstractClassShouldBeAbstract::4 nested abstract class" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="EmptyMethodInAbstractClassShouldBeAbstract::5 nested class in abstract class" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="EmptyMethodInAbstractClassShouldBeAbstract::6 Bug 1888967 : Detection of dummy method" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="EmptyMethodInAbstractClassShouldBeAbstract::7 Bug 1888967 : Those methods should not be detected as a violation." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="EmptyMethodInAbstractClassShouldBeAbstract::8 Bug 1888967 : This method should not be detected as a violation." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="EmptyMethodInAbstractClassShouldBeAbstract::9 Bug 1932242 : False +, returning a String does not count as an Empty Method" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="EmptyMethodInAbstractClassShouldBeAbstract::10 #1147 EmptyMethodInAbstractClassShouldBeAbstract false positives" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="EmptyMethodInAbstractClassShouldBeAbstract::11 Detect empty statements" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="EqualsNull::0 object.equals(null), bad" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="EqualsNull::1 object == null, ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="EqualsNull::2 object.method().equals(null), bad" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="EqualsNull::3 object.equals(null, other), ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="EqualsNull::4 #1120 equalsnull false positive" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="FieldDeclarationsShouldBeAtStartOfClass::0 basic test" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="FieldDeclarationsShouldBeAtStartOfClass::1 basic test, not OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="FieldDeclarationsShouldBeAtStartOfClass::2 inner class, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="FieldDeclarationsShouldBeAtStartOfClass::3 Initial report where rule was introduced, [ 2487971 ] False positive with field-level annotations" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="FieldDeclarationsShouldBeAtStartOfClass::4 #1126 False positive with FieldDeclarationsShouldBeAtStartOfClass for static enums" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="FieldDeclarationsShouldBeAtStartOfClass::5 #1126 Do not ignore enums" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="FieldDeclarationsShouldBeAtStartOfClass::6 #1244 FieldDeclarationsShouldBeAtStartOfClass and anonymous classes, ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="FieldDeclarationsShouldBeAtStartOfClass::7 #1244 FieldDeclarationsShouldBeAtStartOfClass and anonymous classes, fail" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="FieldDeclarationsShouldBeAtStartOfClass::8 #1354 Complex FieldDeclarationsShouldBeAtStartOfClass false positive with Spring annotations" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="FieldDeclarationsShouldBeAtStartOfClass::9 #1364 FieldDeclarationsShouldBeAtStartOfClass false positive using multiple annotations" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="FinalFieldCouldBeStatic::0 simple failure case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="FinalFieldCouldBeStatic::1 already static, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="FinalFieldCouldBeStatic::2 non-final, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="FinalFieldCouldBeStatic::3 non-primitive failure case - only works for String" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="FinalFieldCouldBeStatic::4 final field that&apos;s a thread, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="FinalFieldCouldBeStatic::5 don&apos;t flag interfaces" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="FinalFieldCouldBeStatic::6 bug #1002 False +: FinalFieldCouldBeStatic on inner class" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="GodClass::0 Simple god class" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.018"/>
+  <testcase name="GodClass::1 #1085 NullPointerException by at net.sourceforge.pmd.lang.java.rule.design.GodClassRule.visit(GodClassRule.java:313)" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="IdempotentOperations::0 assignment of a variable (local or field) to itself" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="IdempotentOperations::1 assignment of one array element to another" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="IdempotentOperations::2 qualified names causing NPE troubleshooting" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="IdempotentOperations::3 check for method calls" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="IdempotentOperations::4 compound assignments are OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="IdempotentOperations::5 #1104 IdempotentOperation false positive" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ImmutableField::0 could be immutable, only assigned in constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ImmutableField::1 could be immutable, only assigned in decl" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ImmutableField::2 ok, assigned twice" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ImmutableField::3 ok, static field" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ImmutableField::4 ok, one constructor assigns, one doesn&apos;t" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ImmutableField::5 ok, assignment via postfix expression" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="ImmutableField::6 postfix expressions imply mutability" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ImmutableField::7 compound assignment" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ImmutableField::8 preincrement" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="ImmutableField::9 predecrement" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ImmutableField::10 compound assignment 2" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="ImmutableField::11 rhs 2" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="ImmutableField::12 assignment in constructor is in try block" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ImmutableField::13 assignment in method is in try block" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ImmutableField::14 assignment in constructor in loop is ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ImmutableField::15 assignment in anonymous inner class method is OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ImmutableField::16 assignment through this" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ImmutableField::17 volatile variables can&apos;t be final" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ImmutableField::18 Bug 1740480, optional override of default value based on constructor argument check" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ImmutableField::19 Bug 1740480, assignment in single constructor based on constructor argument check" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ImmutableField::20 3526212, pmd-5.0.0: ImmutableField false positive on self-inc/dec" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="ImmutableField::21 #946 ImmutableField false +" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="ImmutableField::22 #1032 ImmutableField Rule: Private field in inner class gives false positive" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="InstantiationToGetClass::0 simple failure case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="InstantiationToGetClass::1 ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="InstantiationToGetClass::2 should catch param to constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="LogicInversion::0 failure case, inequality" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="LogicInversion::1 failure case, comparison" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="LogicInversion::2 correct inequality" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="LogicInversion::3 correct comparison" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="MissingBreakInSwitch::0 one case, which is not empty" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="MissingBreakInSwitch::1 just skip empty switch" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="MissingBreakInSwitch::2 one break, but two cases + one default case. But there is an intentional fall through - because there are no statemenets between case 1 and case 2." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="MissingBreakInSwitch::3 each case stmt has a return" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="MissingBreakInSwitch::4 all cases have return or throw" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="MissingBreakInSwitch::5 3496028: False-" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="MissingBreakInSwitch::6 #1246 False positive from MissingBreakInSwitch" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="MissingBreakInSwitch::7 #550 False +: MissingBreakInSwitch" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="MissingBreakInSwitch::8 #1262 False positive for MissingBreakInSwitch" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="MissingStaticMethodInNonInstantiatableClass::0 ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="MissingStaticMethodInNonInstantiatableClass::1 ok, default constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="MissingStaticMethodInNonInstantiatableClass::2 simple failure" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="MissingStaticMethodInNonInstantiatableClass::3 failure with multiple constructors" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="MissingStaticMethodInNonInstantiatableClass::4 protected constructor is ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="MissingStaticMethodInNonInstantiatableClass::5 ok, one static method" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="MissingStaticMethodInNonInstantiatableClass::6 nested class" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="MissingStaticMethodInNonInstantiatableClass::7 ok, public static field" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="MissingStaticMethodInNonInstantiatableClass::8 not ok, non-public static field" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="MissingStaticMethodInNonInstantiatableClass::9 ok, protected static field" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="MissingStaticMethodInNonInstantiatableClass::10 ok, package private static field" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="MissingStaticMethodInNonInstantiatableClass::11 ok, checking for bug 1432595" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="MissingStaticMethodInNonInstantiatableClass::12 #1125 Missing Static Method In Non Instantiatable Class / Factory" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="MissingStaticMethodInNonInstantiatableClass::13 Check Builder pattern" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="NonCaseLabelInSwitchStatement::0 label inside switch" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="NonCaseLabelInSwitchStatement::1 ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="NonStaticInitializer::0 bad" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="NonStaticInitializer::1 static initializers are OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="NonThreadSafeSingleton::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="NonThreadSafeSingleton::1 OK, method is synchronized" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="NonThreadSafeSingleton::2 OK, in synchronized block" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="NonThreadSafeSingleton::3 OK, in returning non-static data" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="NonThreadSafeSingleton::4 failure case, two if statements" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="NonThreadSafeSingleton::5 failure case, compound if statement" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="NonThreadSafeSingleton::6 failure case 2" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="NonThreadSafeSingleton::7 From defect 1573591" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="NonThreadSafeSingleton::8 #997 Rule NonThreadSafeSingleton gives analysis problem" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="OptimizableToArrayCall::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="OptimizableToArrayCall::1 Array dimensioner uses method call, ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="OptimizableToArrayCall::2 Array dimensioner uses variable, ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="OptimizableToArrayCall::3 #937 OptimizableToArrayCall does not catch multilevel method chains" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="PositionLiteralsFirstInCaseInsensitiveComparisons::0 ok, literal comes first" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="PositionLiteralsFirstInCaseInsensitiveComparisons::1 bad, literal comes last" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="PositionLiteralsFirstInCaseInsensitiveComparisons::2 ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="PositionLiteralsFirstInCaseInsensitiveComparisons::3 Test case from bug [1472195] - PositionLiteralsFirstInComparisons give many false positives" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="PositionLiteralsFirstInCaseInsensitiveComparisons::4 Test case from bug [1472195] - PositionLiteralsFirstInComparisons give many false positives" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="PositionLiteralsFirstInComparisons::0 ok, literal comes first" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="PositionLiteralsFirstInComparisons::1 bad, literal comes last" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="PositionLiteralsFirstInComparisons::2 ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="PositionLiteralsFirstInComparisons::3 Test case from bug [1472195] - PositionLiteralsFirstInComparisons give many false positives" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="PositionLiteralsFirstInComparisons::4 Test case from bug [1472195] - PositionLiteralsFirstInComparisons give many false positives" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="PositionLiteralsFirstInComparisons::5 #1256 PositionLiteralsFirstInComparisons false positive with Characters" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="PreserveStackTrace::0 1, Exception thrown without preserving stack" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="PreserveStackTrace::1 2, Exception thrown, stack preserved" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="PreserveStackTrace::2 3, Exception thrown, stack preserved" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="PreserveStackTrace::3 4, No exception thrown, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="PreserveStackTrace::4 5, No exception thrown, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.016"/>
+  <testcase name="PreserveStackTrace::5 6, No exception thrown, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="PreserveStackTrace::6 7, No exception thrown, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.015"/>
+  <testcase name="PreserveStackTrace::7 8, No exception thrown, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="PreserveStackTrace::8 9, Excetion is cast, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="PreserveStackTrace::9 10, Throwing new Exception, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="PreserveStackTrace::10 11, Throwing new Exception, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="PreserveStackTrace::11 12, Catch and throw RuntimeException" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="PreserveStackTrace::12 13, Catch and throw RuntimeException, fail" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="PreserveStackTrace::13 14, Nested with same name catch and throw, fail on inner" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="PreserveStackTrace::14 15, IllegalStateException can take a cause exception in the constructor, too." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="PreserveStackTrace::15 16, False -, No violations reported by PreserveStackTrace Rule" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="PreserveStackTrace::16 17, PreserveStackTrace Rule should exclude this as initCause is used." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="PreserveStackTrace::17 18, side effects on rules" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="PreserveStackTrace::18 19, False positive" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="PreserveStackTrace::19 20, False positive" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="PreserveStackTrace::20 21, Java 7&apos;s multi-catch, NOK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="PreserveStackTrace::21 22, Java 7&apos;s multi-catch, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="PreserveStackTrace::22 #943 PreserveStackTrace false positive if a StringBuffer exists" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="PreserveStackTrace::23 #1087 PreserveStackTrace (still) ignores initCause()" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="PreserveStackTrace::24 #1087 PreserveStackTrace (still) ignores initCause() - negative test case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="PreserveStackTrace::25 #794 False positive on PreserveStackTrace with anonymous inner" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="ReturnEmptyArrayRatherThanNull::0 Basic test case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="ReturnEmptyArrayRatherThanNull::1 good behavior should not trigger violation" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SimpleDateFormatNeedsLocale::0 ok, uses a two arg constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SimpleDateFormatNeedsLocale::1 bad, using the single-arg constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SimpleDateFormatNeedsLocale::2 all quiet" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="SimplifyBooleanExpressions::0 in field assignment" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SimplifyBooleanExpressions::1 in method body" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SimplifyBooleanExpressions::2 ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="SimplifyBooleanExpressions::3 two cases in an &amp;&amp; expression" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SimplifyBooleanExpressions::4 simple use of BooleanLiteral, should not be flagged" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="SimplifyBooleanReturns::0 1, bad" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SimplifyBooleanReturns::1 2, bad" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="SimplifyBooleanReturns::2 3, ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SimplifyBooleanReturns::3 4, ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SimplifyBooleanReturns::4 #1320 Enhance SimplifyBooleanReturns checks" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SimplifyBooleanReturns::5 #1320 Enhance SimplifyBooleanReturns checks - case 2 without block" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SimplifyConditional::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SimplifyConditional::1 ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="SimplifyConditional::2 transpose x and null, still bad" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SimplifyConditional::3 conditional or and !(instanceof)" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SimplifyConditional::4 indexing into array is ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="SimplifyConditional::5 test for null on unrelated object is ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SimplifyConditional::6 Bug [1843273] False -" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="SimplifyConditional::7 Bug 2317099 : False + in SimplifyConditional" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SimplifyConditional::8 #1165 SimplifyConditional false positive" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SingleMethodSingleton::0 Not OK! Has overriden getInstance() methods" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SingleMethodSingleton::1 OK! Has only one Singleton" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SingletonClassReturningNewInstance::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="SingletonClassReturningNewInstance::1 failure case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SingletonClassReturningNewInstance::2 Works! Does not return locally created variable" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SingularField::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SingularField::1 Ok, used for control flow" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SingularField::2 ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SingularField::3 second method uses &apos;this&apos;" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="SingularField::4 skip publics" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="SingularField::5 skip statics" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SingularField::6 unused fields shouldn&apos;t show up" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SingularField::7 inner class" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="SingularField::8 initialized in constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SingularField::9 ok case with Object" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SingularField::10 ok, shouldn&apos;t catch unused variable" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SingularField::11 ok case with self-instantiation" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="SingularField::12 Reuse variable name as params in method calls" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SingularField::13 Ok, instantiates own self internally" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SingularField::14 ok, variable accessed twice in same method" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="SingularField::15 failure, static" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SingularField::16 failure, second method re-uses class level name" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.016"/>
+  <testcase name="SingularField::17 initialized in static initialization block" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SingularField::18 1409944, fields used to synchronize should not trigger" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="SingularField::19 1409944, fields not used to synchronize should trigger" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.016"/>
+  <testcase name="SingularField::20 1409944, field is used to change the flow of different calls" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SingularField::21 Ok, used in outer class" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SingularField::22 Not ok, since inner classes are checked" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="SingularField::23 Not ok, violation with first usage = non-assignment" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SingularField::24 Ok, field used to aggregate values" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="SingularField::25 Ok, setting values" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="SingularField::26 multiple fields on same line" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SingularField::27 field in inner class" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SingularField::28 bug 3574133 - false + with enums" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="SingularField::29 #1307 False positive: SingularField and lambda-expression" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="SingularField::30 #1494 [java] SingularField: lombok.Data false positive - part1" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SingularField::31 #1494 [java] SingularField: lombok.Data false positive - part2" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="SwitchDensity::0 Five stmts in one switch case, should be flagged" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="SwitchDensity::1 One stmt in one switch case, ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SwitchDensity::2 Five stmts, 5 cases, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="SwitchStmtsShouldHaveDefault::0 simple failure case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="SwitchStmtsShouldHaveDefault::1 simple ok case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="TooFewBranchesForASwitchStatement::0 Only one case, this is useless" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="TooFewBranchesForASwitchStatement::1 Even two branches is not enough for a switch statement" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="TooFewBranchesForASwitchStatement::2 Three branches in a switch statement is ok." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="UncommentedEmptyConstructor::0 simple failure" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="UncommentedEmptyConstructor::1 only &apos;this(...)&apos; is OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="UncommentedEmptyConstructor::2 only &apos;this(...)&apos; is not OK, if ignoring explicit constructor calls" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="UncommentedEmptyConstructor::3 only &apos;super(...)&apos; is OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.017"/>
+  <testcase name="UncommentedEmptyConstructor::4 single-line comment is OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="UncommentedEmptyConstructor::5 multiple-line comment is OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UncommentedEmptyConstructor::6 Javadoc comment is OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.014"/>
+  <testcase name="UncommentedEmptyConstructor::7 ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UncommentedEmptyConstructor::8 with &apos;this(...)&apos; ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UncommentedEmptyConstructor::9 with &apos;super(...)&apos; ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UncommentedEmptyConstructor::10 private is ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UncommentedEmptyConstructor::11 Empty constructor with documenting javadoc still triggers" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="UncommentedEmptyMethodBody::0 simple failure" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="UncommentedEmptyMethodBody::1 single-line comment is OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="UncommentedEmptyMethodBody::2 multiple-line comment is OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UncommentedEmptyMethodBody::3 Javadoc comment is OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="UncommentedEmptyMethodBody::4 ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UnnecessaryLocalBeforeReturn::0 skip void/native/abstract methods" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UnnecessaryLocalBeforeReturn::1 skip literal returns" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="UnnecessaryLocalBeforeReturn::2 simple failure case" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UnnecessaryLocalBeforeReturn::3 skip complicated returns" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="UnnecessaryLocalBeforeReturn::4 skip method calls" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UnsynchronizedStaticDateFormatter::0 Format called from non-synchronized block" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UnsynchronizedStaticDateFormatter::1 2, No call to format" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UnsynchronizedStaticDateFormatter::2 3, Inside synchronized, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="UnsynchronizedStaticDateFormatter::3 4, Inside synchronized, OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UnsynchronizedStaticDateFormatter::4 5, Use DateFormat, ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UnsynchronizedStaticDateFormatter::5 6, Use DateFormat, fail" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UnsynchronizedStaticDateFormatter::6 #940 False positive on UnsynchronizedStaticDateFormatter" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="UseCollectionIsEmpty::0 fail, == 0" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseCollectionIsEmpty::1 ok, isEmpty" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseCollectionIsEmpty::2 fail, != 0" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseCollectionIsEmpty::3 ok, !isEmpty" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseCollectionIsEmpty::4 fail, != 0" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseCollectionIsEmpty::5 ok, !isEmpty" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseCollectionIsEmpty::6 fail, 0 ==" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseCollectionIsEmpty::7 fail, &gt; 0" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseCollectionIsEmpty::8 ok, in expression" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseCollectionIsEmpty::9 ok, in expression" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseCollectionIsEmpty::10 #1214 UseCollectionIsEmpty misses some usage" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="UseCollectionIsEmpty::11 #1230 UseCollectionIsEmpty gets false positives" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="UseCollectionIsEmpty::12 #1304 UseCollectionIsEmpty false positive comparing to 1" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseCollectionIsEmpty::13 #1345 UseCollectionIsEmpty throws NullPointerException" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseLocaleWithCaseConversions::0 toLowerCase() with no args" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseLocaleWithCaseConversions::1 toUpperCase() with no args" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseLocaleWithCaseConversions::2 both ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseLocaleWithCaseConversions::3 toHexString OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseLocaleWithCaseConversions::4 Compound method call" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseNotifyAllInsteadOfNotify::0 TEST1" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="UseNotifyAllInsteadOfNotify::1 TEST2" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseNotifyAllInsteadOfNotify::2 TEST3" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="UseNotifyAllInsteadOfNotify::3 TEST4" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseNotifyAllInsteadOfNotify::4 TEST5" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseNotifyAllInsteadOfNotify::5 notify() with params is OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseNotifyAllInsteadOfNotify::6 #1438 UseNotifyAllInsteadOfNotify gives false positive" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseUtilityClass::0 should be utility class since all static, public constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseUtilityClass::1 ok, uses non-static" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseUtilityClass::2 should be utility class, couple of statics, no constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="UseUtilityClass::3 public constructor, no static - ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseUtilityClass::4 classic utility class - ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.009"/>
+  <testcase name="UseUtilityClass::5 abstract, so ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseUtilityClass::6 has some private and no public static fields, so ok" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseUtilityClass::7 has public static field, so need to check" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseUtilityClass::8 junit &apos;suite&apos; method is OK" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="UseUtilityClass::9 Reproducing bug [ 2315599 ] False +: UseSingleton with class containing constructor: Although there is a static method, the class also has a non-private constructor. This is a common design for custom exceptions which contain a private static method to format error message strings." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseUtilityClass::10 inner should be utility class since all static, public constructor" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseUtilityClass::11 [ 2404700 ] UseSingleton should not act on enums" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="UseUtilityClass::12 NPE in incorrect implementation..." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="UseUtilityClass::13 OK, method annotations" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseUtilityClass::14 #1255 UseUtilityClass false positive with Exceptions" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.013"/>
+  <testcase name="UseUtilityClass::15 #1467 UseUtilityClass can&apos;t correctly check functions with multiple annotations" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.019"/>
+  <testcase name="UseVarargs::0 constructor, use varargs" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseVarargs::1 method, use varargs" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseVarargs::2 constructor, do not varargs" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseVarargs::3 method, do not varargs" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.012"/>
+  <testcase name="UseVarargs::4 method, do not varargs as the signature is dictated by an interface // TODO Once this is implemented, perhaps it should be optional? The compiler will technically let you use varargs." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="UseVarargs::4 method, do not varargs as the signature is dictated by an interface // TODO Once this is implemented, perhaps it should be optional? The compiler will technically let you use varargs." classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0"/>
+  <testcase name="UseVarargs::5 method, do not varargs, allow byte[] as not varargs" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseVarargs::6 method, do not varargs, allow Byte[] as not varargs" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+  <testcase name="UseVarargs::7 method, do not varargs, allow @Override" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseVarargs::8 method, do not varargs, allow public static void main(String[]) as not varargs" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.011"/>
+  <testcase name="UseVarargs::9 method, use varargs, deviation from exact main signature flagged" classname="net.sourceforge.pmd.lang.java.rule.design.DesignRulesTest" time="0.01"/>
+</testsuite>

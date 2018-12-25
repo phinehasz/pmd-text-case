@@ -1,0 +1,106 @@
+-------------------------------------------------------------------------------
+Test set: net.sourceforge.pmd.lang.xml.XmlParserTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.021 sec <<< FAILURE! - in net.sourceforge.pmd.lang.xml.XmlParserTest
+testParsingDoNotExpandEntities(net.sourceforge.pmd.lang.xml.XmlParserTest)  Time elapsed: 0 sec  <<< ERROR!
+net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:57)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:71)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:35)
+	at net.sourceforge.pmd.lang.xml.XmlParserTest.testParsingDoNotExpandEntities(XmlParserTest.java:186)
+
+testParsingIgnoreComments(net.sourceforge.pmd.lang.xml.XmlParserTest)  Time elapsed: 0 sec  <<< ERROR!
+net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:57)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:71)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:35)
+	at net.sourceforge.pmd.lang.xml.XmlParserTest.testParsingIgnoreComments(XmlParserTest.java:219)
+
+testWithProcessingInstructions(net.sourceforge.pmd.lang.xml.XmlParserTest)  Time elapsed: 0.001 sec  <<< ERROR!
+net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:57)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:71)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:35)
+	at net.sourceforge.pmd.lang.xml.XmlParserTest.testWithProcessingInstructions(XmlParserTest.java:366)
+
+testParsingNotNamespaceAware(net.sourceforge.pmd.lang.xml.XmlParserTest)  Time elapsed: 0.004 sec  <<< ERROR!
+net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:57)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:71)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:35)
+	at net.sourceforge.pmd.lang.xml.XmlParserTest.testParsingNotNamespaceAware(XmlParserTest.java:306)
+
+testDefaultParsing(net.sourceforge.pmd.lang.xml.XmlParserTest)  Time elapsed: 0.003 sec  <<< ERROR!
+net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:57)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:71)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:35)
+	at net.sourceforge.pmd.lang.xml.XmlParserTest.testDefaultParsing(XmlParserTest.java:126)
+
+testParsingIgnoreElementContentWhitespace(net.sourceforge.pmd.lang.xml.XmlParserTest)  Time elapsed: 0.004 sec  <<< ERROR!
+net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:57)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:71)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:35)
+	at net.sourceforge.pmd.lang.xml.XmlParserTest.testParsingIgnoreElementContentWhitespace(XmlParserTest.java:248)
+
+testParsingWithValidation(net.sourceforge.pmd.lang.xml.XmlParserTest)  Time elapsed: 0.003 sec  <<< ERROR!
+net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:198)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:441)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:368)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1436)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1019)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:117)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:57)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:71)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:35)
+	at net.sourceforge.pmd.lang.xml.XmlParserTest.testParsingWithValidation(XmlParserTest.java:346)
+
+testDefaultParsingNamespaces(net.sourceforge.pmd.lang.xml.XmlParserTest)  Time elapsed: 0.002 sec  <<< ERROR!
+net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:57)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:71)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:35)
+	at net.sourceforge.pmd.lang.xml.XmlParserTest.testDefaultParsingNamespaces(XmlParserTest.java:273)
+
+testParsingCoalescingEnabled(net.sourceforge.pmd.lang.xml.XmlParserTest)  Time elapsed: 0.002 sec  <<< ERROR!
+net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:57)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:71)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:35)
+	at net.sourceforge.pmd.lang.xml.XmlParserTest.testParsingCoalescingEnabled(XmlParserTest.java:157)
+
+testLineNumbers(net.sourceforge.pmd.lang.xml.XmlParserTest)  Time elapsed: 0.002 sec  <<< ERROR!
+net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:57)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:71)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:35)
+	at net.sourceforge.pmd.lang.xml.XmlParserTest.testLineNumbers(XmlParserTest.java:83)
+

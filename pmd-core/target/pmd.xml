@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.1" timestamp="2018-12-12T20:08:01.993">
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\PMD.java">
+<violation beginline="4" endline="548" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=55, ATFD=72, TCC=0.08771929824561403)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\PMDConfiguration.java">
+<violation beginline="4" endline="555" begincolumn="1" endcolumn="3" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=47, ATFD=6, TCC=0.03461538461538462)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\PropertyDescriptorFields.java">
+<violation beginline="14" endline="41" begincolumn="8" endcolumn="1" rule="ClassWithOnlyPrivateConstructorsShouldBeFinal" ruleset="Design" package="net.sourceforge.pmd" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#ClassWithOnlyPrivateConstructorsShouldBeFinal" priority="1">
+A class which only has private constructors should be final
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\Report.java">
+<violation beginline="4" endline="510" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=61, ATFD=18, TCC=0.018893387314439947)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\RuleSet.java">
+<violation beginline="4" endline="534" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=85, ATFD=31, TCC=0.0748663101604278)
+</violation>
+<violation beginline="279" endline="279" begincolumn="16" endcolumn="56" rule="SimplifiedTernary" ruleset="Basic" package="net.sourceforge.pmd" class="RuleSet" method="applies" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/basic.html#SimplifiedTernary" priority="3">
+Ternary operators that can be simplified with || or &amp;&amp;
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\RuleSetFactory.java">
+<violation beginline="4" endline="821" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=130, ATFD=136, TCC=0.06159420289855073)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\RuleSetFactoryCompatibility.java">
+<violation beginline="93" endline="93" begincolumn="43" endcolumn="44" rule="AvoidPrefixingMethodParameters" ruleset="Controversial" package="net.sourceforge.pmd" class="RuleSetFactoryCompatibility" method="applyAllFilters" variable="in" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AvoidPrefixingMethodParameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+<violation beginline="164" endline="164" begincolumn="29" endcolumn="30" rule="AvoidPrefixingMethodParameters" ruleset="Controversial" package="net.sourceforge.pmd" class="RuleSetFactoryCompatibility$RuleSetFilter" method="apply" variable="in" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AvoidPrefixingMethodParameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+<violation beginline="176" endline="176" begincolumn="13" endcolumn="56" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd" class="RuleSetFactoryCompatibility$RuleSetFilter" method="apply" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\RuleSetReferenceId.java">
+<violation beginline="4" endline="438" begincolumn="1" endcolumn="3" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=57, ATFD=13, TCC=0.09090909090909091)
+</violation>
+<violation beginline="199" endline="199" begincolumn="36" endcolumn="119" rule="SimplifiedTernary" ruleset="Basic" package="net.sourceforge.pmd" class="RuleSetReferenceId" method="RuleSetReferenceId" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/basic.html#SimplifiedTernary" priority="3">
+Ternary operators that can be simplified with || or &amp;&amp;
+</violation>
+<violation beginline="296" endline="298" begincolumn="9" endcolumn="9" rule="SimplifyBooleanReturns" ruleset="Design" package="net.sourceforge.pmd" class="RuleSetReferenceId" method="isHttpUrl" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#SimplifyBooleanReturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\RuleSetWriter.java">
+<violation beginline="4" endline="370" begincolumn="1" endcolumn="3" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=61, ATFD=59, TCC=0.0718954248366013)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\ant\PMDTask.java">
+<violation beginline="4" endline="247" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.ant" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=51, ATFD=6, TCC=0.014634146341463415)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\benchmark\BenchmarkReport.java">
+<violation beginline="21" endline="21" begincolumn="68" endcolumn="70" rule="AvoidPrefixingMethodParameters" ruleset="Controversial" package="net.sourceforge.pmd.benchmark" class="BenchmarkReport" method="generate" variable="out" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AvoidPrefixingMethodParameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+<violation beginline="28" endline="28" begincolumn="82" endcolumn="84" rule="AvoidPrefixingMethodParameters" ruleset="Controversial" package="net.sourceforge.pmd.benchmark" class="BenchmarkReport" method="generate" variable="out" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AvoidPrefixingMethodParameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\benchmark\BenchmarkResult.java">
+<violation beginline="36" endline="36" begincolumn="36" endcolumn="53" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.benchmark" class="BenchmarkResult" method="compareTo" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\benchmark\StringBuilderCR.java">
+<violation beginline="15" endline="15" begincolumn="23" endcolumn="35" rule="AvoidStringBufferField" ruleset="String and StringBuffer" package="net.sourceforge.pmd.benchmark" class="StringBuilderCR" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/strings.html#AvoidStringBufferField" priority="3">
+StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\benchmark\TextReport.java">
+<violation beginline="34" endline="34" begincolumn="75" endcolumn="77" rule="AvoidPrefixingMethodParameters" ruleset="Controversial" package="net.sourceforge.pmd.benchmark" class="TextReport" method="generate" variable="out" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AvoidPrefixingMethodParameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+<violation beginline="66" endline="66" begincolumn="89" endcolumn="91" rule="AvoidPrefixingMethodParameters" ruleset="Controversial" package="net.sourceforge.pmd.benchmark" class="TextReport" method="generate" variable="out" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/controversial.html#AvoidPrefixingMethodParameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\cli\XPathCLI.java">
+<violation beginline="64" endline="64" begincolumn="27" endcolumn="28" rule="InsufficientStringBufferDeclaration" ruleset="String and StringBuffer" package="net.sourceforge.pmd.cli" class="XPathCLI" method="main" variable="sb" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/strings.html#InsufficientStringBufferDeclaration" priority="3">
+StringBuffer constructor is initialized with size 60, but has at least 73 characters appended.
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\cpd\CPDConfiguration.java">
+<violation beginline="4" endline="435" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.cpd" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=74, ATFD=45, TCC=0.03316326530612245)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\cpd\GUI.java">
+<violation beginline="4" endline="801" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.cpd" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=124, ATFD=155, TCC=0.00725689404934688)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\dcd\UsageNodeVisitor.java">
+<violation beginline="4" endline="231" begincolumn="1" endcolumn="3" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.dcd" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=51, ATFD=21, TCC=0.04678362573099415)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\lang\BaseLanguageModule.java">
+<violation beginline="109" endline="109" begincolumn="9" endcolumn="38" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.lang" class="BaseLanguageModule" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="110" endline="110" begincolumn="9" endcolumn="63" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.lang" class="BaseLanguageModule" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\lang\ast\AbstractNode.java">
+<violation beginline="4" endline="454" begincolumn="1" endcolumn="3" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.ast" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=82, ATFD=19, TCC=0.015151515151515152)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\lang\ast\xpath\saxon\AbstractNodeInfo.java">
+<violation beginline="118" endline="118" begincolumn="20" endcolumn="39" rule="OverrideBothEqualsAndHashcode" ruleset="Basic" package="net.sourceforge.pmd.lang.ast.xpath.saxon" class="AbstractNodeInfo" method="equals" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/basic.html#OverrideBothEqualsAndHashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\lang\rule\AbstractDelegateRule.java">
+<violation beginline="4" endline="228" begincolumn="1" endcolumn="3" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.rule" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=49, ATFD=34, TCC=8.865248226950354E-4)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\lang\rule\AbstractRule.java">
+<violation beginline="4" endline="443" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.rule" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=58, ATFD=25, TCC=0.05204872646733112)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\lang\rule\RuleReference.java">
+<violation beginline="313" endline="315" begincolumn="9" endcolumn="9" rule="SimplifyBooleanReturns" ruleset="Design" package="net.sourceforge.pmd.lang.rule" class="RuleReference" method="usesDefaultValues" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#SimplifyBooleanReturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\lang\rule\properties\AbstractProperty.java">
+<violation beginline="4" endline="423" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.rule.properties" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=67, ATFD=7, TCC=0.04497354497354497)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\lang\rule\properties\factories\BasicPropertyDescriptorFactory.java">
+<violation beginline="4" endline="266" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statements" package="net.sourceforge.pmd.lang.rule.properties.factories" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\processor\MultiThreadProcessor.java">
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="28" rule="UnusedImports" ruleset="Import Statements" package="net.sourceforge.pmd.processor" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.LinkedList'
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\renderers\CodeClimateIssue.java">
+<violation beginline="13" endline="13" begincolumn="32" endcolumn="38" rule="FinalFieldCouldBeStatic" ruleset="Design" package="net.sourceforge.pmd.renderers" class="CodeClimateIssue" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#FinalFieldCouldBeStatic" priority="3">
+This final field could be made static
+</violation>
+<violation beginline="14" endline="14" begincolumn="19" endcolumn="28" rule="VariableNamingConventions" ruleset="Naming" package="net.sourceforge.pmd.renderers" class="CodeClimateIssue" variable="check_name" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'check_name' is not final.
+</violation>
+<violation beginline="20" endline="20" begincolumn="16" endcolumn="33" rule="VariableNamingConventions" ruleset="Naming" package="net.sourceforge.pmd.renderers" class="CodeClimateIssue" variable="remediation_points" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'remediation_points' is not final.
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\renderers\CodeClimateRenderer.java">
+<violation beginline="80" endline="92" begincolumn="9" endcolumn="9" rule="SwitchStmtsShouldHaveDefault" ruleset="Design" package="net.sourceforge.pmd.renderers" class="CodeClimateRenderer" method="asIssue" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#SwitchStmtsShouldHaveDefault" priority="3">
+Switch statements should have a default label
+</violation>
+<violation beginline="118" endline="118" begincolumn="13" endcolumn="30" rule="VariableNamingConventions" ruleset="Naming" package="net.sourceforge.pmd.renderers" class="CodeClimateRenderer" method="getRemediationPoints" variable="remediation_points" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'remediation_points' is not final.
+</violation>
+<violation beginline="179" endline="180" begincolumn="17" endcolumn="39" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.renderers" class="CodeClimateRenderer" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\renderers\CodeClimateRule.java">
+<violation beginline="18" endline="51" begincolumn="8" endcolumn="1" rule="AvoidConstantsInterface" ruleset="Design" package="net.sourceforge.pmd.renderers" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#AvoidConstantsInterface" priority="3">
+An Interface should be used only to model a behaviour; consider converting this to a class.
+</violation>
+<violation beginline="26" endline="30" begincolumn="5" endcolumn="35" rule="ConstantsInInterface" ruleset="Design" package="net.sourceforge.pmd.renderers" class="CodeClimateRule" variable="CODECLIMATE_CATEGORIES" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#ConstantsInInterface" priority="3">
+Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+</violation>
+<violation beginline="41" endline="43" begincolumn="5" endcolumn="69" rule="ConstantsInInterface" ruleset="Design" package="net.sourceforge.pmd.renderers" class="CodeClimateRule" variable="CODECLIMATE_REMEDIATION_MULTIPLIER" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#ConstantsInInterface" priority="3">
+Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+</violation>
+<violation beginline="49" endline="50" begincolumn="5" endcolumn="64" rule="ConstantsInInterface" ruleset="Design" package="net.sourceforge.pmd.renderers" class="CodeClimateRule" variable="CODECLIMATE_BLOCK_HIGHLIGHTING" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#ConstantsInInterface" priority="3">
+Avoid constants in interfaces. Interfaces define types, constants are implementation details better placed in classes or enums. See Effective Java, item 19.
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\renderers\VBHTMLRenderer.java">
+<violation beginline="118" endline="118" begincolumn="23" endcolumn="24" rule="InsufficientStringBufferDeclaration" ruleset="String and StringBuffer" package="net.sourceforge.pmd.renderers" class="VBHTMLRenderer" method="header" variable="sb" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/strings.html#InsufficientStringBufferDeclaration" priority="3">
+StringBuffer constructor is initialized with size 16, but has at least 558 characters appended.
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\renderers\XMLRenderer.java">
+<violation beginline="50" endline="50" begincolumn="13" endcolumn="46" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Design" package="net.sourceforge.pmd.renderers" class="XMLRenderer" method="start" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#PositionLiteralsFirstInCaseInsensitiveComparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\util\CollectionUtil.java">
+<violation beginline="4" endline="328" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.util" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=49, ATFD=41, TCC=0.0)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\util\StringUtil.java">
+<violation beginline="4" endline="563" begincolumn="1" endcolumn="1" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.util" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=89, ATFD=15, TCC=0.005847953216374269)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\util\database\DBMSMetadata.java">
+<violation beginline="309" endline="309" begincolumn="15" endcolumn="31" rule="CloseResource" ruleset="Design" package="net.sourceforge.pmd.util.database" class="DBMSMetadata" method="getSourceObjectList" variable="sourceCodeObjects" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#CloseResource" priority="3">
+Ensure that resources like this ResultSet object are closed after use
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\util\database\DBType.java">
+<violation beginline="4" endline="429" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.util.database" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=71, ATFD=40, TCC=0.2761904761904762)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\util\database\DBURI.java">
+<violation beginline="4" endline="568" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.util.database" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=60, ATFD=42, TCC=0.059770114942528735)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-core\src\main\java\net\sourceforge\pmd\util\designer\Designer.java">
+<violation beginline="4" endline="1076" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.util.designer" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=157, ATFD=168, TCC=0.017254901960784313)
+</violation>
+</file>
+</pmd>

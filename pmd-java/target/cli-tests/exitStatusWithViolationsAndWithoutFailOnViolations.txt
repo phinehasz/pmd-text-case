@@ -1,0 +1,2 @@
+Start running test exitStatusWithViolationsAndWithoutFailOnViolations
+D:\workspace\pmd-src-5.5.2\pmd-java\src\test\resources\net\sourceforge\pmd\cli\EmptyIfStatement.java:11:	Avoid empty if statements

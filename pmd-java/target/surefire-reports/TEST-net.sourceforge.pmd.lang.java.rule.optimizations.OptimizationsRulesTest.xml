@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.361" tests="99" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2018.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="maven.skip.test" value="true"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shinelon\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_151\bin;D:\javacc\javacc-5.0\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;D:\pscp.exe;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\ProgramData\Oracle\Java\javapath;D:\Develop\apache-maven-3.3.9\\bin;D:\Develop\python3.6\Scripts\;D:\Develop\python3.6;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\Gradle\gradle-4.9/bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\MySQL Server 5.5\bin;D:\Develop\Git\cmd;D:\Develop\Git\mingw64\bin;D:\Develop\Git\usr\bin;F:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;D:\Develop\Anaconda2.2;D:\Develop\Anaconda2.2\Scripts;C:\Program Files (x86)\Calibre2\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\ssh secure;C:\Users\Shinelon\AppData\Roaming\npm;F:\Program Files\Microsoft VS Code\bin;C:\Users\Shinelon\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Shinelon"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Shinelon"/>
+    <property name="java.class.path" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;F:\IntelliJ IDEA 2018.2.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.1 install -Dmaven.skip.test=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="AddEmptyString::0 Bad add" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.002"/>
+  <testcase name="AddEmptyString::1 Good add" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.002"/>
+  <testcase name="AddEmptyString::2 Good convert" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="AvoidArrayLoops::0 copy index into array" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="AvoidArrayLoops::1 copy one array to another" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="AvoidArrayLoops::2 copy via while loop" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="AvoidArrayLoops::3 copy involving multiple arrays is ok" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="AvoidArrayLoops::4 copy involving method invocation on array element is ok" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="AvoidArrayLoops::5 using an offset, still bad" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="AvoidArrayLoops::6 nested arrays on LHS, ok" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="AvoidArrayLoops::7 adding to array is ok" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="AvoidInstantiatingObjectsInLoops::0 TEST1" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="AvoidInstantiatingObjectsInLoops::1 TEST2" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="AvoidInstantiatingObjectsInLoops::2 TEST3" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="AvoidInstantiatingObjectsInLoops::3 TEST4" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="AvoidInstantiatingObjectsInLoops::4 throw new is OK" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="AvoidInstantiatingObjectsInLoops::5 return new in loop is OK" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.002"/>
+  <testcase name="AvoidInstantiatingObjectsInLoops::6 #1215 AvoidInstantiatingObjectsInLoops matches the right side of a list iteration loop" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="LocalVariableCouldBeFinal::0 TEST1" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.002"/>
+  <testcase name="LocalVariableCouldBeFinal::1 TEST2" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="LocalVariableCouldBeFinal::2 TEST3" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="LocalVariableCouldBeFinal::3 TEST4" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="LocalVariableCouldBeFinal::4 TEST5" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.002"/>
+  <testcase name="LocalVariableCouldBeFinal::5 TEST6" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.005"/>
+  <testcase name="LocalVariableCouldBeFinal::6 TEST7" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="LocalVariableCouldBeFinal::7 TEST8" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="LocalVariableCouldBeFinal::8 TEST9" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="LocalVariableCouldBeFinal::9 Bug 2614040 : false + if a += assignment operator is used inside a method call." classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="LocalVariableCouldBeFinal::10 Bug #1047 False Positive in &apos;for&apos; loops for LocalVariableCouldBeFinal in 5.0.1" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="LocalVariableCouldBeFinal::11 Verify another case for Bug #1047 False Positive in &apos;for&apos; loops for LocalVariableCouldBeFinal in 5.0.1" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="MethodArgumentCouldBeFinal::0 TEST1" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="MethodArgumentCouldBeFinal::1 TEST2" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="MethodArgumentCouldBeFinal::2 TEST3" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.002"/>
+  <testcase name="MethodArgumentCouldBeFinal::3 TEST4" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.002"/>
+  <testcase name="MethodArgumentCouldBeFinal::4 TEST5" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.002"/>
+  <testcase name="MethodArgumentCouldBeFinal::5 TEST6" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="MethodArgumentCouldBeFinal::6 Shouldn&apos;t trigger on try blocks" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="MethodArgumentCouldBeFinal::7 Skip native methods" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="MethodArgumentCouldBeFinal::8 Skip abstract methods" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="MethodArgumentCouldBeFinal::9 self assignment of a method param means it can&apos;t be final" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="MethodArgumentCouldBeFinal::10 same as above but prefix vs postfix" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="MethodArgumentCouldBeFinal::11 same as above but with extra parenthesis" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="MethodArgumentCouldBeFinal::12 bug 1808158 - Constructor args could also be final" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="PrematureDeclaration::0 premature declaration before unrelated test" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.002"/>
+  <testcase name="PrematureDeclaration::1 optimal var declaration position" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="PrematureDeclaration::2 Bug #1064 Exception running PrematureDeclaration" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="PrematureDeclaration::3 #1305 variable declaration inside switch causes ClassCastException" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="PrematureDeclaration::4 #1396 PrematureDeclaration lambda false positive" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.002"/>
+  <testcase name="RedundantFieldInitializer::0 multiple declarations" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="RedundantFieldInitializer::1 references" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="RedundantFieldInitializer::2 arrays of primitives" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="RedundantFieldInitializer::3 arrays of objects" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="RedundantFieldInitializer::4 mixed arrays" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="RedundantFieldInitializer::5 nested class" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="RedundantFieldInitializer::6 boolean" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="RedundantFieldInitializer::7 byte" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.009"/>
+  <testcase name="RedundantFieldInitializer::8 char" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.008"/>
+  <testcase name="RedundantFieldInitializer::9 short" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.009"/>
+  <testcase name="RedundantFieldInitializer::10 int" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.009"/>
+  <testcase name="RedundantFieldInitializer::11 long" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.008"/>
+  <testcase name="RedundantFieldInitializer::12 float" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.015"/>
+  <testcase name="RedundantFieldInitializer::13 double" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.013"/>
+  <testcase name="RedundantFieldInitializer::14 #1298 Member variable int type with value 0xff000000 causes processing error" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="RedundantFieldInitializer::15 Java7 binary literals and underscores" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="RedundantFieldInitializer::16 #1418 RedundantFieldInitializer false positive with large long value" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="RedundantFieldInitializer::17 #1443 RedundantFieldInitializer: False positive for small floats" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="SimplifyStartsWith::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="SimplifyStartsWith::1 startsWith multiple chars" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="SimplifyStartsWith::2 startsWith defined on some other class, doesn&apos;t take a String" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="SimplifyStartsWith::3 #1392 SimplifyStartsWith false-negative" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryWrapperObjectCreation::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryWrapperObjectCreation::1 calling valueOf is OK" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryWrapperObjectCreation::2 failure case for 1.5+" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryWrapperObjectCreation::3 Patch 2075906: Add toString() to the rule UnnecessaryWrapperObjectCreation" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryWrapperObjectCreation::4 #1057 False positive for UnnecessaryWrapperObjectCreation" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UseArrayListInsteadOfVector::0 TEST0" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UseArrayListInsteadOfVector::1 TEST1" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UseArrayListInsteadOfVector::2 TEST2" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="UseArrayListInsteadOfVector::3 TEST3" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="UseArrayListInsteadOfVector::4 #1146 real problem" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="UseArrayListInsteadOfVector::5 #1146 UseArrayListInsteadOfVector false positive when using own Vector class" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UseArraysAsList::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.005"/>
+  <testcase name="UseArraysAsList::1 adding first element repeatedly" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UseArraysAsList::2 inside conditional" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="UseArraysAsList::3 adding new object" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UseArraysAsList::4 calling method" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UseArraysAsList::5 Integer array passed as argument" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="UseArraysAsList::6 #1099 UseArraysAsList false positives" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UseStringBufferForStringAppends::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="UseStringBufferForStringAppends::1 concat inside method call" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.005"/>
+  <testcase name="UseStringBufferForStringAppends::2 startsWith" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UseStringBufferForStringAppends::3 compound append, should only report 1 failure" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UseStringBufferForStringAppends::4 failure case" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UseStringBufferForStringAppends::5 static failure case" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UseStringBufferForStringAppends::6 reference self" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.002"/>
+  <testcase name="UseStringBufferForStringAppends::7 false positive bug #2002722" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UseStringBufferForStringAppends::8 false positive bug #2002722, different bug in comment section" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.004"/>
+  <testcase name="UseStringBufferForStringAppends::9 #1340 UseStringBufferForStringAppends False Positive with ternary operator (used in condition)" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.003"/>
+  <testcase name="UseStringBufferForStringAppends::10 #1340 UseStringBufferForStringAppends False Positive with ternary operator (used both in condition and options)" classname="net.sourceforge.pmd.lang.java.rule.optimizations.OptimizationsRulesTest" time="0.005"/>
+</testsuite>

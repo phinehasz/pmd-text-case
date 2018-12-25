@@ -1,0 +1,16 @@
+net\sourceforge\pmd\lang\xml\rule\AbstractDomXmlRuleTest$MyRule.class
+net\sourceforge\pmd\lang\xml\XmlParserOptionsTest$MyRule.class
+net\sourceforge\pmd\lang\xml\rule\AbstractXmlRuleTest$MyRule.class
+net\sourceforge\pmd\LanguageVersionTest.class
+net\sourceforge\pmd\RuleSetFactoryTest.class
+net\sourceforge\pmd\lang\xml\rule\AbstractXmlRuleTest.class
+net\sourceforge\pmd\lang\xml\XmlParserTest.class
+net\sourceforge\pmd\lang\wsdl\rule\AbstractWsdlRuleTest$MyRule.class
+net\sourceforge\pmd\lang\xml\rule\AbstractDomXmlRuleTest.class
+net\sourceforge\pmd\lang\xml\rule\basic\BasicRulesTest.class
+net\sourceforge\pmd\lang\xml\XmlParserOptionsTest$1.class
+net\sourceforge\pmd\ant\PMDTaskTest.class
+net\sourceforge\pmd\lang\xsl\rule\xpath\XPathRulesTest.class
+net\sourceforge\pmd\lang\wsdl\rule\AbstractWsdlRuleTest.class
+net\sourceforge\pmd\lang\pom\rule\basic\BasicRulesTest.class
+net\sourceforge\pmd\lang\xml\XmlParserOptionsTest.class

@@ -1,0 +1,11 @@
+net\sourceforge\pmd\cpd\PLSQLTokenizerTest.class
+net\sourceforge\pmd\lang\plsql\PLSQLParserTest.class
+net\sourceforge\pmd\lang\plsql\AbstractPLSQLParserTst.class
+net\sourceforge\pmd\LanguageVersionTest.class
+net\sourceforge\pmd\RuleSetFactoryTest.class
+net\sourceforge\pmd\lang\plsql\PLSQLXPathRuleTest.class
+net\sourceforge\pmd\lang\plsql\rule\codesize\CodesizeRulesTest.class
+net\sourceforge\pmd\LanguageVersionDiscovererTest.class
+net\sourceforge\pmd\lang\plsql\rule\strictsyntax\StrictsyntaxRulesTest.class
+net\sourceforge\pmd\lang\plsql\dfa\StatementAndBraceFinderTest.class
+net\sourceforge\pmd\lang\plsql\AbstractPLSQLParserTst$Collector.class

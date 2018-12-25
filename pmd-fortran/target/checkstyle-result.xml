@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.2">
+<file name="D:\workspace\pmd-src-5.5.2\pmd-fortran\src\main\java\net\sourceforge\pmd\cpd\FortranLanguage.java">
+<error line="0" severity="warning" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-fortran\src\main\java\net\sourceforge\pmd\cpd\FortranTokenizer.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-fortran\src\main\java\net\sourceforge\pmd\lang\fortran\FortranLanguageModule.java">
+<error line="0" severity="warning" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+</checkstyle>

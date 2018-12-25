@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="3.954" tests="112" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2018.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="maven.skip.test" value="true"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shinelon\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_151\bin;D:\javacc\javacc-5.0\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;D:\pscp.exe;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\ProgramData\Oracle\Java\javapath;D:\Develop\apache-maven-3.3.9\\bin;D:\Develop\python3.6\Scripts\;D:\Develop\python3.6;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\Gradle\gradle-4.9/bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\MySQL Server 5.5\bin;D:\Develop\Git\cmd;D:\Develop\Git\mingw64\bin;D:\Develop\Git\usr\bin;F:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;D:\Develop\Anaconda2.2;D:\Develop\Anaconda2.2\Scripts;C:\Program Files (x86)\Calibre2\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\ssh secure;C:\Users\Shinelon\AppData\Roaming\npm;F:\Program Files\Microsoft VS Code\bin;C:\Users\Shinelon\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Shinelon"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Shinelon"/>
+    <property name="java.class.path" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;F:\IntelliJ IDEA 2018.2.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.1 install -Dmaven.skip.test=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="AssignmentInOperand::0 bad" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="AssignmentInOperand::1 ok" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.006"/>
+  <testcase name="AssignmentInOperand::2 assignment in if conditional expression" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.007"/>
+  <testcase name="AssignmentInOperand::3 assignment in while conditional expression" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="AssignmentInOperand::4 ok" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="AssignmentInOperand::5 assignment in for conditional expression" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="AssignmentInOperand::6 increment in if conditional expression" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.006"/>
+  <testcase name="AssignmentInOperand::7 assignment in while conditional expression, allowed" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="AssignmentInOperand::8 assignment in if conditional expression, allowed" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="AssignmentInOperand::9 assignment in for conditional expression, allowed" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="AssignmentInOperand::10 increment in if conditional expression, allowed" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="AtLeastOneConstructor::0 ok" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="AtLeastOneConstructor::1 simple failure case" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="AtLeastOneConstructor::2 inner bad, outer ok" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="AtLeastOneConstructor::3 inner ok, outer bad" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.006"/>
+  <testcase name="AtLeastOneConstructor::4 inner and outer both bad" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="AtLeastOneConstructor::5 inner and outer both ok" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="AtLeastOneConstructor::6 skip interfaces" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="AtLeastOneConstructor::7 skip static classes" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="AtLeastOneConstructor::8 skip classes with only static methods" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="AtLeastOneConstructor::9 Don&apos;t skip classes with non-static methods; #1216 AtLeastOneConstructor ignores classes with *any* methods" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="AvoidFinalLocalVariable::0 Basic, common test case." classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="AvoidFinalLocalVariable::1 Other use of final should not raise violations." classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="AvoidFinalLocalVariable::2 Bug 2027626, False + : AvoidFinalLocalVariable" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="AvoidFinalLocalVariable::3 #1095 AvoidFinalLocalVariable false positive" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="AvoidLiteralsInIfCondition::0 basic test" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.006"/>
+  <testcase name="AvoidLiteralsInIfCondition::1 basic test, part2" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.006"/>
+  <testcase name="AvoidLiteralsInIfCondition::2 allow null literal" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.007"/>
+  <testcase name="AvoidLiteralsInIfCondition::3 #1213 AvoidLiteralsInIfCondition -- switch for integer comparison with 0" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.006"/>
+  <testcase name="AvoidLiteralsInIfCondition::4 #1213 AvoidLiteralsInIfCondition -- switch for integer comparison with 0.0" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.006"/>
+  <testcase name="AvoidLiteralsInIfCondition::5 XPath error: An empty sequence is not allowed as the second argument of index-of()" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.007"/>
+  <testcase name="AvoidPrefixingMethodParameters::0 AvoidPrefixingMethodParameters basic test case" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.007"/>
+  <testcase name="AvoidPrefixingMethodParameters::1 AvoidPrefixingMethodParameters basic test case, no violation" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="AvoidPrefixingMethodParameters::2 AvoidPrefixingMethodParameters basic test case, only one parameter is prefixed" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="AvoidPrefixingMethodParameters::3 AvoidPrefixingMethodParameters limit: if parameters is named in or out, report a violation." classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="AvoidPrefixingMethodParameters::4 AvoidPrefixingMethodParameters basic test case: in is not a prefix, not using camel case in parameter name." classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="AvoidUsingNativeCode::0 Basic test case : using native code" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="AvoidUsingShortType::0 Short as field" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="AvoidUsingShortType::1 Short as local variable" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="AvoidUsingShortType::2 Short as method return type" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="AvoidUsingShortType::3 Short as method return type" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="AvoidUsingShortType::4 #1449 false positive when casting a variable to short" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.006"/>
+  <testcase name="AvoidUsingVolatile::0 Basic test case" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="CallSuperInConstructor::0 TEST1" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="CallSuperInConstructor::1 TEST2" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="CallSuperInConstructor::2 don&apos;t flag classes w/o extends" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="CallSuperInConstructor::3 Enum" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="DataflowAnomalyAnalysis::0 ok" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.007"/>
+  <testcase name="DataflowAnomalyAnalysis::1 DD anomaly" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.006"/>
+  <testcase name="DataflowAnomalyAnalysis::2 DU anomaly" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="DataflowAnomalyAnalysis::3 UR anomaly" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="DataflowAnomalyAnalysis::4 more komplex anomalysis" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="DataflowAnomalyAnalysis::5 #1393 PMD hanging during DataflowAnomalyAnalysis" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="3.45"/>
+  <testcase name="DefaultPackage::0 ok" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="DefaultPackage::1 bad" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="DefaultPackage::2 interface methods are always public" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="DefaultPackage::3 interface field are always public" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.002"/>
+  <testcase name="DefaultPackage::4 bad" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="DefaultPackage::5 #1410 DefaultPackage triggers on field annotated with @VisibleForTesting" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="DoNotCallGarbageCollectionExplicitly::0 Basic test case" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="DoNotCallGarbageCollectionExplicitly::1 Alernate Basic test case" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="DoNotCallGarbageCollectionExplicitly::2 Call in a constructor" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="DontImportSun::0 bad, import from sun." classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="DontImportSun::1 ok, signal is ok" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="NullAssignment::0 initial assignment" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="NullAssignment::1 bad assignment" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="NullAssignment::2 check test" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="NullAssignment::3 null param on right hand sidel" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="NullAssignment::4 null assignment in ternary" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="NullAssignment::5 null assignment in ternary, part deux" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="NullAssignment::6 comparison is not assignment" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="NullAssignment::7 final fields must be assigned" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="NullAssignment::8 1556594 - Wonky detection of NullAssignment" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="OneDeclarationPerLine::0 OneDeclarationPerLine&apos;s basic test case" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.032"/>
+  <testcase name="OneDeclarationPerLine::1 OneDeclarationPerLine&apos;s potential false+" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="OneDeclarationPerLine::2 #1221 OneDeclarationPerLine really checks for one declaration each statement" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.006"/>
+  <testcase name="OneDeclarationPerLine::3 #1221 OneDeclarationPerLine really checks for one declaration each statement" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="OnlyOneReturn::0 two returns" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="OnlyOneReturn::1 one" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="OnlyOneReturn::2 none" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="OnlyOneReturn::3 void" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="OnlyOneReturn::4 finally" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="OnlyOneReturn::5 return inside anonymous inner class" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="OnlyOneReturn::6 #1353 False positive &quot;Only One Return&quot; with lambda" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.014"/>
+  <testcase name="SuspiciousOctalEscape::0 should be flagged" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="SuspiciousOctalEscape::1 should be flagged - different octal" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="SuspiciousOctalEscape::2 should be flagged - different octal" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="SuspiciousOctalEscape::3 [ 2050064 ] False + SuspiciousOctalEscape with backslash literal" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.005"/>
+  <testcase name="SuspiciousOctalEscape::4 [ 2050064 ] False + SuspiciousOctalEscape with backslash literal, second test case" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryConstructor::0 simple failure case" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryConstructor::1 private constructor" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryConstructor::2 constructor with arguments" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryConstructor::3 constructor with contents" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryConstructor::4 constructor throws exception" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryConstructor::5 two constructors" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryConstructor::6 inner class with unnecessary constructor" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryConstructor::7 inner and outer both have unnecessary constructors" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryConstructor::8 inner and outer, both ok" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryConstructor::9 inner ok, outer bad" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryConstructor::10 inner ok due to nonpublic constructor" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryConstructor::11 constructor calls super" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryConstructor::12 constructor calls super, no args" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryParentheses::0 failure case, returning literal" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryParentheses::1 ok, complex expression" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryParentheses::2 bad, returning variable in parens" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryParentheses::3 ok, returning comparison" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryParentheses::4 typecast" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UseConcurrentHashMap::0 Basic use case" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UseConcurrentHashMap::1 #1034 UseConcurrentHashMap flags calls to methods that return Map" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UseConcurrentHashMap::2 #1342 UseConcurrentHashMap false positive (with documentation example)" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.004"/>
+  <testcase name="UseObjectForClearerAPI::0 No issues here" classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.003"/>
+  <testcase name="UseObjectForClearerAPI::1 " classname="net.sourceforge.pmd.lang.java.rule.controversial.ControversialRulesTest" time="0.002"/>
+</testsuite>

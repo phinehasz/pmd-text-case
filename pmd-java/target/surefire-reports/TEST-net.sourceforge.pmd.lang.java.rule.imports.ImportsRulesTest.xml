@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.237" tests="71" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2018.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="maven.skip.test" value="true"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shinelon\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_151\bin;D:\javacc\javacc-5.0\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;D:\pscp.exe;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\ProgramData\Oracle\Java\javapath;D:\Develop\apache-maven-3.3.9\\bin;D:\Develop\python3.6\Scripts\;D:\Develop\python3.6;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\Gradle\gradle-4.9/bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\MySQL Server 5.5\bin;D:\Develop\Git\cmd;D:\Develop\Git\mingw64\bin;D:\Develop\Git\usr\bin;F:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;D:\Develop\Anaconda2.2;D:\Develop\Anaconda2.2\Scripts;C:\Program Files (x86)\Calibre2\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\ssh secure;C:\Users\Shinelon\AppData\Roaming\npm;F:\Program Files\Microsoft VS Code\bin;C:\Users\Shinelon\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Shinelon"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Shinelon"/>
+    <property name="java.class.path" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;F:\IntelliJ IDEA 2018.2.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.1 install -Dmaven.skip.test=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="DontImportJavaLang::0 import java.lang.String" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="DontImportJavaLang::1 import java.lang.*" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="DontImportJavaLang::2 import java.lang.ref/reflect/annotation/instrument/management" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.01"/>
+  <testcase name="DontImportJavaLang::3 Static Java imports are OK" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="DontImportJavaLang::4 Importing java.lang.Thread.UncaughtExceptionHandler" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="DontImportJavaLang::5 import java.lang.ProcessBuilder.Redirect: #1031 false DontImportJavaLang" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.005"/>
+  <testcase name="DuplicateImports::0 duplicate single type imports" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="DuplicateImports::1 duplicate wildcard imports" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="DuplicateImports::2 single type import after wildcard import" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.007"/>
+  <testcase name="DuplicateImports::3 subpackage import, ok" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.006"/>
+  <testcase name="DuplicateImports::4 674394, disambiguation import should be allowed" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.008"/>
+  <testcase name="DuplicateImports::5 674394, disambiguation import because of conflict with java.lang" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.005"/>
+  <testcase name="DuplicateImports::6 #1306 False positive on duplicate when using static imports" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.007"/>
+  <testcase name="DuplicateImports::7 negative case - static on-demand imports" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.004"/>
+  <testcase name="ImportFromSamePackage::0 simple failure" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="ImportFromSamePackage::1 class in default package importing from sub package" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.004"/>
+  <testcase name="ImportFromSamePackage::2 class in default package importing from other package" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="ImportFromSamePackage::3 class not in default package importing from default package" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="ImportFromSamePackage::4 class in default package importing from default package" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="ImportFromSamePackage::5 importing from subpackage" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="ImportFromSamePackage::6 importing all from same package" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.004"/>
+  <testcase name="TooManyStaticImports::0 simple violation" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="TooManyStaticImports::1 ok" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="TooManyStaticImports::2 ok, we allow five now" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryFullyQualifiedName::0 1, nothing wrong" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFullyQualifiedName::1 2, valid implements" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFullyQualifiedName::2 3, invalid implements" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryFullyQualifiedName::3 4, valid extends" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryFullyQualifiedName::4 5, invalid extends" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryFullyQualifiedName::5 6, valid field" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFullyQualifiedName::6 7, invalid field" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryFullyQualifiedName::7 8, valid return type" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryFullyQualifiedName::8 9, invalid return type" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryFullyQualifiedName::9 10, valid formal parameter" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryFullyQualifiedName::10 11, invalid formal parameter" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryFullyQualifiedName::11 12, valid static method call" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.005"/>
+  <testcase name="UnnecessaryFullyQualifiedName::12 13, invalid static method call" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFullyQualifiedName::13 14, valid static import method call" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFullyQualifiedName::14 15, invalid static import method call" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFullyQualifiedName::15 16, valid static import method call with class import" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFullyQualifiedName::16 17, invalid static import method call with class import" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryFullyQualifiedName::17 18, on-demand, valid field" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFullyQualifiedName::18 19, on-demand, invalid field" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryFullyQualifiedName::19 20, on-demand, valid static import method call" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFullyQualifiedName::20 21, on-demand, invalid static import method call" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryFullyQualifiedName::21 22, valid on-demand static import method call with class import" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryFullyQualifiedName::22 23, invalid on-demand static import method call with class import" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFullyQualifiedName::23 #1078 Package statement introduces false positive UnnecessaryFullyQualifiedName violation" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFullyQualifiedName::24 #1404 Java8 &apos;Unnecessary use of fully qualified name&apos; in Streams Collector" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.006"/>
+  <testcase name="UnnecessaryFullyQualifiedName::25 #1436 UnnecessaryFullyQualifiedName false positive on clashing static imports with enums" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.005"/>
+  <testcase name="UnusedImports::0 simple unused single type import" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnusedImports::1 one used single type import" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnusedImports::2 2 unused single-type imports" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnusedImports::3 1 used single type import" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnusedImports::4 1 import stmt, used only in throws clause" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnusedImports::5 for loop" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.004"/>
+  <testcase name="UnusedImports::6 Generics" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnusedImports::7 Annotations" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnusedImports::8 Annotations 2" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnusedImports::9 import from default package" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnusedImports::10 import from default package" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnusedImports::11 Used static import" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnusedImports::12 Unused static import" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnusedImports::13 On demand import" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnusedImports::14 imports used in javadoc comment" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+  <testcase name="UnusedImports::15 Bug 2606609 : False &quot;UnusedImports&quot; positive in package-info.java" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnusedImports::16 bug #254 False+ : UnusedImport with Javadoc @link" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.004"/>
+  <testcase name="UnusedImports::17 #1181 unused import false positive if used as parameter in javadoc only." classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnusedImports::18 #1280 False Positive in UnusedImports when import used in javadoc" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.002"/>
+  <testcase name="UnusedImports::19 #914 False +ve from UnusedImports with wildcard static imports" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.007"/>
+  <testcase name="UnusedImports::20 #1465 False Positve UnusedImports with javadoc @link" classname="net.sourceforge.pmd.lang.java.rule.imports.ImportsRulesTest" time="0.003"/>
+</testsuite>

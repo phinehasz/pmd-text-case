@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: net.sourceforge.pmd.lang.wsdl.rule.AbstractWsdlRuleTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in net.sourceforge.pmd.lang.wsdl.rule.AbstractWsdlRuleTest
+testVisit(net.sourceforge.pmd.lang.wsdl.rule.AbstractWsdlRuleTest)  Time elapsed: 0 sec  <<< ERROR!
+net.sourceforge.pmd.lang.ast.ParseException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 文件提前结束。
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:347)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parseDocument(XmlParser.java:57)
+	at net.sourceforge.pmd.lang.xml.ast.XmlParser.parse(XmlParser.java:71)
+	at net.sourceforge.pmd.lang.xml.XmlParser.parse(XmlParser.java:35)
+	at net.sourceforge.pmd.lang.wsdl.rule.AbstractWsdlRuleTest.testVisit(AbstractWsdlRuleTest.java:32)
+

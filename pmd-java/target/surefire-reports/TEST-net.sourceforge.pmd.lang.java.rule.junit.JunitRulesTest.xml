@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.436" tests="112" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2018.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="maven.skip.test" value="true"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shinelon\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_151\bin;D:\javacc\javacc-5.0\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;D:\pscp.exe;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\ProgramData\Oracle\Java\javapath;D:\Develop\apache-maven-3.3.9\\bin;D:\Develop\python3.6\Scripts\;D:\Develop\python3.6;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\Gradle\gradle-4.9/bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\MySQL Server 5.5\bin;D:\Develop\Git\cmd;D:\Develop\Git\mingw64\bin;D:\Develop\Git\usr\bin;F:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;D:\Develop\Anaconda2.2;D:\Develop\Anaconda2.2\Scripts;C:\Program Files (x86)\Calibre2\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\ssh secure;C:\Users\Shinelon\AppData\Roaming\npm;F:\Program Files\Microsoft VS Code\bin;C:\Users\Shinelon\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Shinelon"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Shinelon"/>
+    <property name="java.class.path" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;F:\IntelliJ IDEA 2018.2.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.1 install -Dmaven.skip.test=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::0 assertArrayEquals ok" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::1 assertArrayEquals bad" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::2 assertEquals ok" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::3 assertEquals with string variable as message ok" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::4 assertEquals with delta ok" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::5 assertEquals bad" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::6 assertEquals with delta bad" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::7 assertEquals with delta but missing assertion message not ok" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::8 assertFalse ok" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::9 assertFalse bad" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::10 assertNotNull OK" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::11 assertNotNull bad" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::12 assertNotSame ok" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.005"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::13 assertNotSame bad" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.011"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::14 assertNull OK" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::15 assertNull bad" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.001"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::16 assertSame OK" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::17 assertSame bad" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.005"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::18 assertThat ok" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.006"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::19 assertThat bad" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.006"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::20 assertTrue ok" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::21 assertTrue bad" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.006"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::22 fail ok" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::23 fail bad" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::24 find that pesky bug" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::25 Not a JUnit test - assertEquals bad" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.006"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::26 JUnit 4 - assertEquals" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.005"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::27 #1374 JUnitAssertionsShouldIncludeMessage does not work" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.006"/>
+  <testcase name="JUnitAssertionsShouldIncludeMessage::28 #1373 JUnitAssertionsShouldIncludeMessage is no longer compatible with TestNG" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.008"/>
+  <testcase name="JUnitSpelling::0 setUp mispellings" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitSpelling::1 tearDown misspellings" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitSpelling::2 ok" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitSpelling::3 unrelated methods" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitSpelling::4 overloaded setUp" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitSpelling::5 No problem - not a JUnit test" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitStaticSuite::0 non-static is bad" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitStaticSuite::1 public static with no params is OK" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitStaticSuite::2 private suite() is bad" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.007"/>
+  <testcase name="JUnitStaticSuite::3 if there are params, just skip it" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitStaticSuite::4 Not a JUnit test (nonstatic is bad)" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitTestContainsTooManyAsserts::0 JUnit 3 Test contains no assert" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitTestContainsTooManyAsserts::1 JUnit 4 Test contains no assert" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitTestContainsTooManyAsserts::2 JUnit 3 Test contains one assert" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitTestContainsTooManyAsserts::3 JUnit 4 Test contains one assert" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitTestContainsTooManyAsserts::4 JUnit 3 Test contains more than one assert" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitTestContainsTooManyAsserts::5 JUnit 4 Test contains more than one assert" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitTestContainsTooManyAsserts::6 JUnit 3 Test contains more than one assert, but allowed" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.002"/>
+  <testcase name="JUnitTestContainsTooManyAsserts::7 JUnit 4 Test contains more than one assert, but allowed" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::0 Contains assert" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::1 Missing assert" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::2 All ok" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::3 Two wrong" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::4 Contains fail" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::5 One wrong" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::6 Skip interfaces" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.005"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::7 Skip abstract methods" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::8 Another fail() case" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.005"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::9 BUG 1105633 - False +: JUnit testcases could have fail() instead of assert" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.005"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::10 BUG 1146116 PMDException with inner interfaces" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::11 skip static test methods" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.002"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::12 exceptions shouldn&apos;t block it" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::13 Not a JUnit test (exceptions shouldn&apos;t block it)" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::14 JUnit 4 test (exceptions shouldn&apos;t block it)" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::15 Junit 4 static import" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::16 Junit 4 test using Assert.assert..." classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="JUnitTestsShouldIncludeAssert::17 #968 Issues with JUnit4 @Test annotation with expected exception" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="SimplifyBooleanAssertion::0 assertFalse(!)" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.005"/>
+  <testcase name="SimplifyBooleanAssertion::1 assertTrue(!)" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="SimplifyBooleanAssertion::2 ok" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="SimplifyBooleanAssertion::3 not a JUnit test - assertFalse(!)" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="SimplifyBooleanAssertion::4 JUnit 4 - assertFalse(!)" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="TestClassWithoutTestCases::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="TestClassWithoutTestCases::1 test method should be public" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="TestClassWithoutTestCases::2 inner class should get checked" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="TestClassWithoutTestCases::3 test method in inner class not valid" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="TestClassWithoutTestCases::4 abstract classes are ok" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="TestClassWithoutTestCases::5 ditto interfaces" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="TestClassWithoutTestCases::6 ditto enum" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="TestClassWithoutTestCases::7 ditto annotation" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.002"/>
+  <testcase name="TestClassWithoutTestCases::8 failure case does not extend TestCase" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="TestClassWithoutTestCases::9 #1453 False positive when the test class extends an other." classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryBooleanAssertion::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryBooleanAssertion::1 variations" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.006"/>
+  <testcase name="UnnecessaryBooleanAssertion::2 nested boolean literal" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryBooleanAssertion::3 asserting true a !" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryBooleanAssertion::4 asserting false a !" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryBooleanAssertion::5 buz" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryBooleanAssertion::6 not a JUnit test - failure case" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryBooleanAssertion::7 JUnit 4 - failure case" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="UseAssertEqualsInsteadOfAssertTrue::0 TEST1" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UseAssertEqualsInsteadOfAssertTrue::1 TEST2" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="UseAssertEqualsInsteadOfAssertTrue::2 TEST3" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="UseAssertEqualsInsteadOfAssertTrue::3 Not a JUnit test - TEST2" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UseAssertEqualsInsteadOfAssertTrue::4 JUnit4 - TEST2" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UseAssertNullInsteadOfAssertTrue::0 assertTrue with null" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UseAssertNullInsteadOfAssertTrue::1 assertFalse with != null" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UseAssertNullInsteadOfAssertTrue::2 assertTrue with x == y" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="UseAssertNullInsteadOfAssertTrue::3 Not a JUnit test - assertTrue with null" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UseAssertNullInsteadOfAssertTrue::4 JUnit 4 - assertTrue with null" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.005"/>
+  <testcase name="UseAssertSameInsteadOfAssertTrue::0 assert true a == b" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="UseAssertSameInsteadOfAssertTrue::1 assert true a != b" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UseAssertSameInsteadOfAssertTrue::2 assert false a == b" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UseAssertSameInsteadOfAssertTrue::3 assert false a != b" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UseAssertSameInsteadOfAssertTrue::4 skip assertTrue(x == null), UseAssertNullInsteadOfAssertTrue will pick those up" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="UseAssertSameInsteadOfAssertTrue::5 bug 1626715, the null check in the rule shouldn&apos;t match the null outside the assert method" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UseAssertSameInsteadOfAssertTrue::6 assert true a == b BUT not a Junit test" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UseAssertSameInsteadOfAssertTrue::7 JUnit 4 - assert true a == b" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="UseAssertTrueInsteadOfAssertEquals::0 JUnit Test contains assertEquals on other than boolean literal" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.004"/>
+  <testcase name="UseAssertTrueInsteadOfAssertEquals::1 JUnit Test contains assertEquals on boolean literal" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.005"/>
+  <testcase name="UseAssertTrueInsteadOfAssertEquals::2 #1323 False positive case of UseAssertTrueInsteadOfAssertEquals" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.003"/>
+  <testcase name="UseAssertTrueInsteadOfAssertEquals::3 JUnit Test contains assertEquals with Boxed booleans" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.005"/>
+  <testcase name="UseAssertTrueInsteadOfAssertEquals::4 JUnit Test contains assertEquals with Boxed booleans as param" classname="net.sourceforge.pmd.lang.java.rule.junit.JunitRulesTest" time="0.005"/>
+</testsuite>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.1" timestamp="2018-12-12T20:08:18.358">
+<file name="D:\workspace\pmd-src-5.5.2\pmd-test\src\main\java\net\sourceforge\pmd\AbstractLanguageVersionTest.java">
+<violation beginline="9" endline="9" begincolumn="1" endcolumn="27" rule="UnusedImports" ruleset="Import Statements" package="net.sourceforge.pmd" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.io.IOException'
+</violation>
+<violation beginline="103" endline="104" begincolumn="9" endcolumn="19" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd" class="AbstractLanguageVersionTest" method="testRegisteredRulesets" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="112" endline="112" begincolumn="9" endcolumn="53" rule="PrematureDeclaration" ruleset="Optimization" package="net.sourceforge.pmd" class="AbstractLanguageVersionTest" method="testRegisteredRulesets" variable="factory" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#PrematureDeclaration" priority="3">
+Avoid declaring a variable if it is unreferenced before a possible exit point.
+</violation>
+<violation beginline="114" endline="114" begincolumn="9" endcolumn="54" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd" class="AbstractLanguageVersionTest" method="testRegisteredRulesets" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-test\src\main\java\net\sourceforge\pmd\AbstractRuleSetFactoryTest.java">
+<violation beginline="4" endline="552" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=62, ATFD=111, TCC=0.012987012987012988)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-test\src\main\java\net\sourceforge\pmd\test\lang\DummyLanguageModule.java">
+<violation beginline="111" endline="113" begincolumn="17" endcolumn="17" rule="NonStaticInitializer" ruleset="Design" package="net.sourceforge.pmd.test.lang" class="DummyLanguageModule$RuleViolationFactory" method="createRuleViolation" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#NonStaticInitializer" priority="3">
+Non-static initializers are confusing
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-test\src\main\java\net\sourceforge\pmd\testframework\RuleTst.java">
+<violation beginline="4" endline="428" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.testframework" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=72, ATFD=78, TCC=0.0)
+</violation>
+</file>
+</pmd>

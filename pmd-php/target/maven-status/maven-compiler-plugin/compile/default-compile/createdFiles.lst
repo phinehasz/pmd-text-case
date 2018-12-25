@@ -1,0 +1,3 @@
+net\sourceforge\pmd\lang\php\PhpLanguageModule.class
+net\sourceforge\pmd\cpd\PHPLanguage.class
+net\sourceforge\pmd\cpd\PHPTokenizer.class

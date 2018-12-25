@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.314" tests="89" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="idea.version" value="2018.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="maven.skip.test" value="true"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shinelon\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_151\bin;D:\javacc\javacc-5.0\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;D:\pscp.exe;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\ProgramData\Oracle\Java\javapath;D:\Develop\apache-maven-3.3.9\\bin;D:\Develop\python3.6\Scripts\;D:\Develop\python3.6;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\Gradle\gradle-4.9/bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\MySQL Server 5.5\bin;D:\Develop\Git\cmd;D:\Develop\Git\mingw64\bin;D:\Develop\Git\usr\bin;F:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;D:\Develop\Anaconda2.2;D:\Develop\Anaconda2.2\Scripts;C:\Program Files (x86)\Calibre2\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\ssh secure;C:\Users\Shinelon\AppData\Roaming\npm;F:\Program Files\Microsoft VS Code\bin;C:\Users\Shinelon\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Shinelon"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Shinelon"/>
+    <property name="java.class.path" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;F:\IntelliJ IDEA 2018.2.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.1 install -Dmaven.skip.test=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="UnnecessaryConversionTemporary::0 all glommed together" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryConversionTemporary::1 called on String" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFinalModifier::0 TEST1" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFinalModifier::1 TEST2" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFinalModifier::2 TEST3" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryFinalModifier::3 TEST4" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryFinalModifier::4 TEST5" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFinalModifier::5 TEST6" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryFinalModifier::6 final method in inner class of non-final outer class" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryFinalModifier::7 final method in inner final class" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryFinalModifier::8 #1464 UnnecessaryFinalModifier false positive on a @SafeVarargs method" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryReturn::0 bad" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryReturn::1 ok since method is not void" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryReturn::2 ok since return is in sub block" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryReturn::3 interface methods don&apos;t have return statements" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryReturn::4 abstract methods don&apos;t have return statements" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.002"/>
+  <testcase name="UnnecessaryReturn::5 return inside a catch - ok" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UnusedNullCheckInEquals::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.002"/>
+  <testcase name="UnusedNullCheckInEquals::1 different var, &apos;tis ok" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.002"/>
+  <testcase name="UnusedNullCheckInEquals::2 proper usage" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.002"/>
+  <testcase name="UnusedNullCheckInEquals::3 variation of correct usage" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.002"/>
+  <testcase name="UnusedNullCheckInEquals::4 var is not used in equals() call" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UnusedNullCheckInEquals::5 [ 1481051 ] false + UnusedNullCheckInEquals" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UnusedNullCheckInEquals::6 shouldn&apos;t this fail? Yes, it should. Fixed it, so that method calls to equals on variables are considered, too." classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UnusedNullCheckInEquals::7 Arrays can&apos;t be compared directly but with Arrays.equals()." classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessOperationOnImmutable::0 useless operation on BigDecimal" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessOperationOnImmutable::1 useless operation on BigInteger" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessOperationOnImmutable::2 using the result, so OK" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessOperationOnImmutable::3 using the result in a method call, so OK" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessOperationOnImmutable::4 BigInteger obtained from compound method call" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.005"/>
+  <testcase name="UselessOperationOnImmutable::5 Using generics on List, OK" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.007"/>
+  <testcase name="UselessOperationOnImmutable::6 BigInteger in conditional statement" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessOperationOnImmutable::7 1702782, Immutable used in comparison" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessOperationOnImmutable::8 String calls in expressions" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.005"/>
+  <testcase name="UselessOperationOnImmutable::9 BigInteger calls in expression" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.006"/>
+  <testcase name="UselessOperationOnImmutable::10 2645268, ClassCastException using Annotation on Local Field" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessOverridingMethod::0 call super" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessOverridingMethod::1 call super with same argument" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessOverridingMethod::2 call super with different argument" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessOverridingMethod::3 call super with different argument 2" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessOverridingMethod::4 call super with different argument 3" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessOverridingMethod::5 call super with inverted arguments" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessOverridingMethod::6 return value of super" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessOverridingMethod::7 return value of super with argument" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessOverridingMethod::8 return value of super after adding a string" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessOverridingMethod::9 do not crash on abstract methods" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.002"/>
+  <testcase name="UselessOverridingMethod::10 do not crash on interfaces" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessOverridingMethod::11 do not crash on empty returns" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessOverridingMethod::12 do not crash on super" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessOverridingMethod::13 call super with different argument 4" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.002"/>
+  <testcase name="UselessOverridingMethod::14 adding final is OK" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessOverridingMethod::15 adding synchronized is OK" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessOverridingMethod::16 Constructors are OK" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessOverridingMethod::17 Should ignore clone implementation ( see bug 1522517)" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessOverridingMethod::18 clone method with arguments should not be ignored" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.006"/>
+  <testcase name="UselessOverridingMethod::19 False +: Overriding method merely calls super (see bug 1415525)" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="UselessOverridingMethod::19 False +: Overriding method merely calls super (see bug 1415525)" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0"/>
+  <testcase name="UselessOverridingMethod::20 [ 1977230 ] false positive: UselessOverridingMethod" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.007"/>
+  <testcase name="UselessOverridingMethod::21 [ 2142986 ] UselessOverridingMethod doesn&apos;t consider annotations, ignoreAnnotations property set to true" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.005"/>
+  <testcase name="UselessOverridingMethod::22 [ 2142986 ] UselessOverridingMethod doesn&apos;t consider annotations" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.005"/>
+  <testcase name="UselessOverridingMethod::23 [ 2142986 ] UselessOverridingMethod doesn&apos;t consider annotations, @Override only" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessOverridingMethod::24 ClassCastException in statement cast" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.006"/>
+  <testcase name="UselessParentheses::0 failure case, return statement" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessParentheses::1 failure case, assignment" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessParentheses::2 failure case, condition 1" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessParentheses::3 failure case, condition 2" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessParentheses::4 useful parentheses, arithmetic" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessParentheses::5 useful parentheses, logic" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessParentheses::6 typecast, ok" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessParentheses::7 typecast with extra, bad" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessParentheses::8 false negatives" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessParentheses::9 Parentheses around binary expressions are really necessary" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessParentheses::10 3526992, false +. In this case the parentheses must stay." classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessParentheses::11 #1012 False positive: Useless parentheses." classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.006"/>
+  <testcase name="UselessParentheses::12 #1111 False positive: Useless parentheses" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessParentheses::13 #1102 False positive: shift operator parenthesis" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessParentheses::14 #1243 Useless Parentheses False Positive" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.005"/>
+  <testcase name="UselessParentheses::15 #1282 False Positive with implicit String.valuesOf() (Java)" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessParentheses::16 #1366 UselessParentheses false positive on multiple equality operators" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.006"/>
+  <testcase name="UselessParentheses::17 #1407 UselessParentheses &quot;&amp;&quot; and &quot;+&quot; operator precedence" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.009"/>
+  <testcase name="UselessParentheses::18 http://stackoverflow.com/questions/34911230/pmd-uselessparentheses-violation: false + with &amp; and &lt;&lt;" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessParentheses::19 Verify #1519 [java] UselessParenthesis: False Positive: &quot;Prohibits the use of useless parentheses&quot; when more than one line" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+  <testcase name="UselessQualifiedThis::0 Qualified this as field" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessQualifiedThis::1 Qualified this in a method" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessQualifiedThis::2 Qualified this in a Inner Class" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessQualifiedThis::3 Qualified this in a Nested Class" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessQualifiedThis::4 Qualified this in a Nested Class part 2" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessQualifiedThis::5 Qualified this all in one" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.003"/>
+  <testcase name="UselessQualifiedThis::6 #1422 UselessQualifiedThis: False positive with Java 8 Function" classname="net.sourceforge.pmd.lang.java.rule.unnecessary.UnnecessaryRulesTest" time="0.004"/>
+</testsuite>

@@ -1,0 +1,15 @@
+net\sourceforge\pmd\lang\jsp\rule\basicjsf\BasicJsfRulesTest.class
+net\sourceforge\pmd\LanguageVersionTest.class
+net\sourceforge\pmd\RuleSetFactoryTest.class
+net\sourceforge\pmd\lang\jsp\ast\JspDocStyleTest$2.class
+net\sourceforge\pmd\lang\jsp\ast\JspPageStyleTest$1.class
+net\sourceforge\pmd\lang\jsp\ast\OpenTagRegisterTest.class
+net\sourceforge\pmd\lang\jsp\ast\JspDocStyleTest$3.class
+net\sourceforge\pmd\LanguageVersionDiscovererTest.class
+net\sourceforge\pmd\lang\jsp\ast\AbstractJspNodesTst.class
+net\sourceforge\pmd\lang\jsp\ast\XPathJspRuleTest.class
+net\sourceforge\pmd\lang\jsp\ast\JspPageStyleTest.class
+net\sourceforge\pmd\lang\jsp\rule\basic\BasicRulesTest.class
+net\sourceforge\pmd\lang\jsp\ast\JspDocStyleTest$1.class
+net\sourceforge\pmd\lang\jsp\ast\JspDocStyleTest.class
+net\sourceforge\pmd\lang\jsp\JspParserTest.class

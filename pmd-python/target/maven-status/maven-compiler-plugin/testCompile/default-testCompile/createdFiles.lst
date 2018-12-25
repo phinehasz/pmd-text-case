@@ -1,0 +1,3 @@
+net\sourceforge\pmd\LanguageVersionTest.class
+net\sourceforge\pmd\cpd\PythonTokenizerTest.class
+net\sourceforge\pmd\LanguageVersionDiscovererTest.class

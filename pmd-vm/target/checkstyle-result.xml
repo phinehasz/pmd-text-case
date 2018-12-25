@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.2">
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\AbstractVmNode.java">
+<error line="0" severity="warning" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="29" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="34" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="35" severity="warning" message="Comment matches to-do format &apos;TODO&apos;." source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="38" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="41" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="44" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="47" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="50" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="53" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="55" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="58" column="37" severity="warning" message="Expected @param tag for &apos;i&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="62" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="66" column="42" severity="warning" message="Expected @param tag for &apos;p&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="66" column="55" severity="warning" message="Expected @param tag for &apos;i&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="72" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="84" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="100" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="103" column="43" severity="warning" message="Expected @param tag for &apos;t&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="107" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="110" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="114" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="117" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="121" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="125" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="125" column="51" severity="warning" message="Expected @param tag for &apos;visitor&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="125" column="73" severity="warning" message="Expected @param tag for &apos;data&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="129" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="133" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="133" column="56" severity="warning" message="Expected @param tag for &apos;visitor&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="133" column="78" severity="warning" message="Expected @param tag for &apos;data&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="148" column="6" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="151" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="155" column="41" severity="warning" message="Expected @param tag for &apos;prefix&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="164" column="35" severity="warning" message="Expected @param tag for &apos;prefix&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="164" column="57" severity="warning" message="Expected @param tag for &apos;recurse&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="164" column="79" severity="warning" message="Expected @param tag for &apos;writer&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="180" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="183" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="199" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="202" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="206" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="209" column="35" severity="warning" message="Expected @param tag for &apos;info&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="213" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="216" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="220" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="227" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="230" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="234" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="237" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="241" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="244" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\ASTAddNode.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="35" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="38" column="33" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="42" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="46" column="38" severity="warning" message="Expected @param tag for &apos;p&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" column="51" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" column="45" severity="warning" message="Expected @param tag for &apos;visitor&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" column="61" severity="warning" message="Expected @param tag for &apos;data&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\ASTDirective.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="39" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="42" column="35" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="50" column="40" severity="warning" message="Expected @param tag for &apos;p&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="50" column="53" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="54" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="69" column="47" severity="warning" message="Expected @param tag for &apos;str&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="82" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\ASTDivNode.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="35" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="38" column="33" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="42" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="46" column="38" severity="warning" message="Expected @param tag for &apos;p&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" column="51" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" column="45" severity="warning" message="Expected @param tag for &apos;visitor&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" column="61" severity="warning" message="Expected @param tag for &apos;data&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\ASTEscape.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="34" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="37" column="32" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="41" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="45" column="37" severity="warning" message="Expected @param tag for &apos;p&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="45" column="50" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="49" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\ASTMathNode.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="36" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="38" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="42" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\ASTMethod.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="42" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="45" column="32" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="49" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="53" column="37" severity="warning" message="Expected @param tag for &apos;p&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="53" column="50" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="57" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="77" column="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="85" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="112" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="135" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\ASTModNode.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="34" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="37" column="33" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="41" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="45" column="38" severity="warning" message="Expected @param tag for &apos;p&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="45" column="51" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="50" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="50" column="45" severity="warning" message="Expected @param tag for &apos;visitor&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="50" column="61" severity="warning" message="Expected @param tag for &apos;data&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\ASTMulNode.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="35" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="38" column="33" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="42" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="46" column="38" severity="warning" message="Expected @param tag for &apos;p&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" column="51" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" column="45" severity="warning" message="Expected @param tag for &apos;visitor&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" column="61" severity="warning" message="Expected @param tag for &apos;data&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\ASTReference.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="50" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="53" column="35" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="57" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="61" column="40" severity="warning" message="Expected @param tag for &apos;p&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="61" column="53" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="65" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\ASTStringLiteral.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="31" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="34" column="39" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="38" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="42" column="44" severity="warning" message="Expected @param tag for &apos;p&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="42" column="57" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="52" column="55" severity="warning" message="Expected @param tag for &apos;node&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="73" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="76" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="76" column="48" severity="warning" message="Expected @param tag for &apos;string&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="105" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\ASTSubtractNode.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="35" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="38" column="38" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="42" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="46" column="43" severity="warning" message="Expected @param tag for &apos;p&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" column="56" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" column="45" severity="warning" message="Expected @param tag for &apos;visitor&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" column="61" severity="warning" message="Expected @param tag for &apos;data&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\MacroParseException.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="41" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="46" column="45" severity="warning" message="Expected @param tag for &apos;msg&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" column="63" severity="warning" message="Expected @param tag for &apos;templateName&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="46" column="89" severity="warning" message="Expected @param tag for &apos;currentToken&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="115" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="119" column="58" severity="warning" message="Expected @param tag for &apos;sb&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\NodeUtils.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="115" column="51" severity="warning" message="Expected @param tag for &apos;t&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\TemplateParseException.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="51" column="47" severity="warning" message="Expected @param tag for &apos;currentTokenVal&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="51" column="78" severity="warning" message="Expected @param tag for &apos;expectedTokenSequencesVal&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="52" column="28" severity="warning" message="Expected @param tag for &apos;tokenImageVal&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="52" column="56" severity="warning" message="Expected @param tag for &apos;templateNameVal&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="69" column="47" severity="warning" message="Expected @param tag for &apos;currentTokenVal&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="69" column="78" severity="warning" message="Expected @param tag for &apos;expectedTokenSequencesVal&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="70" column="28" severity="warning" message="Expected @param tag for &apos;tokenImageVal&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="90" severity="warning" message="Comment matches to-do format &apos;TODO&apos;." source="com.puppycrawl.tools.checkstyle.checks.TodoCommentCheck"/>
+<error line="203" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="206" column="58" severity="warning" message="Expected @param tag for &apos;sb&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\TokenMgrError.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="10" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="44" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="47" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="52" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="60" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="60" column="59" severity="warning" message="Expected @param tag for &apos;str&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="113" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="113" column="56" severity="warning" message="Expected @param tag for &apos;EOFSeen&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="113" column="75" severity="warning" message="Expected @param tag for &apos;lexState&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="113" column="95" severity="warning" message="Expected @param tag for &apos;errorLine&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="114" column="23" severity="warning" message="Expected @param tag for &apos;errorColumn&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="114" column="49" severity="warning" message="Expected @param tag for &apos;errorAfter&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="114" column="72" severity="warning" message="Expected @param tag for &apos;curChar&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\VmNode.java">
+<error line="9" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="13" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="13" column="38" severity="warning" message="Expected @param tag for &apos;visitor&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="13" column="54" severity="warning" message="Expected @param tag for &apos;data&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="18" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="18" column="43" severity="warning" message="Expected @param tag for &apos;visitor&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="18" column="59" severity="warning" message="Expected @param tag for &apos;data&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\ast\VmParserVisitorAdapter.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\directive\Block.java">
+<error line="0" severity="warning" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="35" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="40" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\directive\BlockMacro.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="56" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="71" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\directive\Break.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="54" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\directive\Define.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="36" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\directive\Directive.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="59" column="34" severity="warning" message="Expected @param tag for &apos;line&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="59" column="44" severity="warning" message="Expected @param tag for &apos;column&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="70" column="33" severity="warning" message="Expected @param tag for &apos;line&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="70" column="43" severity="warning" message="Expected @param tag for &apos;column&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="70" column="58" severity="warning" message="Expected @param tag for &apos;templateName&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="94" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="103" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="107" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="112" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\directive\Evaluate.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\directive\Foreach.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\directive\Include.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="82" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\directive\InputBase.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\directive\Literal.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="36" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="60" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\directive\Macro.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="64" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\directive\Parse.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="63" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\directive\RuntimeMacro.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="69" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\directive\Stop.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="53" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\directive\VelocimacroProxy.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="58" column="32" severity="warning" message="Expected @param tag for &apos;name&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="68" column="38" severity="warning" message="Expected @param tag for &apos;arr&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\rule\AbstractStatisticalVmRule.java">
+<error line="0" severity="warning" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="14" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\rule\AbstractVmRule.java">
+<error line="59" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="61" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="75" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\rule\basic\AvoidDeeplyNestedIfStmtsRule.java">
+<error line="0" severity="warning" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="13" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="15" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="26" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="30" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="36" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="40" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\rule\basic\AvoidReassigningParametersRule.java">
+<error line="15" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\rule\basic\CollapsibleIfStatementsRule.java">
+<error line="17" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\rule\basic\EmptyForeachStmtRule.java">
+<error line="14" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\rule\basic\EmptyIfStmtRule.java">
+<error line="16" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\rule\basic\ExcessiveTemplateLengthRule.java">
+<error line="10" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\rule\basic\NoInlineJavaScriptRule.java">
+<error line="12" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\rule\basic\UnusedMacroParameterRule.java">
+<error line="16" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\rule\VmRuleChainVisitor.java">
+<error line="19" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\rule\VmRuleViolationFactory.java">
+<error line="15" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="17" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\util\DirectiveMapper.java">
+<error line="0" severity="warning" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="22" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="24" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="44" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="48" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\util\LogUtil.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="39" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="39" column="65" severity="warning" message="Expected @param tag for &apos;directive&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="47" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="47" column="70" severity="warning" message="Expected @param tag for &apos;node&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="59" severity="warning" message="Expected an @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\util\VelocityCharStream.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="43" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="44" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="46" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="47" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="49" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="65" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="71" column="51" severity="warning" message="Expected @param tag for &apos;dstream&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="71" column="64" severity="warning" message="Expected @param tag for &apos;startline&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="71" column="79" severity="warning" message="Expected @param tag for &apos;startcolumn&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="71" column="96" severity="warning" message="Expected @param tag for &apos;buffersize&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="75" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="80" column="51" severity="warning" message="Expected @param tag for &apos;dstream&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="80" column="64" severity="warning" message="Expected @param tag for &apos;startline&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="80" column="79" severity="warning" message="Expected @param tag for &apos;startcolumn&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="84" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="90" column="46" severity="warning" message="Expected @param tag for &apos;dstream&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="90" column="59" severity="warning" message="Expected @param tag for &apos;startline&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="90" column="74" severity="warning" message="Expected @param tag for &apos;startcolumn&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="90" column="91" severity="warning" message="Expected @param tag for &apos;buffersize&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="101" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="106" column="46" severity="warning" message="Expected @param tag for &apos;dstream&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="106" column="59" severity="warning" message="Expected @param tag for &apos;startline&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="106" column="74" severity="warning" message="Expected @param tag for &apos;startcolumn&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="222" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="277" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="308" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="319" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="330" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="339" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="348" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="357" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="366" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="380" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="386" column="39" severity="warning" message="Expected @param tag for &apos;dstream&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="386" column="52" severity="warning" message="Expected @param tag for &apos;startline&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="387" column="17" severity="warning" message="Expected @param tag for &apos;startcolumn&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="387" column="34" severity="warning" message="Expected @param tag for &apos;buffersize&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="405" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="410" column="39" severity="warning" message="Expected @param tag for &apos;dstream&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="410" column="52" severity="warning" message="Expected @param tag for &apos;startline&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="411" column="17" severity="warning" message="Expected @param tag for &apos;startcolumn&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="416" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="422" column="44" severity="warning" message="Expected @param tag for &apos;dstream&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="422" column="57" severity="warning" message="Expected @param tag for &apos;startline&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="423" column="17" severity="warning" message="Expected @param tag for &apos;startcolumn&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="423" column="34" severity="warning" message="Expected @param tag for &apos;buffersize&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="427" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="432" column="44" severity="warning" message="Expected @param tag for &apos;dstream&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="432" column="57" severity="warning" message="Expected @param tag for &apos;startline&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="433" column="17" severity="warning" message="Expected @param tag for &apos;startcolumn&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="437" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="454" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="476" severity="warning" message="Javadoc has empty description section." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="492" column="43" severity="warning" message="Expected @param tag for &apos;newLine&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="492" column="56" severity="warning" message="Expected @param tag for &apos;newCol&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\VmHandler.java">
+<error line="0" severity="warning" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="41" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="49" column="13" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\VmLanguageModule.java">
+<error line="1" severity="error" message="Line does not match expected header line of &apos;^\/\*\*[ ]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck"/>
+<error line="11" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="12" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="14" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\VmParser.java">
+<error line="23" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="32" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="36" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="41" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\java\net\sourceforge\pmd\lang\vm\VmTokenManager.java">
+<error line="13" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="17" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="25" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTAndNode.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTAssignment.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTBlock.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTComment.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTElseIfStatement.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTElseStatement.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTEQNode.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTEscapedDirective.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTExpression.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTFalse.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTFloatingPointLiteral.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTForeachStatement.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTGENode.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTGTNode.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTIdentifier.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTIfStatement.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTIndex.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTIntegerLiteral.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTIntegerRange.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTLENode.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTLTNode.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTMap.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTNENode.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTNotNode.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTObjectArray.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTOrNode.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTprocess.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTSetDirective.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTText.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTTextblock.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTTrue.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ASTWord.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\JJTVmParserState.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\ParseException.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\Token.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\VmParser.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\VmParserConstants.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\VmParserTokenManager.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\VmParserTreeConstants.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\target\generated-sources\javacc\net\sourceforge\pmd\lang\vm\ast\VmParserVisitor.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-vm\src\main\resources\rulesets\vm\rulesets.properties">
+</file>
+</checkstyle>

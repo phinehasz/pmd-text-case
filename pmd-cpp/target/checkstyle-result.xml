@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.2">
+<file name="D:\workspace\pmd-src-5.5.2\pmd-cpp\src\main\java\net\sourceforge\pmd\cpd\CPPLanguage.java">
+<error line="0" severity="warning" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-cpp\src\main\java\net\sourceforge\pmd\cpd\CPPTokenizer.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-cpp\src\main\java\net\sourceforge\pmd\lang\cpp\ContinuationReader.java">
+<error line="0" severity="warning" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-cpp\src\main\java\net\sourceforge\pmd\lang\cpp\CppHandler.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-cpp\src\main\java\net\sourceforge\pmd\lang\cpp\CppLanguageModule.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-cpp\src\main\java\net\sourceforge\pmd\lang\cpp\CppParser.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-cpp\src\main\java\net\sourceforge\pmd\lang\cpp\CppTokenManager.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-cpp\target\generated-sources\javacc\net\sourceforge\pmd\lang\cpp\ast\CppParserConstants.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-cpp\target\generated-sources\javacc\net\sourceforge\pmd\lang\cpp\ast\CppParserTokenManager.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-cpp\target\generated-sources\javacc\net\sourceforge\pmd\lang\cpp\ast\Token.java">
+</file>
+</checkstyle>

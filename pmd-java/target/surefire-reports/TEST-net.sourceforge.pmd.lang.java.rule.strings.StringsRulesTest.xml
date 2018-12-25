@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.865" tests="229" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="idea.version" value="2018.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="maven.skip.test" value="true"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shinelon\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_151\bin;D:\javacc\javacc-5.0\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;D:\pscp.exe;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\ProgramData\Oracle\Java\javapath;D:\Develop\apache-maven-3.3.9\\bin;D:\Develop\python3.6\Scripts\;D:\Develop\python3.6;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\Gradle\gradle-4.9/bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\MySQL Server 5.5\bin;D:\Develop\Git\cmd;D:\Develop\Git\mingw64\bin;D:\Develop\Git\usr\bin;F:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;D:\Develop\Anaconda2.2;D:\Develop\Anaconda2.2\Scripts;C:\Program Files (x86)\Calibre2\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\ssh secure;C:\Users\Shinelon\AppData\Roaming\npm;F:\Program Files\Microsoft VS Code\bin;C:\Users\Shinelon\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Shinelon"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Shinelon"/>
+    <property name="java.class.path" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;F:\IntelliJ IDEA 2018.2.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.1 install -Dmaven.skip.test=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="AppendCharacterWithChar::0 appending single character string, should fail" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="AppendCharacterWithChar::1 appending single char, should be ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="AppendCharacterWithChar::2 this is probably wrong, but shouldn&apos;t fail" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="AppendCharacterWithChar::3 concatenates a three character int" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="AppendCharacterWithChar::4 concatenates a string explicitly set to 1 character, not explicitly checking right now" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="AppendCharacterWithChar::5 for statement" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="AppendCharacterWithChar::6 concatenates an escaped character" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="AppendCharacterWithChar::7 concatenates all escaped characters" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="AppendCharacterWithChar::8 concatenates a single upper case" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="AppendCharacterWithChar::9 concatenates a single number" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="AppendCharacterWithChar::10 concatenates a single character &amp;" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="AppendCharacterWithChar::11 concatenates two characters" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="AppendCharacterWithChar::12 a single octal character" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="AppendCharacterWithChar::13 octal character in longer string" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="AvoidDuplicateLiterals::0 duplicate literals in argument list" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="AvoidDuplicateLiterals::1 literal int argument, ok for now" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="AvoidDuplicateLiterals::2 duplicate literals in field decl" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="AvoidDuplicateLiterals::3 duplicate literals in annotations" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="AvoidDuplicateLiterals::4 duplicate literals in annotations, skipped" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="AvoidDuplicateLiterals::5 threshold property" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="AvoidDuplicateLiterals::6 exception list property" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="AvoidDuplicateLiterals::7 exception list and separator properties" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="AvoidDuplicateLiterals::8 minimum length property, minimum length reached" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="AvoidDuplicateLiterals::9 minimum length property, minimum length not reached" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="AvoidDuplicateLiterals::10 minimum length property, default value" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="AvoidDuplicateLiterals::11 #1425 Invalid XML Characters in Output" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="AvoidStringBufferField::0 Basic test case for AvoidStringBufferField" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="ConsecutiveAppendsShouldReuse::0 1, Single append, should be ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveAppendsShouldReuse::1 2, Consecutive appends with reuse, should be ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="ConsecutiveAppendsShouldReuse::2 3, Single append on different method, should be ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="ConsecutiveAppendsShouldReuse::3 4, Single append on different objects, should be ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="ConsecutiveAppendsShouldReuse::4 5, Consecutive literal appends without reuse, not ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="ConsecutiveAppendsShouldReuse::5 6, Consecutive variable appends without reuse, not ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveAppendsShouldReuse::6 7, Consecutive appends in different blocks, should be ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="ConsecutiveAppendsShouldReuse::7 #1180 False Positive for ConsecutiveAppendsShouldReuse on different variable names" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveAppendsShouldReuse::8 #1370 ConsecutiveAppendsShouldReuse not detected properly on StringBuffer" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveAppendsShouldReuse::9 #1370 ConsecutiveAppendsShouldReuse not detected properly on StringBuffer - part 2" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="ConsecutiveAppendsShouldReuse::10 #1370 ConsecutiveAppendsShouldReuse not detected properly on StringBuffer - part 3" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="ConsecutiveLiteralAppends::0 1, Single append, should be ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::1 2, Back to back append, not ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::2 2, re-running with threshold" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::3 3, Appends broken up by variable" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="ConsecutiveLiteralAppends::4 4, Appends with literal appends" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="ConsecutiveLiteralAppends::5 5, Appends broken up by while loop" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::6 6, Appends, then a variable" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::7 7, Appends, then a variable" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::8 8, Appends, then a while" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="ConsecutiveLiteralAppends::9 9, Multiple appends in same while" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::10 10, Multiple appends in same while, with multiple outside that while" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::11 11, Multiple appends in same while, none outside the loop" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="ConsecutiveLiteralAppends::12 12, Two loops, not concurrent appends though" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::13 13, A bunch of loops, but nothing concurrent" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.006"/>
+  <testcase name="ConsecutiveLiteralAppends::14 14, A bunch of loops, one concurrent" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="ConsecutiveLiteralAppends::15 15, A bunch of loops, none concurrent, separated by else" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.006"/>
+  <testcase name="ConsecutiveLiteralAppends::16 16, Additive Expression 1" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="ConsecutiveLiteralAppends::17 17, Additive Expression 2" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::18 18, End with literal append" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="ConsecutiveLiteralAppends::19 19, A bunch of appends" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::20 20, Suffix append follwed by real append" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::21 21, Appends separated by an if" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::22 22, calls to methods in append" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="ConsecutiveLiteralAppends::23 23, force 2 failures on 3 lines" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.006"/>
+  <testcase name="ConsecutiveLiteralAppends::24 23, re-running with threshold" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::25 24, Appends from within switch statement" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::26 25, Appends from within several different ifs" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::27 26, One append in if, one in else" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::28 27, Concurrent Appends from within switch statement" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="ConsecutiveLiteralAppends::29 28, Additive inside an if statement" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="ConsecutiveLiteralAppends::30 29, Adding two strings only" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="ConsecutiveLiteralAppends::31 30, Method call in append" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::32 31, Adding two strings together then another append" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="ConsecutiveLiteralAppends::33 32, Including the constructor&apos;s string" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="ConsecutiveLiteralAppends::34 33, Additive in the constructor" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::35 34, Additive in the constructor" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="ConsecutiveLiteralAppends::36 35, For block without braces" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="ConsecutiveLiteralAppends::37 36, Appends broken up by method call" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::38 37, Intervening method call not related to append" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="ConsecutiveLiteralAppends::39 38, Intervening method call not related to append" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::40 39, Buffer as class variable, accessed in 2 methods" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::41 40, Call to external method with subtraction" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::42 41, Call to external method with addition, not string appending" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="ConsecutiveLiteralAppends::43 42, Using variable string array" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="ConsecutiveLiteralAppends::44 43, Using variable char array" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="ConsecutiveLiteralAppends::44 43, Using variable char array" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0"/>
+  <testcase name="ConsecutiveLiteralAppends::45 44, Appending of not String additive expressions" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="ConsecutiveLiteralAppends::46 #1175 false positive for StringBuilder.append called 2 consecutive times" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="ConsecutiveLiteralAppends::47 #1369 ConsecutiveLiteralAppends not detected properly on StringBuffer" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.006"/>
+  <testcase name="ConsecutiveLiteralAppends::48 #1384 NullPointerException in ConsecutiveLiteralAppendsRule - 1" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="ConsecutiveLiteralAppends::49 #1384 NullPointerException in ConsecutiveLiteralAppendsRule - 2" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="ConsecutiveLiteralAppends::50 #1401 False positive for StringBuilder.append called with constructor" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InefficientEmptyStringCheck::0 test is ok, ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InefficientEmptyStringCheck::1 String.trim.length is called, should have failed" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InefficientEmptyStringCheck::2 String.trim.length not is called, ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InefficientEmptyStringCheck::3 String.trim.length is called, should have failed" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InefficientEmptyStringCheck::4 String.trim.length is called, assigned to int, ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="InefficientEmptyStringCheck::5 String.trim.length is called, assigned to boolean, should have failed" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InefficientEmptyStringCheck::6 Using trim.length to find the length and compare to 1, OK" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InefficientEmptyStringCheck::7 Passes trim().length() and 0 to another method" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InefficientEmptyStringCheck::8 Compares the length against a mathematical function" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InefficientStringBuffering::0 concatenating a literal to a method return value" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InefficientStringBuffering::1 same as TEST1, but in SB constructor" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InefficientStringBuffering::2 chained appends" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InefficientStringBuffering::3 concatenating two literals in SB constructor" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InefficientStringBuffering::4 concatenating two literals post-construction" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InefficientStringBuffering::5 case where concatenation is not a child of a BlockStatement, but instead is a child of an ExplicitConstructorInvocation" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InefficientStringBuffering::6 don&apos;t error out on array instantiation" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InefficientStringBuffering::7 usage of the StringBuffer constructor that takes an int" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InefficientStringBuffering::8 nested" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InefficientStringBuffering::9 looking up too high" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InefficientStringBuffering::10 looking too deep" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InefficientStringBuffering::11 concatenating two non-literals" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InefficientStringBuffering::12 concatenating method + int" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InefficientStringBuffering::13 JTextArea.append" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InefficientStringBuffering::14 don&apos;t get thrown off by a buried literal" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InefficientStringBuffering::15 sb.delete shouldn&apos;t trigger it" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.006"/>
+  <testcase name="InefficientStringBuffering::16 skip additions involving static finals, compiler will do constant folding for these" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InefficientStringBuffering::17 for statement without braces" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.006"/>
+  <testcase name="InefficientStringBuffering::18 if statement without braces" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InefficientStringBuffering::19 3 args version of StringBuffer.append" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InefficientStringBuffering::20 compile-time concats are ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InefficientStringBuffering::21 compile-time concats are ok, v2" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InefficientStringBuffering::22 1503099, init with two string lengths" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InefficientStringBuffering::23 1503099, append with two string lengths" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InefficientStringBuffering::24 3109408, false + with adding two integers in constructor" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InefficientStringBuffering::25 1503099, adding two integers" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::0 1, StringBuffer allocated with enough space" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::1 2, StringBuffer not allocated with enough space" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::2 3, StringBuffer allocated with space" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InsufficientStringBufferDeclaration::3 4, StringBuffer allocated from variable" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InsufficientStringBufferDeclaration::4 5, creating a new StringBuffer" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::5 6, Initialize with a specific String" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InsufficientStringBufferDeclaration::6 7, appends inside if statements" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.006"/>
+  <testcase name="InsufficientStringBufferDeclaration::7 8, Field level variable" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InsufficientStringBufferDeclaration::8 9, Field level variable" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InsufficientStringBufferDeclaration::9 10, Appending non-literals" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InsufficientStringBufferDeclaration::10 11, Initialized to null" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InsufficientStringBufferDeclaration::11 12, Passed in as parameter" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::12 13, compound append" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::13 14, Compound append, presized just fine" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::14 15, Append int, incorrect presize" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InsufficientStringBufferDeclaration::15 16, Append int, properly presized" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InsufficientStringBufferDeclaration::16 17, Append char, incorrect presize" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::17 18, Append char, properly presized" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InsufficientStringBufferDeclaration::18 19, String concatenation, incorrect presize" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::19 20, String concatenation with non-literal, incorrect presize" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InsufficientStringBufferDeclaration::20 21, Incorrectly presized twice" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::21 22, appends inside if/else if/else statements" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.006"/>
+  <testcase name="InsufficientStringBufferDeclaration::22 23, appends inside if/else if/else statements" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InsufficientStringBufferDeclaration::23 24, appends inside if/else if/else statements" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::24 25, Compound ifs" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::25 26, Compound if, pushed over the edge" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InsufficientStringBufferDeclaration::26 28, Compound if, pushed over the edge" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="InsufficientStringBufferDeclaration::27 27, Switch statement doesn&apos;t exceed 16 characters" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::28 29, Appending from a cast" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InsufficientStringBufferDeclaration::29 30, Appending chars" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InsufficientStringBufferDeclaration::30 31, Appending from a cast in ifs" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::31 32, Constructor from math" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InsufficientStringBufferDeclaration::32 33, Uses setLength" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InsufficientStringBufferDeclaration::33 34, Uses setLength incorrectly" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::34 35, Append of &apos;null&apos; literal." classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="InsufficientStringBufferDeclaration::35 36, Append of boolean literal." classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::36 37, Initialization with multiply - bug 1743938" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InsufficientStringBufferDeclaration::37 38, Uses setLength 0 with subsequently more than 16, but less than initial" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::38 3175710: NPE in InsufficientStringBufferDeclaration" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="InsufficientStringBufferDeclaration::39 3516101: InsufficientStringBufferDeclaration fails to parse hex" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InsufficientStringBufferDeclaration::40 Append a hex int" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InsufficientStringBufferDeclaration::41 #1371 InsufficientStringBufferDeclaration not detected properly on StringBuffer" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InsufficientStringBufferDeclaration::42 #1380 InsufficientStringBufferDeclaration false positive when literal string passed to a lookup service" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="InsufficientStringBufferDeclaration::43 #1409 NullPointerException in InsufficientStringBufferRule" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="InsufficientStringBufferDeclaration::44 #1413 False positive StringBuffer constructor with ?: int value" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="StringBufferInstantiationWithChar::0 OK" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="StringBufferInstantiationWithChar::1 failure case" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="StringInstantiation::0 new &apos;new String&apos;s" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="StringInstantiation::1 new String array" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="StringInstantiation::2 using multiple parameter constructor" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="StringInstantiation::3 using 4 parameter constructor" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="StringInstantiation::4 byte array constructor is ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="StringInstantiation::5 Method returning new String" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="StringInstantiation::6 Not a new String" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="StringInstantiation::7 Returns new String(str)" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="StringToString::0 local var" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="StringToString::1 parameter" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="StringToString::2 field" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="StringToString::3 primitive" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="StringToString::4 multiple similar params" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="StringToString::5 string array" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="StringToString::6 ToString on String Array Object" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="StringToString::7 Should only look at toString&apos;s of Arrays" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="StringToString::8 #959 StringToString False Positive" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="StringToString::9 #1397 StringToString should ignore method references" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryCaseChange::0 failure case with toUpperCase().equals()" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryCaseChange::1 failure case with toLowerCase().equals()" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="UnnecessaryCaseChange::2 failure case with toUpperCase().equalsIgnoreCase()" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="UnnecessaryCaseChange::3 don&apos;t flag toUpperCase() invocations with Locale args" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="UnnecessaryCaseChange::4 failure case with toLowerCase().equals()" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="UseEqualsToCompareStrings::0 failure case using ==" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="UseEqualsToCompareStrings::1 failure case using !=" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="UseEqualsToCompareStrings::2 using equals, OK" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="UseEqualsToCompareStrings::3 using compareTo, OK" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="UseEqualsToCompareStrings::4 using length, OK" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="UseIndexOfChar::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="UseIndexOfChar::1 using single quotes, OK" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="UseIndexOfChar::2 indexOf multi-character literal, OK" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="UseIndexOfChar::3 using indexOf(singleCharString, int)" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="UseIndexOfChar::4 using lastIndexOf(singleCharString)" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="UseIndexOfChar::5 complicated expressions are ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="UseIndexOfChar::6 all escaped characters" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="UseIndexOfChar::7 a single octal character" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="UseIndexOfChar::8 octal character in longer string" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.002"/>
+  <testcase name="UseIndexOfChar::9 UseIndexOfChar: null pointer with lambdas" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="UseIndexOfChar::10 #1211 PMD is failing with NPE for rule UseIndexOfChar while analyzing Jdk 8 Lambda expression" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="UseStringBufferLength::0 Using length properly" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="UseStringBufferLength::1 StringBuffer.toString.equals(&quot;&quot;), bad" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="UseStringBufferLength::2 StringBuffer.toString.equals(&quot;foo&quot;), ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="UseStringBufferLength::3 StringBuffer.toString.length(), bad" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="UseStringBufferLength::4 no literals" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.006"/>
+  <testcase name="UseStringBufferLength::5 empty + non-empty string sb.toString().equals(&quot;&quot; + &quot;x&quot;), ok (as in: do not use StringBuffer.length())" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="UseStringBufferLength::6 sb.toString().trim().equals(&quot;&quot;), ok (as in: do not use StringBuffer.length())" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="UseStringBufferLength::7 sb.toString().equals(baz(&quot;&quot;)), ok" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="UseStringBufferLength::8 sb.toString().trim().length == 0, ok (as in: do not use StringBuffer.length())" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.006"/>
+  <testcase name="UseStringBufferLength::9 #1177 Incorrect StringBuffer warning when that class is not used" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.003"/>
+  <testcase name="UselessStringValueOf::0 valueOf in concatenation" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="UselessStringValueOf::1 valueOf in String conversion" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="UselessStringValueOf::2 valueOf as first expression in concatenation" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="UselessStringValueOf::3 valueOf as first/last expression in concatenation" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="UselessStringValueOf::4 valueOf as first/last expression in concatenation" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+  <testcase name="UselessStringValueOf::5 [ 1977438 ] False positive for UselessStringValueOf" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="UselessStringValueOf::6 #976 False positive for UselessStringValueOf" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.005"/>
+  <testcase name="UselessStringValueOf::7 #1084 NPE at UselessStringValueOfRule.java:36" classname="net.sourceforge.pmd.lang.java.rule.strings.StringsRulesTest" time="0.004"/>
+</testsuite>

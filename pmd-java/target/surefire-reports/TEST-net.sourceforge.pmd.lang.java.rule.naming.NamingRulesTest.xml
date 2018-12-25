@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.444" tests="118" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2018.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="maven.skip.test" value="true"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shinelon\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_151\bin;D:\javacc\javacc-5.0\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;D:\pscp.exe;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\ProgramData\Oracle\Java\javapath;D:\Develop\apache-maven-3.3.9\\bin;D:\Develop\python3.6\Scripts\;D:\Develop\python3.6;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\Gradle\gradle-4.9/bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\MySQL Server 5.5\bin;D:\Develop\Git\cmd;D:\Develop\Git\mingw64\bin;D:\Develop\Git\usr\bin;F:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;D:\Develop\Anaconda2.2;D:\Develop\Anaconda2.2\Scripts;C:\Program Files (x86)\Calibre2\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\ssh secure;C:\Users\Shinelon\AppData\Roaming\npm;F:\Program Files\Microsoft VS Code\bin;C:\Users\Shinelon\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Shinelon"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Shinelon"/>
+    <property name="java.class.path" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;F:\IntelliJ IDEA 2018.2.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.1 install -Dmaven.skip.test=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="AbstractNaming::0 ok, abstract class AbstractFoo" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.006"/>
+  <testcase name="AbstractNaming::1 bad, abstract class named Foo" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="AbstractNaming::2 ok, concrete class named AbstractFoo" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="AbstractNaming::3 ok, concrete class named Foo" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="AbstractNaming::4 #1344 AbstractNaming should check reverse" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="AvoidDollarSigns::0 class Fo$o" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="AvoidDollarSigns::1 variable fo$oo" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="AvoidDollarSigns::2 method foo$oo" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="AvoidDollarSigns::3 interface fo$oo" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="AvoidDollarSigns::4 ok" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="AvoidFieldNameMatchingMethodName::0 TEST1" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.002"/>
+  <testcase name="AvoidFieldNameMatchingMethodName::1 TEST2" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="AvoidFieldNameMatchingMethodName::2 TEST3" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="AvoidFieldNameMatchingMethodName::3 TEST4" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="AvoidFieldNameMatchingMethodName::4 Just skip interfaces" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="AvoidFieldNameMatchingTypeName::0 TEST1" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="AvoidFieldNameMatchingTypeName::1 TEST2" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="AvoidFieldNameMatchingTypeName::2 TEST3" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="AvoidFieldNameMatchingTypeName::3 TEST4" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="AvoidFieldNameMatchingTypeName::4 interface" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="BooleanGetMethodName::0 Bad name" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="BooleanGetMethodName::1 Good name" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="BooleanGetMethodName::2 Should not match on multiple parameters by default" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="BooleanGetMethodName::3 Should not match on methods annotated with @Override" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="BooleanGetMethodName::4 Should match on multiple parameters when checkParameterizedMethods = true" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="ClassNamingConventions::0 class names should not start with lowercase character" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="ClassNamingConventions::1 all is well" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="GenericsNaming::0 1 upper case/single letter" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="GenericsNaming::1 2 upper case/single letter" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="GenericsNaming::2 1 lower Case/single letter" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.014"/>
+  <testcase name="GenericsNaming::3 1 lower case/multiple letter" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="LongVariable::0 param" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="LongVariable::1 ok" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="LongVariable::2 local" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="LongVariable::3 for" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="LongVariable::4 17 character max" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="LongVariable::5 threshold test" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="MethodNamingConventions::0 method names should start with lowercase character" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="MethodNamingConventions::1 method names should not contain underscores" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="MethodNamingConventions::2 all is well" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="MethodNamingConventions::3 #1288 MethodNamingConventions for native should be deactivated" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="MethodNamingConventions::4 #1288 MethodNamingConventions for native should be deactivated - prevent false negative" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="MethodNamingConventions::5 #1343 MethodNamingConventions for overrided methods" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="MethodWithSameNameAsEnclosingClass::0 bad" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="MethodWithSameNameAsEnclosingClass::1 ok" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="MethodWithSameNameAsEnclosingClass::2 doesn&apos;t crash on interfaces" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="MisleadingVariableName::0 misnamed param" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="MisleadingVariableName::1 misnamed local" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="MisleadingVariableName::2 all&apos;s well" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="NoPackage::0 bad" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="NoPackage::1 good" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="NoPackage::2 nested package" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.002"/>
+  <testcase name="PackageCase::0 bad" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="PackageCase::1 good" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortClassName::0 ShortClassName basic test case" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortClassName::1 ShortClassName basic test case 2 : More code and other declarations" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortClassName::2 ShortClassName works with private classes." classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortClassName::3 #1143 ShortClassName fires with a 5-letter class name" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortClassName::4 #1232 Make ShortClassName configurable (default = 5)" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.002"/>
+  <testcase name="ShortClassName::5 #1232 Make ShortClassName configurable (minimum length = 2)" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortClassName::6 #1232 Make ShortClassName configurable (minimum length = 4)" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortMethodName::0 ok" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortMethodName::1 bad" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortMethodName::2 2 violations" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortMethodName::3 2 methods, 1 violation" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortMethodName::4 #1361 ShortMethodName configuration - 7 characters" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortMethodName::5 #1361 ShortMethodName configuration - 1 characters" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.002"/>
+  <testcase name="ShortVariable::0 param" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.002"/>
+  <testcase name="ShortVariable::1 none" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortVariable::2 local" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortVariable::3 for" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortVariable::4 field" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortVariable::5 catch(Exception e) is OK" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortVariable::6 ShortVariable false positive with for-each loops" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortVariable::7 ShortVariable within for-each loops" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortVariable::8 #1361 ShortVariable configuration - 7 characters" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="ShortVariable::9 #1361 ShortVariable configuration - 1 characters" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.002"/>
+  <testcase name="SuspiciousConstantFieldName::0 ok" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="SuspiciousConstantFieldName::1 PI not final" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="SuspiciousConstantFieldName::2 PI and E not final" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="SuspiciousConstantFieldName::3 ok" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.002"/>
+  <testcase name="SuspiciousConstantFieldName::4 ignore interfaces" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="SuspiciousEqualsMethodName::0 bad, equals(Foo foo)" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="SuspiciousEqualsMethodName::1 ok, equals(Object foo)" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="SuspiciousEqualsMethodName::2 bad, equal(Object foo)" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="SuspiciousEqualsMethodName::3 #1431 SuspiciousEqualsMethodName false positive" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="SuspiciousHashcodeMethodName::0 ok" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="SuspiciousHashcodeMethodName::1 hashcode" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="SuspiciousHashcodeMethodName::2 HashCode" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="SuspiciousHashcodeMethodName::3 Hashcode" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="VariableNamingConventions::0 member level, final statics should be all caps" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="VariableNamingConventions::1 member level, non-finals shouldn&apos;t have underscores" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="VariableNamingConventions::2 local level, non-finals shouldn&apos;t have underscores" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="VariableNamingConventions::3 method level, non-finals shouldn&apos;t have underscores" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="VariableNamingConventions::4 constructor level, non-finals shouldn&apos;t have underscores" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="VariableNamingConventions::5 member level, variables names should start with lowercase character" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="VariableNamingConventions::6 local level, variables names should start with lowercase character" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="VariableNamingConventions::7 method level, variables names should start with lowercase character" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="VariableNamingConventions::8 constructor level, variables names should start with lowercase character" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="VariableNamingConventions::9 all is well" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="VariableNamingConventions::10 local finals are ok" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="VariableNamingConventions::11 serialVersionUID is OK" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="VariableNamingConventions::12 interface fields are tested" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="VariableNamingConventions::13 final non-statics need not be all caps" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="VariableNamingConventions::14 variables in inner classes should not trigger problems in parent declaration" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.006"/>
+  <testcase name="VariableNamingConventions::15 Rule property control" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="VariableNamingConventions::16 Check prefixes" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="VariableNamingConventions::17 Check suffixes" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="VariableNamingConventions::18 Check members disabled" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="VariableNamingConventions::19 Check locals disabled" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="VariableNamingConventions::20 Check parameters disabled" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="VariableNamingConventions::21 False - with non primitive fields (Bug 2225474)" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="VariableNamingConventions::22 #1058 False positive for VariableNamingConventions" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="VariableNamingConventions::23 #1293 Disable VariableNamingConventions for native methods" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.005"/>
+  <testcase name="VariableNamingConventions::24 #1293 Disable VariableNamingConventions for native methods - prevent false negative" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="VariableNamingConventions::25 #1346 VariableNamingConventions do not work for method parameters" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+  <testcase name="VariableNamingConventions::26 #1349 VariableNamingConventions : underscore in final but at first position ?" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.004"/>
+  <testcase name="VariableNamingConventions::27 #1399 False positive for VariableNamingConventions with annotation @interface" classname="net.sourceforge.pmd.lang.java.rule.naming.NamingRulesTest" time="0.003"/>
+</testsuite>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.1" timestamp="2018-12-12T20:10:09.441">
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\cpd\JavaTokenizer.java">
+<violation beginline="4" endline="268" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.cpd" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=62, ATFD=74, TCC=0.1978021978021978)
+</violation>
+<violation beginline="216" endline="240" begincolumn="13" endcolumn="13" rule="SwitchStmtsShouldHaveDefault" ruleset="Design" package="net.sourceforge.pmd.cpd" class="JavaTokenizer$ConstructorDetector" method="processToken" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#SwitchStmtsShouldHaveDefault" priority="3">
+Switch statements should have a default label
+</violation>
+<violation beginline="219" endline="219" begincolumn="46" endcolumn="149" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.cpd" class="JavaTokenizer$ConstructorDetector" method="processToken" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\ast\DumpFacade.java">
+<violation beginline="4" endline="254" begincolumn="1" endcolumn="3" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.ast" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=77, ATFD=23, TCC=0.16666666666666666)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\dfa\StatementAndBraceFinder.java">
+<violation beginline="4" endline="389" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.dfa" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=86, ATFD=170, TCC=0.0)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\AbstractJavaRule.java">
+<violation beginline="4" endline="529" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=124, ATFD=7, TCC=0.0)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\basic\DoubleCheckedLockingRule.java">
+<violation beginline="4" endline="261" begincolumn="1" endcolumn="3" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.basic" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=63, ATFD=29, TCC=0.0)
+</violation>
+<violation beginline="164" endline="164" begincolumn="9" endcolumn="46" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.lang.java.rule.basic" class="DoubleCheckedLockingRule" method="checkLocalVariableUsage" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="186" endline="186" begincolumn="13" endcolumn="65" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.lang.java.rule.basic" class="DoubleCheckedLockingRule" method="checkLocalVariableUsage" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="189" endline="189" begincolumn="13" endcolumn="70" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.lang.java.rule.basic" class="DoubleCheckedLockingRule" method="checkLocalVariableUsage" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\comments\AbstractCommentRule.java">
+<violation beginline="189" endline="190" begincolumn="38" endcolumn="58" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.lang.java.rule.comments" class="AbstractCommentRule" method="isCommentNotWithin" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\comments\CommentContentRule.java">
+<violation beginline="33" endline="33" begincolumn="13" endcolumn="34" rule="SingularField" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.comments" class="CommentContentRule" variable="wordsAreRegex" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#SingularField" priority="3">
+Perhaps 'wordsAreRegex' could be replaced by a local variable.
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\comments\CommentDefaultAccessModifierRule.java">
+<violation beginline="91" endline="91" begincolumn="17" endcolumn="97" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.lang.java.rule.comments" class="CommentDefaultAccessModifierRule" method="shouldReport" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\comments\CommentRequiredRule.java">
+<violation beginline="4" endline="280" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.comments" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=48, ATFD=64, TCC=0.07142857142857142)
+</violation>
+<violation beginline="222" endline="226" begincolumn="13" endcolumn="13" rule="SimplifyBooleanReturns" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.comments" class="CommentRequiredRule" method="isSerialVersionUID" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#SimplifyBooleanReturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\coupling\LawOfDemeterRule.java">
+<violation beginline="4" endline="415" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.coupling" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=76, ATFD=51, TCC=0.043478260869565216)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\design\AccessorClassGenerationRule.java">
+<violation beginline="4" endline="318" begincolumn="1" endcolumn="3" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.design" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=51, ATFD=19, TCC=0.02857142857142857)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\design\CloseResourceRule.java">
+<violation beginline="4" endline="374" begincolumn="1" endcolumn="1" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.design" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=76, ATFD=59, TCC=0.0)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\design\ConstructorCallsOverridableMethodRule.java">
+<violation beginline="4" endline="976" begincolumn="1" endcolumn="3" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.design" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=156, ATFD=99, TCC=0.012477718360071301)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\design\GodClassRule.java">
+<violation beginline="4" endline="367" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.design" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=54, ATFD=32, TCC=0.0)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\design\SingletonClassReturningNewInstanceRule.java">
+<violation beginline="24" endline="24" begincolumn="9" endcolumn="33" rule="PrematureDeclaration" ruleset="Optimization" package="net.sourceforge.pmd.lang.java.rule.design" class="SingletonClassReturningNewInstanceRule" method="visit" variable="violation" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#PrematureDeclaration" priority="3">
+Avoid declaring a variable if it is unreferenced before a possible exit point.
+</violation>
+<violation beginline="25" endline="25" begincolumn="9" endcolumn="34" rule="PrematureDeclaration" ruleset="Optimization" package="net.sourceforge.pmd.lang.java.rule.design" class="SingletonClassReturningNewInstanceRule" method="visit" variable="localVarName" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#PrematureDeclaration" priority="3">
+Avoid declaring a variable if it is unreferenced before a possible exit point.
+</violation>
+<violation beginline="26" endline="26" begincolumn="9" endcolumn="40" rule="PrematureDeclaration" ruleset="Optimization" package="net.sourceforge.pmd.lang.java.rule.design" class="SingletonClassReturningNewInstanceRule" method="visit" variable="returnVariableName" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/optimizations.html#PrematureDeclaration" priority="3">
+Avoid declaring a variable if it is unreferenced before a possible exit point.
+</violation>
+<violation beginline="62" endline="62" begincolumn="37" endcolumn="54" rule="VariableNamingConventions" ruleset="Naming" package="net.sourceforge.pmd.lang.java.rule.design" class="SingletonClassReturningNewInstanceRule" method="visit" variable="ASTBlockStatements" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character, 'ASTBlockStatements' starts with uppercase character.
+</violation>
+<violation beginline="64" endline="64" begincolumn="17" endcolumn="39" rule="UseCollectionIsEmpty" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.design" class="SingletonClassReturningNewInstanceRule" method="visit" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#UseCollectionIsEmpty" priority="3">
+Substitute calls to size() == 0 (or size() != 0, size() &gt; 0, size() &lt; 1) with calls to isEmpty()
+</violation>
+<violation beginline="108" endline="108" begincolumn="14" endcolumn="40" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.lang.java.rule.design" class="SingletonClassReturningNewInstanceRule" method="getNameFromPrimaryPrefix" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="108" endline="108" begincolumn="47" endcolumn="82" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.lang.java.rule.design" class="SingletonClassReturningNewInstanceRule" method="getNameFromPrimaryPrefix" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\imports\DuplicateImportsRule.java">
+<violation beginline="78" endline="80" begincolumn="9" endcolumn="17" rule="SimplifyBooleanReturns" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.imports" class="DuplicateImportsRule" method="isDisambiguationImport" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#SimplifyBooleanReturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\imports\UnnecessaryFullyQualifiedNameRule.java">
+<violation beginline="170" endline="172" begincolumn="9" endcolumn="9" rule="SimplifyBooleanReturns" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.imports" class="UnnecessaryFullyQualifiedNameRule" method="isEnum" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#SimplifyBooleanReturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\logging\InvalidSlf4jMessageFormatRule.java">
+<violation beginline="46" endline="46" begincolumn="13" endcolumn="92" rule="SimplifyConditional" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.logging" class="InvalidSlf4jMessageFormatRule" method="visit" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#SimplifyConditional" priority="3">
+No need to check for null before an instanceof
+</violation>
+<violation beginline="110" endline="113" begincolumn="9" endcolumn="9" rule="SimplifyBooleanReturns" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.logging" class="InvalidSlf4jMessageFormatRule" method="isNewThrowable" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#SimplifyBooleanReturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+<violation beginline="119" endline="121" begincolumn="9" endcolumn="9" rule="SimplifyBooleanReturns" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.logging" class="InvalidSlf4jMessageFormatRule" method="hasTypeThrowable" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#SimplifyBooleanReturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\strings\ConsecutiveAppendsShouldReuseRule.java">
+<violation beginline="162" endline="164" begincolumn="9" endcolumn="9" rule="SimplifyBooleanReturns" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.strings" class="ConsecutiveAppendsShouldReuseRule" method="isFirstChild" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#SimplifyBooleanReturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\strings\ConsecutiveLiteralAppendsRule.java">
+<violation beginline="4" endline="385" begincolumn="1" endcolumn="1" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.strings" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=72, ATFD=48, TCC=0.01818181818181818)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\strings\InefficientStringBufferingRule.java">
+<violation beginline="124" endline="126" begincolumn="17" endcolumn="17" rule="SimplifyBooleanReturns" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.strings" class="InefficientStringBufferingRule" method="isPrimitiveType" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#SimplifyBooleanReturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\strings\InsufficientStringBufferDeclarationRule.java">
+<violation beginline="4" endline="390" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.strings" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=82, ATFD=74, TCC=0.015151515151515152)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\unnecessary\UselessOverridingMethodRule.java">
+<violation beginline="4" endline="252" begincolumn="1" endcolumn="3" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.rule.unnecessary" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=49, ATFD=24, TCC=0.047619047619047616)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\rule\unusedcode\UnusedModifierRule.java">
+<violation beginline="16" endline="16" begincolumn="9" endcolumn="61" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.lang.java.rule.unusedcode" class="UnusedModifierRule" method="visit" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\symboltable\ClassScope.java">
+<violation beginline="4" endline="630" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.symboltable" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=126, ATFD=141, TCC=0.013071895424836602)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\symboltable\JavaNameOccurrence.java">
+<violation beginline="109" endline="111" begincolumn="9" endcolumn="9" rule="SimplifyBooleanReturns" ruleset="Design" package="net.sourceforge.pmd.lang.java.symboltable" class="JavaNameOccurrence" method="isOnLeftHandSide" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#SimplifyBooleanReturns" priority="3">
+Avoid unnecessary if..then..else statements when returning booleans
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\typeresolution\ClassTypeResolver.java">
+<violation beginline="4" endline="752" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.typeresolution" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=141, ATFD=77, TCC=0.0)
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\typeresolution\PMDASMClassLoader.java">
+<violation beginline="67" endline="68" begincolumn="9" endcolumn="51" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.lang.java.typeresolution" class="PMDASMClassLoader" method="loadClass" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\typeresolution\rules\CloneMethodMustImplementCloneable.java">
+<violation beginline="144" endline="144" begincolumn="17" endcolumn="33" rule="CompareObjectsWithEquals" ruleset="Design" package="net.sourceforge.pmd.lang.java.typeresolution.rules" class="CloneMethodMustImplementCloneable" method="determineTopLevelCloneableClasses" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#CompareObjectsWithEquals" priority="3">
+Use equals() to compare object references.
+</violation>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-java\src\main\java\net\sourceforge\pmd\lang\java\typeresolution\visitors\PMDASMVisitor.java">
+<violation beginline="4" endline="472" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.java.typeresolution.visitors" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=87, ATFD=27, TCC=7.25689404934688E-4)
+</violation>
+</file>
+</pmd>

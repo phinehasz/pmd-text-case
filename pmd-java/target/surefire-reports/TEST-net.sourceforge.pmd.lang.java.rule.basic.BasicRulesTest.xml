@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="1.555" tests="166" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2018.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="maven.skip.test" value="true"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shinelon\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_151\bin;D:\javacc\javacc-5.0\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;D:\pscp.exe;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\ProgramData\Oracle\Java\javapath;D:\Develop\apache-maven-3.3.9\\bin;D:\Develop\python3.6\Scripts\;D:\Develop\python3.6;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\Gradle\gradle-4.9/bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\MySQL Server 5.5\bin;D:\Develop\Git\cmd;D:\Develop\Git\mingw64\bin;D:\Develop\Git\usr\bin;F:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;D:\Develop\Anaconda2.2;D:\Develop\Anaconda2.2\Scripts;C:\Program Files (x86)\Calibre2\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\ssh secure;C:\Users\Shinelon\AppData\Roaming\npm;F:\Program Files\Microsoft VS Code\bin;C:\Users\Shinelon\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Shinelon"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Shinelon"/>
+    <property name="java.class.path" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;F:\IntelliJ IDEA 2018.2.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.1 install -Dmaven.skip.test=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="AvoidBranchingStatementAsLastInLoop::0 ok: no violations" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="AvoidBranchingStatementAsLastInLoop::1 violations: break:for/do/while, continue:for/do/while and return:for/do/while" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="AvoidBranchingStatementAsLastInLoop::2 violations: break:for/do/while" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="AvoidBranchingStatementAsLastInLoop::3 violations: continue:for/do/while" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="AvoidBranchingStatementAsLastInLoop::4 violations: return:for/do/while" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="AvoidBranchingStatementAsLastInLoop::5 violations: break:for" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="AvoidBranchingStatementAsLastInLoop::6 violations: break:do" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.008"/>
+  <testcase name="AvoidBranchingStatementAsLastInLoop::7 violations: break:while" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="AvoidBranchingStatementAsLastInLoop::8 violations: continue:for" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="AvoidBranchingStatementAsLastInLoop::9 violations: continue:do" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.008"/>
+  <testcase name="AvoidBranchingStatementAsLastInLoop::10 violations: continue:while" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.008"/>
+  <testcase name="AvoidBranchingStatementAsLastInLoop::11 violations: return:for" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="AvoidBranchingStatementAsLastInLoop::12 violations: return:do" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.01"/>
+  <testcase name="AvoidBranchingStatementAsLastInLoop::13 violations: return:while" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="AvoidBranchingStatementAsLastInLoop::14 #1170 false positive with switch in loop" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.008"/>
+  <testcase name="AvoidDecimalLiteralsInBigDecimalConstructor::0 bad, new BigDecimal(.1)" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidDecimalLiteralsInBigDecimalConstructor::1 ok, new BigDecimal(&quot;.1&quot;)" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidDecimalLiteralsInBigDecimalConstructor::2 ok, new BigDecimal(10)" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.018"/>
+  <testcase name="AvoidDecimalLiteralsInBigDecimalConstructor::3 bad, same as #1 but outside an initializer context" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidDecimalLiteralsInBigDecimalConstructor::4 #1187 double variable with AvoidDecimalLiteralsInBigDecimalConstructor" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.009"/>
+  <testcase name="AvoidMultipleUnaryOperators::0 Simple duplicate typos" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidMultipleUnaryOperators::1 Compound" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="AvoidMultipleUnaryOperators::2 Compound with parentheses" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidMultipleUnaryOperators::3 Compound with parentheses an mixed operators" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidMultipleUnaryOperators::4 Multiple levels of nested parentheses" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="AvoidThreadGroup::0 bad, using new ThreadGroup()" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidThreadGroup::1 bad, using fully qualified java.lang.ThreadGroup()" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="AvoidThreadGroup::2 bad, using Thread.getThreadGroup()" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidThreadGroup::3 bad, using System.getSecurityManager().getThreadGroup()" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidThreadGroup::4 ThreadGroup() but not java.lang.ThreadGroup" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="AvoidThreadGroup::5 MyThreadGroup() not java.lang.ThreadGroup" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidThreadGroup::6 false positive, bug #1018" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="AvoidUsingHardCodedIP::0 Comprehensive, check for IPv4 mapped IPv6 xxx" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidUsingHardCodedIP::1 Common basic case" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidUsingHardCodedIP::2 Not detected via string concatenation." classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="AvoidUsingHardCodedIP::3 Null literal does not puke." classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="AvoidUsingHardCodedIP::4 Non String literal does not puke." classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="AvoidUsingHardCodedIP::5 Not an ip address string" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="AvoidUsingHardCodedIP::6 Comprehensive, check IPv4, IPv6, and IPv4 mapped IPv6" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="AvoidUsingHardCodedIP::7 Comprehensive, check for nothing" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="AvoidUsingHardCodedIP::8 Comprehensive, check for IPv4" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="AvoidUsingHardCodedIP::9 Comprehensive, check for IPv6" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="AvoidUsingHardCodedIP::10 Comprehensive, check for IPv4 mapped IPv6" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="AvoidUsingHardCodedIP::11 Comprehensive, check for IPv6 and IPv4 mapped IPv6" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="AvoidUsingOctalValues::0 bad, 012" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="AvoidUsingOctalValues::1 OK, hex value" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidUsingOctalValues::2 OK, long value" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidUsingOctalValues::3 OK, double value" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="AvoidUsingOctalValues::4 OK, double value" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidUsingOctalValues::5 bad, 012L" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="AvoidUsingOctalValues::6 OK, 06 if strict is not set" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="AvoidUsingOctalValues::7 BAD, 06 if strict is set" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="BigIntegerInstantiation::0 Fail, BigInteger(1)" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="BigIntegerInstantiation::1 Pass, BigInteger(10)" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="BigIntegerInstantiation::2 Fail, BigInteger(0)" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="BigIntegerInstantiation::3 Pass, BigDecimal(i - 1)" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="BigIntegerInstantiation::4 Pass, BigInteger(&quot;10&quot;) and BigDecimal in 1.4 mode" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.008"/>
+  <testcase name="BigIntegerInstantiation::5 Fail, BigInteger(10) 1.5 mode" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="BigIntegerInstantiation::6 Fail, BigDecimal(1)" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.008"/>
+  <testcase name="BigIntegerInstantiation::7 Fail, BigDecimal(10)" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="BigIntegerInstantiation::8 Fail, BigDecimal(0)" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="BooleanInstantiation::0 simple failure case" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="BooleanInstantiation::1 new java.lang.Boolean" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="BooleanInstantiation::2 ok" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="BooleanInstantiation::3 don&apos;t use Boolean.valueOf() with literal" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="BooleanInstantiation::4 valueOf() with variable is fine" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="BooleanInstantiation::5 don&apos;t use Boolean.valueOf() with string literal" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="BooleanInstantiation::6 don&apos;t use Boolean.valueOf() in method call" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="BooleanInstantiation::7 don&apos;t use new Boolean() in method call" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="BooleanInstantiation::8 ok" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="BooleanInstantiation::9 ok" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="BooleanInstantiation::10 don&apos;t use new Boolean() in static block" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="BooleanInstantiation::11 Bug 1744065, should be ok" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="BooleanInstantiation::12 Test for failure after rule with custom Boolean, should report failure if rule reset done correctly" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="BooleanInstantiation::13 #1533 [java] BooleanInstantiation: ClassCastException with Annotation" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="BrokenNullCheck::0 should be &amp;&amp;" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.009"/>
+  <testcase name="BrokenNullCheck::1 Ok, is &amp;&amp;" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.008"/>
+  <testcase name="BrokenNullCheck::2 should be &amp;&amp;, but now with a longer expression" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="BrokenNullCheck::3 should be ||" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="BrokenNullCheck::4 Ok, is ||" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="BrokenNullCheck::5 Arrays are Ok" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="BrokenNullCheck::6 Different method is Ok" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="BrokenNullCheck::7 Using a shorter expression with the same variable in the second check should not crash the test" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="BrokenNullCheck::8 1633683, should be ||, but now with another compare" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="BrokenNullCheck::9 1633683, Arrays are Ok II" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="BrokenNullCheck::10 Different literals in variables should not match" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="BrokenNullCheck::11 Assignments in checks are OK" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="BrokenNullCheck::12 Similar method calls with different arguments are OK" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="CheckResultSet::0 The result set is appropriately tested before using it, no violation." classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.009"/>
+  <testcase name="CheckResultSet::1 This most common violation case, not testing is done before a call to &apos;last()&apos;." classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="CheckResultSet::2 This most common violation case, not testing is done before a call to &apos;first()&apos;." classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="CheckResultSet::3 Using a &apos;while&apos; instead of &apos;if&apos; shouldn&apos;t result in a violation." classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.007"/>
+  <testcase name="CheckResultSet::4 #942 CheckResultSet False Positive" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.012"/>
+  <testcase name="CheckResultSet::5 #1135 CheckResultSet ignores results set declared outside of try/catch (good case)" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.009"/>
+  <testcase name="CheckResultSet::6 #1135 CheckResultSet ignores results set declared outside of try/catch" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.156"/>
+  <testcase name="CheckResultSet::7 #1135 CheckResultSet ignores results set declared outside of try/catch - prevent false positive" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.008"/>
+  <testcase name="CheckResultSet::8 #1199 PMD CheckResultSet gives false positive in a do/while loop" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.009"/>
+  <testcase name="CheckResultSet::9 #1273 CheckResultSet false positive in try-with-resources nested in if" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.486"/>
+  <testcase name="CheckResultSet::10 #1263 PMD reports CheckResultSet violation in completely unrelated source files." classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="CheckResultSet::11 Allow the result of ResultSet navigation methods to be returned" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="CheckSkipResult::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="CheckSkipResult::1 failure case but obfuscated" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="CheckSkipResult::2 return value is assigned to a variable" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="CheckSkipResult::3 return value is used in a function" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="CheckSkipResult::4 return value is returned" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="ClassCastExceptionWithToArray::0 bad, toArray() with cast" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="ClassCastExceptionWithToArray::1 ok, no cast" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="ClassCastExceptionWithToArray::2 Ensuring we don&apos;t have a few specific false positives, see bug 1697397" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="ClassCastExceptionWithToArray::3 #975 false positive in ClassCastExceptionWithToArray" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="ClassCastExceptionWithToArray::4 #998 False positive ClassCastExceptionWithToArray with generics" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="CollapsibleIfStatements::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="CollapsibleIfStatements::1 ok, intervening statements" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="CollapsibleIfStatements::2 ok, different intervening statements" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="DontCallThreadRun::0 basic use case - calls to run()" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="DontCallThreadRun::1 basic use case - call to Thread().run()" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="DontUseFloatTypeForLoopIndices::0 basic test case" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="DontUseFloatTypeForLoopIndices::1 Should be all OK" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="DoubleCheckedLocking::0 simple ok" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="DoubleCheckedLocking::1 simple failure" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="DoubleCheckedLocking::2 skip interfaces" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.003"/>
+  <testcase name="DoubleCheckedLocking::3 Generics" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="DoubleCheckedLocking::4 inversed null check see bug 2835074 False -: DoubleCheckedLocking with reversed null check (1)" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="DoubleCheckedLocking::5 inversed null check see bug 2835074 False -: DoubleCheckedLocking with reversed null check (2)" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="DoubleCheckedLocking::6 Use of volatile keyword see #884 False +: DoubleCheckedLocking warning with volatile field" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="DoubleCheckedLocking::7 #1471 False positives for DoubleCheckedLocking" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="ExtendsObject::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="ExtendsObject::1 extends nothing" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.003"/>
+  <testcase name="ExtendsObject::2 extends not Object" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="ForLoopShouldBeWhileLoop::0 simple failure case" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="ForLoopShouldBeWhileLoop::1 ok" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="ForLoopShouldBeWhileLoop::2 for loop like this: for (;;) {}" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.003"/>
+  <testcase name="ForLoopShouldBeWhileLoop::3 JDK 1.5 for loop" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="JumbledIncrementer::0 1" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="JumbledIncrementer::1 2" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="JumbledIncrementer::2 3" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="JumbledIncrementer::3 using outer loop incrementor as array index is OK" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="MisplacedNullCheck::0 null check after method invocation with conditional AND and !=" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="MisplacedNullCheck::1 null check after nested method invocation" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="MisplacedNullCheck::2 null check before nested method invocation" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="MisplacedNullCheck::3 1610730: null check after method invocation with conditional OR and ==" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="MisplacedNullCheck::4 3372128: False positive: ArrayIsStoredDirectly" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="MisplacedNullCheck::5 #977 MisplacedNullCheck makes false positives" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="OverrideBothEqualsAndHashcode::0 hash code only" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.003"/>
+  <testcase name="OverrideBothEqualsAndHashcode::1 equals only" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="OverrideBothEqualsAndHashcode::2 overrides both" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="OverrideBothEqualsAndHashcode::3 overrides neither" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.003"/>
+  <testcase name="OverrideBothEqualsAndHashcode::4 equals sig uses String, not Object" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.003"/>
+  <testcase name="OverrideBothEqualsAndHashcode::5 interface" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="OverrideBothEqualsAndHashcode::6 java.lang.Object" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.003"/>
+  <testcase name="OverrideBothEqualsAndHashcode::7 skip Comparable implementations" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="OverrideBothEqualsAndHashcode::8 implements equals but with 2 args" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.003"/>
+  <testcase name="OverrideBothEqualsAndHashcode::9 overloaded hashCode" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="OverrideBothEqualsAndHashcode::10 overloaded both" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="OverrideBothEqualsAndHashcode::11 overloaded hashCode, should fail on equals" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="OverrideBothEqualsAndHashcode::12 implements hashCode but with args" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="OverrideBothEqualsAndHashcode::13 implements interface other than Comparable, not resolvable" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="OverrideBothEqualsAndHashcode::14 implements interface other than Comparable, resolvable (#1303 OverrideBothEqualsAndHashcodeRule does not work on class implements resolvable interfaces)" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.006"/>
+  <testcase name="ReturnFromFinallyBlock::0 throw exception but return from finally" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="ReturnFromFinallyBlock::1 lots of returns" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="ReturnFromFinallyBlock::2 ok" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="SimplifiedTernary::0 condition ? true : foo" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.005"/>
+  <testcase name="SimplifiedTernary::1 condition ? false : foo" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.003"/>
+  <testcase name="SimplifiedTernary::2 condition ? foo : true" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.017"/>
+  <testcase name="SimplifiedTernary::3 condition ? foo : false" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.003"/>
+  <testcase name="SimplifiedTernary::4 condition ? true : false" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+  <testcase name="SimplifiedTernary::5 #1424 False positive with ternary operator" classname="net.sourceforge.pmd.lang.java.rule.basic.BasicRulesTest" time="0.004"/>
+</testsuite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pmd-apex" />
+        <module name="pmd-core" />
+        <module name="pmd-cpp" />
+        <module name="pmd-cs" />
+        <module name="pmd-fortran" />
+        <module name="pmd-go" />
+        <module name="pmd-groovy" />
+        <module name="pmd-java" />
+        <module name="pmd-java8" />
+        <module name="pmd-javascript" />
+        <module name="pmd-jsp" />
+        <module name="pmd-matlab" />
+        <module name="pmd-objectivec" />
+        <module name="pmd-perl" />
+        <module name="pmd-php" />
+        <module name="pmd-plsql" />
+        <module name="pmd-python" />
+        <module name="pmd-ruby" />
+        <module name="pmd-scala" />
+        <module name="pmd-swift" />
+        <module name="pmd-test" />
+        <module name="pmd-ui" />
+        <module name="pmd-vm" />
+        <module name="pmd-xml" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

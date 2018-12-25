@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.577" tests="165" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="idea.version" value="2018.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="maven.skip.test" value="true"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\pmd-src-5.5.2"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Shinelon\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk1.8.0_151\bin;D:\javacc\javacc-5.0\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;D:\pscp.exe;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\ProgramData\Oracle\Java\javapath;D:\Develop\apache-maven-3.3.9\\bin;D:\Develop\python3.6\Scripts\;D:\Develop\python3.6;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\Gradle\gradle-4.9/bin;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\MySQL Server 5.5\bin;D:\Develop\Git\cmd;D:\Develop\Git\mingw64\bin;D:\Develop\Git\usr\bin;F:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;D:\Develop\Anaconda2.2;D:\Develop\Anaconda2.2\Scripts;C:\Program Files (x86)\Calibre2\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\ssh secure;C:\Users\Shinelon\AppData\Roaming\npm;F:\Program Files\Microsoft VS Code\bin;C:\Users\Shinelon\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Shinelon"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Shinelon"/>
+    <property name="java.class.path" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;F:\IntelliJ IDEA 2018.2.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.1 install -Dmaven.skip.test=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\IntelliJ IDEA 2018.2.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="UnusedFormalParameter::0 failure case" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedFormalParameter::1 method called on param" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedFormalParameter::2 assignment to param" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.008"/>
+  <testcase name="UnusedFormalParameter::3 interface" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedFormalParameter::4 don&apos;t flag public methods by default" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedFormalParameter::5 flag public methods if checkall property is set" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedFormalParameter::6 skip native/abstract methods" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedFormalParameter::7 anonymous inner class npe" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.005"/>
+  <testcase name="UnusedFormalParameter::8 unused constructor param" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedFormalParameter::9 assigned but not used" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedFormalParameter::10 array element is set" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedFormalParameter::11 unused array in constructor" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedFormalParameter::12 unused array in method" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedFormalParameter::13 False - ! if &quot;checkAll&quot; property is not set" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedFormalParameter::14 violation suppression regex works" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedFormalParameter::15 violation suppression xpath works, by name" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedFormalParameter::16 violation suppression xpath works, by type" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedFormalParameter::17 #878 don&apos;t flag abstract methods even if checkall property is set when checking an abstract class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedFormalParameter::18 #1159 false positive UnusedFormalParameter readObject(ObjectInputStream) if not used" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedFormalParameter::19 #1159 correct UnusedFormalParameter for readObject(foo) if not used" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.006"/>
+  <testcase name="UnusedFormalParameter::20 #1456 UnusedFormalParameter should ignore overriding methods" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedLocalVariable::0 unused local with assignment" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedLocalVariable::1 unused local w/o assignment" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedLocalVariable::2 unused local in constructor" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedLocalVariable::3 local used on rhs" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedLocalVariable::4 unused local in static initializer" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedLocalVariable::5 unused field" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedLocalVariable::6 loop indexes are not unused locals" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedLocalVariable::7 local used in anonymous inner class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedLocalVariable::8 two unused locals of same name, one in nested class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedLocalVariable::9 two locals declared on same line" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedLocalVariable::10 an assignment does not a usage make" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedLocalVariable::11 a compound assignment operator doth a usage make" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedLocalVariable::12 assignment to a member field means used" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedLocalVariable::13 make sure scopes are working" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedLocalVariable::14 another scope test" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedLocalVariable::15 assignment to an array member will be treated as a usage" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedLocalVariable::16 local variable used in postfix expression as child of StatementExpression" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedLocalVariable::17 local variable used in postfix expression on right hand side" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedLocalVariable::18 local variable, object ref, public field of which is incremented via in postfix expression" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedLocalVariable::19 local used in right shift" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedLocalVariable::20 unused local with assignment - Suppressed" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedLocalVariable::21 Reproducing bug #1955852: false positives for UnusedPrivateMethod &amp; UnusedLocalField" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedLocalVariable::22 #1247 Not able to recognize JDK 8 Static Method References" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedLocalVariable::23 #1484 UnusedLocalVariable - false positive - parenthesis" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedModifier::0 Unneeded &apos;public&apos; in interface method" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedModifier::1 class, no problem" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedModifier::2 Unneeded &apos;abstract&apos; in interface method" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedModifier::3 all is well in interface method" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedModifier::4 Unneeded &apos;public&apos; in interface field" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedModifier::5 Unneeded &apos;static&apos; in interface field" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedModifier::6 Unneeded &apos;final&apos; in interface field" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedModifier::7 Unneeded &apos;public static final&apos; in interface field" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedModifier::8 OK in interface field" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedModifier::9 Unneeded &apos;public&apos; in class nested in interface" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedModifier::10 Unneeded &apos;static&apos; in class nested in interface" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedModifier::11 OK in class nested in interface" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedModifier::12 Unneeded &apos;public&apos; in interface nested in interface" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedModifier::13 Unneeded &apos;static&apos; in interface nested in interface" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedModifier::14 OK in interface nested in interface" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedModifier::15 Unneeded &apos;static&apos; in interface nested in class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedModifier::16 OK in interface nested in class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedModifier::17 Unneeded &apos;public static final&apos; in interface field inside another interface" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedModifier::18 OK in interface field inside another interface" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedModifier::19 Don&apos;t check methods in nested classes" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedModifier::20 Don&apos;t check fields in nested classes" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedModifier::21 Don&apos;t check fields that are anonymous inner classes" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedModifier::22 False negative: #1185 UnusedModifier throws NPE when parsing enum with a nested static interface" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedModifier::23 #1275 False positive: UnusedModifier rule for static inner class in enum" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedModifier::24 #1480 false positive on public modifier used with inner interface in enum" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::0 simple unused private field" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::1 private field referenced in another field&apos;s initializer" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::2 private field with field of same name in anonymous inner class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::3 field is used semantically before it&apos;s declared syntactically" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::4 private field referenced via &apos;this&apos; modifier" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::5 private referenced by anonymous inner class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::6 interface sanity test" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::7 unused private field in static inner class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::8 private field referenced in nonstatic inner class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::9 unused private static field" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::10 private static final referenced with qualifier" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::11 unused private field after class decl" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::12 two unused private fields in separate inner classes" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::13 method param shadows unused private field" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::14 private field referenced via &apos;this&apos; not shadowed by param of same name" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.001"/>
+  <testcase name="UnusedPrivateField::15 don&apos;t catch public fields" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::16 instantiate self and reference private field on other object" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::17 don&apos;t count Serialization fields as being unused" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::18 an assignment does not a usage make" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::19 assignment to field member is a usage" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::20 assignment to field member using this modifier is a usage" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::21 this.foo++ shouldn&apos;t throw an NPE, but isn&apos;t a usage" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::22 super.foo++ shouldn&apos;t throw an NPE" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::23 SuppressWarnings(&quot;unused&quot;) unused private field" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::24 631681, private field is accessed by outer class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::25 631681, private field in singleton is accessed by outer class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::26 #1188 False positive in UnusedPrivateField" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::27 private field in inner class accessed as method call" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::28 private field in inner class accessed by another inner class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::29 #1302 False Positive: UnusedPrivateField when accessed by inner class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::30 #1420 UnusedPrivateField: Ignore fields if using lombok - 1" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::31 #1420 UnusedPrivateField: Ignore fields if using lombok - 2" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::32 #1420 UnusedPrivateField: Ignore fields if using lombok - 3" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::33 #1420 UnusedPrivateField: Ignore fields if using lombok - 4" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::34 #1420 UnusedPrivateField: Ignore fields if using lombok - 5" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::35 #1420 UnusedPrivateField: Ignore fields if using lombok - 6" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateField::36 #1420 UnusedPrivateField: Ignore fields if using lombok - 7" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateField::37 #1428 False positive in UnusedPrivateField when local variable hides member variable" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateMethod::0 private method called by public method" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateMethod::1 simple unused private method" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateMethod::2 anonymous inner class calls private method" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateMethod::3 two private methods with same name but different parameters" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateMethod::4 calling private method after instantiating new copy of myself" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedPrivateMethod::5 calling private method using &apos;this&apos; modifier" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateMethod::6 simple unused private static method" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateMethod::7 readResolve/writeReplace/etc are OK" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateMethod::8 Private methods called only by themselves, BUG 1038229" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateMethod::9 private with same name as public, different method signature" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateMethod::10 False +, BUG 1114754" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateMethod::11 called from constructor" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateMethod::12 private method with same name but diff arg count than public method" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateMethod::13 static private called from initializer" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateMethod::14 static private invoked in static context - i.e., Foo.hi()" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateMethod::15 private method with same name as param" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateMethod::16 two methods, one private, one public, same name, same arg count, diff types" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateMethod::17 two private methods, both used, same name, same arg count, diff types" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedPrivateMethod::18 private method same name as local" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.001"/>
+  <testcase name="UnusedPrivateMethod::19 SuppressWarnings(&quot;unused&quot;) - simple unused private method" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateMethod::20 Calling method on instance of self" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateMethod::21 #46 False +: Unused private field: call to instance of self, received from another class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="UnusedPrivateMethod::21 #46 False +: Unused private field: call to instance of self, received from another class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0"/>
+  <testcase name="UnusedPrivateMethod::22 Calling one arg varargs method" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateMethod::23 Calling two arg varargs method" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.002"/>
+  <testcase name="UnusedPrivateMethod::24 Reproducing bug #1955852: false positives for UnusedPrivateMethod &amp; UnusedLocalField" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedPrivateMethod::25 verify #1156 False failure with &quot;Avoid unused private methods&quot;" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedPrivateMethod::26 #1223 UnusedPrivateMethod: Java 8 method reference causing false positives" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateMethod::27 #1226 False Positive: UnusedPrivateMethod overloading with varargs" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateMethod::28 #1228 UnusedPrivateMethod returns false positives (1)" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.005"/>
+  <testcase name="UnusedPrivateMethod::29 #1228 UnusedPrivateMethod returns false positives (2)" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.005"/>
+  <testcase name="UnusedPrivateMethod::30 #1228 UnusedPrivateMethod returns false positives (3)" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.007"/>
+  <testcase name="UnusedPrivateMethod::31 #1228 UnusedPrivateMethod returns false positives (4)" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.015"/>
+  <testcase name="UnusedPrivateMethod::32 #1228 UnusedPrivateMethod returns false positives (5a)" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedPrivateMethod::33 #1228 UnusedPrivateMethod returns false positives (5b)" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.006"/>
+  <testcase name="UnusedPrivateMethod::34 #1233 UnusedPrivateMethod: False positive : method called on returned object." classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateMethod::35 #1228 UnusedPrivateMethod returns false positives (6)" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.023"/>
+  <testcase name="UnusedPrivateMethod::36 #1228 UnusedPrivateMethod returns false positives (7)" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.035"/>
+  <testcase name="UnusedPrivateMethod::37 #1234 Unused private methods still giving false positives in 5.1.3 snapshot" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.007"/>
+  <testcase name="UnusedPrivateMethod::38 #1156 False failure with &quot;Avoid unused private methods&quot; (part 2)" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateMethod::39 #1251 UnusedPrivateMethod false positives for boxing &amp; unboxing arguments" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedPrivateMethod::40 #1249 Regression: UnusedPrivateMethod from 5.0.5 to 5.1.2" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.01"/>
+  <testcase name="UnusedPrivateMethod::41 #1261 False positive &quot;Avoid unused private methods&quot; with Generics" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.006"/>
+  <testcase name="UnusedPrivateMethod::42 #1261 False positive &quot;Avoid unused private methods&quot; with Generics 2" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.005"/>
+  <testcase name="UnusedPrivateMethod::43 #1261 False positive &quot;Avoid unused private methods&quot; with Generics 3" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.005"/>
+  <testcase name="UnusedPrivateMethod::44 #1261 False positive &quot;Avoid unused private methods&quot; with Generics 4" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.007"/>
+  <testcase name="UnusedPrivateMethod::45 #1276 False positive in UnusedPrivateMethod when method arg is Object and not called with plain Object" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedPrivateMethod::46 #1281 UnusedPrivateMethod incorrectly flagged for methods nested private classes" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.006"/>
+  <testcase name="UnusedPrivateMethod::47 #1287 UnusedPrivateMethod returns false positives for Superclass" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.005"/>
+  <testcase name="UnusedPrivateMethod::48 #1286 UnusedPrivateMethod returns false positives for varags" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.005"/>
+  <testcase name="UnusedPrivateMethod::49 #1294 False positive UnusedPrivateMethod with public inner enum from another class" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedPrivateMethod::50 #1296 PMD UnusedPrivateMethod invalid detection of &apos;private void method(int,boolean,Integer...)&apos;" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.003"/>
+  <testcase name="UnusedPrivateMethod::51 #1332 False Positive: UnusedPrivateMethod" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedPrivateMethod::52 #1395 UnusedPrivateMethod false positive for array element method call" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.004"/>
+  <testcase name="UnusedPrivateMethod::53 #1403 False positive UnusedPrivateMethod with JAVA8" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.01"/>
+  <testcase name="UnusedPrivateMethod::54 #1405 UnusedPrivateMethod false positive?" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.006"/>
+  <testcase name="UnusedPrivateMethod::55 #1412 UnusedPrivateMethod false positive: Issue #1403 not completely solved" classname="net.sourceforge.pmd.lang.java.rule.unusedcode.UnusedCodeRulesTest" time="0.013"/>
+</testsuite>

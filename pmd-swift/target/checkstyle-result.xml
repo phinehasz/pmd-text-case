@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.2">
+<file name="D:\workspace\pmd-src-5.5.2\pmd-swift\src\main\java\net\sourceforge\pmd\cpd\SwiftLanguage.java">
+<error line="0" severity="warning" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="6" column="1" severity="error" message="Redundant import from the same package - net.sourceforge.pmd.cpd.SwiftTokenizer." source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-swift\src\main\java\net\sourceforge\pmd\cpd\SwiftTokenizer.java">
+<error line="54" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="62" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-swift\src\main\java\net\sourceforge\pmd\lang\swift\SwiftLanguageModule.java">
+<error line="0" severity="warning" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-swift\target\generated-sources\antlr4\net\sourceforge\pmd\lang\swift\antlr4\SwiftBaseListener.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-swift\target\generated-sources\antlr4\net\sourceforge\pmd\lang\swift\antlr4\SwiftLexer.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-swift\target\generated-sources\antlr4\net\sourceforge\pmd\lang\swift\antlr4\SwiftListener.java">
+</file>
+<file name="D:\workspace\pmd-src-5.5.2\pmd-swift\target\generated-sources\antlr4\net\sourceforge\pmd\lang\swift\antlr4\SwiftParser.java">
+</file>
+</checkstyle>
