@@ -56,3 +56,4 @@ pmd-swift
 pmd-scala
 pmd-ruby
 pmd-apex
+/*.iml
