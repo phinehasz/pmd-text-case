@@ -3,7 +3,7 @@
  */
 package net.sourceforge.pmd.lang.text.ast;
 
-import net.sourceforge.pmd.lang.text.TextParserOptions;
+import net.sourceforge.pmd.lang.ParserOptions;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -12,9 +12,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TextParser {
-	protected final TextParserOptions parserOptions;
+	protected final ParserOptions parserOptions;
 
-	public TextParser(TextParserOptions parserOptions) {
+	public TextParser(ParserOptions parserOptions) {
 		this.parserOptions = parserOptions;
 	}
 
@@ -25,8 +25,9 @@ public class TextParser {
 			for (;;) {
 				String line = null;
 				line = br.readLine();
-				if (line == null)
+				if (line == null) {
 					break;
+				}
 				fileLines.add(line);
 			}
 		} catch (IOException e) {

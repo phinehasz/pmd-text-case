@@ -32,7 +32,7 @@ public class TextParser extends AbstractParser {
 	}
 
 	public Node parse(String fileName, Reader source) throws ParseException {
-		return new net.sourceforge.pmd.lang.text.ast.TextParser((TextParserOptions) parserOptions).parse(source);
+		return new net.sourceforge.pmd.lang.text.ast.TextParser((ParserOptions) parserOptions).parse(source);
 	}
 
 	public Map<Integer, String> getSuppressMap() {

@@ -17,7 +17,7 @@ public class TextHandler extends AbstractLanguageVersionHandler {
 
 	@Override
 	public ParserOptions getDefaultParserOptions() {
-		return new TextParserOptions();
+		return new ParserOptions();
 	}
 
 	public Parser getParser(ParserOptions parserOptions) {
