@@ -1,9 +1,0 @@
-net\sourceforge\pmd\cpd\PythonLanguage.class
-net\sourceforge\pmd\cpd\PythonTokenizer.class
-net\sourceforge\pmd\lang\python\ast\PythonParserConstants.class
-net\sourceforge\pmd\lang\python\ast\PythonParserTokenManager.class
-net\sourceforge\pmd\lang\python\PythonLanguageModule.class
-net\sourceforge\pmd\lang\python\PythonParser.class
-net\sourceforge\pmd\lang\python\PythonHandler.class
-net\sourceforge\pmd\lang\python\PythonTokenManager.class
-net\sourceforge\pmd\lang\python\ast\Token.class

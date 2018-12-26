@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: net.sourceforge.pmd.lang.plsql.rule.codesize.CodesizeRulesTest
--------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.869 sec - in net.sourceforge.pmd.lang.plsql.rule.codesize.CodesizeRulesTest

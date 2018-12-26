@@ -1,8 +1,0 @@
-net\sourceforge\pmd\typeresolution\testdata\UsesJavaStreams$ImplWithStaticAndDefaultMethod.class
-net\sourceforge\pmd\lang\java\bugs\InterfaceMethodTest.class
-net\sourceforge\pmd\typeresolution\testdata\UsesRepeatableAnnotations.class
-net\sourceforge\pmd\typeresolution\testdata\UsesJavaStreams$WithStaticAndDefaultMethod.class
-net\sourceforge\pmd\typeresolution\ClassTypeResolverJava8Test.class
-net\sourceforge\pmd\typeresolution\testdata\UsesJavaStreams.class
-net\sourceforge\pmd\typeresolution\testdata\UsesRepeatableAnnotations$Multitude.class
-net\sourceforge\pmd\typeresolution\testdata\UsesRepeatableAnnotations$Multitudes.class

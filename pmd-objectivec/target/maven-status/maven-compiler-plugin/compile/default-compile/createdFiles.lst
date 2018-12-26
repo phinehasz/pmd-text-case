@@ -1,9 +1,0 @@
-net\sourceforge\pmd\lang\objectivec\ast\ObjectiveCParserTokenManager.class
-net\sourceforge\pmd\lang\objectivec\ObjectiveCParser.class
-net\sourceforge\pmd\lang\objectivec\ObjectiveCTokenManager.class
-net\sourceforge\pmd\cpd\ObjectiveCTokenizer.class
-net\sourceforge\pmd\lang\objectivec\ObjectiveCHandler.class
-net\sourceforge\pmd\lang\objectivec\ObjectiveCLanguageModule.class
-net\sourceforge\pmd\cpd\ObjectiveCLanguage.class
-net\sourceforge\pmd\lang\objectivec\ast\Token.class
-net\sourceforge\pmd\lang\objectivec\ast\ObjectiveCParserConstants.class
