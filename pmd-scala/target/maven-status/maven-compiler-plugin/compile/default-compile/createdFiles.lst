@@ -1,6 +1,0 @@
-net\sourceforge\pmd\cpd\ScalaLanguage.class
-net\sourceforge\pmd\lang\scala\ScalaLanguageModule.class
-org\sonar\plugins\scala\language\Comment.class
-org\sonar\plugins\scala\util\StringUtils.class
-org\sonar\plugins\scala\cpd\ScalaTokenizer.class
-org\sonar\plugins\scala\language\CommentType.class
