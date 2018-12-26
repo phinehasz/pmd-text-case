@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60ea9681-f443-4e61-8e28-6ab5bd63c39f" name="Default Changelist" comment="" />
+    <list default="true" id="60ea9681-f443-4e61-8e28-6ab5bd63c39f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextLanguageModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextLanguageModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextParserOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/ast/TextParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/ast/TextParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/AbstractTextRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/AbstractTextRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/TextRuleChainVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/TextRuleChainVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/TextRuleViolationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/TextRuleViolationFactory.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/pmd-php/target/" />
     <ignored path="$PROJECT_DIR$/pmd-objectivec/target/" />
     <ignored path="$PROJECT_DIR$/pmd-java8/target/" />
@@ -28,6 +41,7 @@
     <ignored path="$PROJECT_DIR$/pmd-jsp/target/" />
     <ignored path="$PROJECT_DIR$/pmd-ui/target/" />
     <ignored path="$PROJECT_DIR$/pmd-dist/target/" />
+    <ignored path="$PROJECT_DIR$/pmd-text/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,43 +52,50 @@
     <session id="-2146801760">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.42" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Language" value="1" />
           <entry key="class" value="1" />
-          <entry key="java" value="11" />
+          <entry key="java" value="39" />
           <entry key="pom" value="1" />
-          <entry key="xml" value="4" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="11" />
-          <entry key="XML" value="5" />
+          <entry key="JAVA" value="39" />
+          <entry key="SPI" value="1" />
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="77" />
-          <entry key="PLAIN_TEXT" value="41" />
-          <entry key="XML" value="4" />
+          <entry key="JAVA" value="399" />
+          <entry key="PLAIN_TEXT" value="85" />
+          <entry key="SPI" value="4" />
+          <entry key="XML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="77" />
-          <entry key="txt" value="41" />
-          <entry key="xml" value="4" />
+          <entry key="Language" value="4" />
+          <entry key="dummy" value="33" />
+          <entry key="java" value="399" />
+          <entry key="txt" value="52" />
+          <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -90,55 +111,81 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pmd-core/src/main/java/net/sourceforge/pmd/PMDConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/AbstractTextRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="231" selection-start-line="231" selection-end-line="231" />
+            <state relative-caret-position="184">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1195#1196#0" expanded="true" />
+                <element signature="e#990#991#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pmd-xml/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/TextRuleViolationFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+            <state relative-caret-position="500">
+              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
+                <element signature="e#1276#1277#0" expanded="true" />
+                <element signature="e#1336#1337#0" expanded="true" />
+                <element signature="e#1381#1382#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pmd-core/src/main/java/net/sourceforge/pmd/lang/AbstractLanguageVersionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextLanguageModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pmd-xml/src/main/java/net/sourceforge/pmd/lang/xml/ast/XmlParser.java">
+        <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="748" column="26" selection-start-line="748" selection-start-column="26" selection-end-line="748" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pmd-core/src/main/java/net/sourceforge/pmd/cli/PMDParameters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4575">
-              <caret line="222" selection-start-line="222" selection-end-line="222" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pmd-xml/src/main/java/net/sourceforge/pmd/lang/xml/XmlLanguageModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="400">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,30 +193,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pmd-xml/src/main/java/net/sourceforge/pmd/lang/xml/XmlHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pmd-java/src/main/java/net/sourceforge/pmd/lang/java/JavaLanguageModule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pmd-core/src/main/java/net/sourceforge/pmd/PMD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="238" selection-start-line="238" selection-end-line="238" />
+            <state relative-caret-position="600">
+              <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
               <folding>
-                <element signature="e#18720#18721#0" expanded="true" />
-                <element signature="e#18769#18770#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
+                <element signature="e#1204#1205#0" expanded="true" />
+                <element signature="e#1275#1276#0" expanded="true" />
+                <element signature="e#1323#1324#0" expanded="true" />
+                <element signature="e#1491#1492#0" expanded="true" />
+                <element signature="e#1535#1536#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/ast/TextParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding>
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/TextRuleChainVisitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -184,16 +240,35 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pmd-xml/src/main/resources/rulesets/xml/basic.xml" />
         <option value="$PROJECT_DIR$/pmd-core/src/main/java/net/sourceforge/pmd/PMDConfiguration.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/pmd-xml/pom.xml" />
         <option value="$PROJECT_DIR$/pmd-xml/src/main/java/net/sourceforge/pmd/lang/xml/ast/XmlParser.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/pmd-text/pom.xml" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/XmlHandler.java" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/XmlLanguageModule.java" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/XmlParser.java" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/XmlParserOptions.java" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/resources/META-INF/services/net.sourceforge.pmd.lang.Language" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/resources/rulesets/xml/basic.xml" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/AbstractXmlRule.java" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/ast/XmlNode.java" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/ast/XmlNodeInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/ast/TextNode.java" />
+        <option value="$PROJECT_DIR$/pmd-xml/src/main/java/net/sourceforge/pmd/lang/xml/XmlHandler.java" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/ast/TextParser.java" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/TextRuleChainVisitor.java" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/TextRuleViolationFactory.java" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextHandler.java" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextLanguageModule.java" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/AbstractTextRule.java" />
+        <option value="$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextParser.java" />
       </list>
     </option>
   </component>
@@ -362,10 +437,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -376,25 +454,70 @@
             <path>
               <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
               <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="pmd-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
               <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="pmd-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
               <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="pmd-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
               <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="pmd-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-text" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-text" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-text" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-text" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -402,37 +525,36 @@
             <path>
               <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
               <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="pmd-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-text" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
               <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="pmd-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-text" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="pmd-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
               <item name="ast" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
               <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
-              <item name="pmd-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-text" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="rule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-text" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -441,10 +563,12 @@
               <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
               <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
               <item name="pmd-xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-xml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="rulesets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
@@ -452,52 +576,52 @@
               <item name="pmd-xml" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="rulesets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pmd-src-5.5.2" type="462c0819:PsiDirectoryNode" />
+              <item name="pmd-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
               <item name="xml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.velocity:velocity:1.7" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.velocity:velocity:1.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="velocity-1.7.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pmd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.velocity:velocity:1.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="velocity-1.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="velocity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="PMD&#9;FILE&#9;file://D:/workspace/pmd-src-5.5.2/pmd-core/src/main/java/net/sourceforge/pmd/PMD.java&#10;PMDConfiguration&#9;PSI&#9;JAVA://net.sourceforge.pmd.PMDConfiguration&#10;MultiThreadPro&#9;PSI&#9;JAVA://net.sourceforge.pmd.processor.MultiThreadProcessor&#10;SourceCodePro&#9;PSI&#9;JAVA://net.sourceforge.pmd.SourceCodeProcessor" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544618854342" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545800305104" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pmd-xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -581,17 +705,27 @@
       <workItem from="1540121081199" duration="1366000" />
       <workItem from="1540127281447" duration="1646000" />
       <workItem from="1544615633077" duration="2573000" />
+      <workItem from="1545744204867" duration="1014000" />
+      <workItem from="1545747337971" duration="4285000" />
     </task>
+    <task id="LOCAL-00001" summary="text module">
+      <created>1545750941721</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545750941721</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6854000" />
+    <option name="totallyTimeSpent" value="12153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.69279" visible="true" weight="0.19616205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.69279" visible="true" weight="0.20042644" />
       <window_info id="Structure" order="1" sideWeight="0.30721003" side_tool="true" weight="0.19616205" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -628,17 +762,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/pmd-xml/src/main/java/net/sourceforge/pmd/lang/xml/ast/XmlParser.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="text module" />
+    <option name="LAST_COMMIT_MESSAGE" value="text module" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pmd-core/src/main/java/net/sourceforge/pmd/lang/LanguageVersion.java">
@@ -673,16 +802,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="e#772#776#0" expanded="true" />
-            <element signature="e#832#836#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/net/sourceforge/saxon/saxon/9.1.0.8/saxon-9.1.0.8.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/pmd/pmd-xml/5.5.2/pmd-xml-5.5.2.jar!/net/sourceforge/pmd/lang/xml/ast/XmlParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-core/src/main/java/net/sourceforge/pmd/PMDConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pmd-core/src/main/java/net/sourceforge/pmd/cli/PMDParameters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4575">
+        <state relative-caret-position="800">
           <caret line="222" selection-start-line="222" selection-end-line="222" />
         </state>
       </provider>
@@ -694,13 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pmd-xml/src/main/java/net/sourceforge/pmd/lang/xml/XmlHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pmd-java/src/main/java/net/sourceforge/pmd/lang/java/JavaLanguageModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -708,34 +843,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pmd-core/src/main/java/net/sourceforge/pmd/PMDConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/pmd-xml/src/main/java/net/sourceforge/pmd/lang/xml/ast/XmlParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="231" selection-start-line="231" selection-end-line="231" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/net/sourceforge/saxon/saxon/9.1.0.8/saxon-9.1.0.8.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="748" column="26" selection-start-line="748" selection-start-column="26" selection-end-line="748" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pmd-xml/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/StringWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="175">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -743,24 +854,291 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="238" selection-start-line="238" selection-end-line="238" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-xml/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-text/src/main/resources/META-INF/services/net.sourceforge.pmd.lang.Language">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="48" selection-start-column="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-text/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/XmlXPathRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/AbstractDomXmlRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-text/src/main/resources/rulesets/xml/basic.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="521" selection-start-line="521" selection-end-line="521" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/ast/XmlNodeInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="38" column="24" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="38" selection-end-column="24" />
           <folding>
-            <element signature="e#18720#18721#0" expanded="true" />
-            <element signature="e#18769#18770#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/sourceforge/pmd/pmd-xml/5.5.2/pmd-xml-5.5.2.jar!/net/sourceforge/pmd/lang/xml/ast/XmlParser.class">
+    <entry file="file://$PROJECT_DIR$/pmd-core/src/main/java/net/sourceforge/pmd/lang/ast/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="-800">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pmd-xml/src/main/java/net/sourceforge/pmd/lang/xml/ast/XmlParser.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/StringWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="-800">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="3200" column="23" selection-start-line="3200" selection-start-column="23" selection-end-line="3200" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/ast/TextNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1426#1427#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1484#1485#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+            <element signature="e#1579#1580#0" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="e#1647#1648#0" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#1805#1806#0" expanded="true" />
+            <element signature="e#1852#1853#0" expanded="true" />
+            <element signature="e#1870#1871#0" expanded="true" />
+            <element signature="e#1940#1941#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+            <element signature="e#2048#2049#0" expanded="true" />
+            <element signature="e#2121#2122#0" expanded="true" />
+            <element signature="e#2139#2140#0" expanded="true" />
+            <element signature="e#2216#2217#0" expanded="true" />
+            <element signature="e#2234#2235#0" expanded="true" />
+            <element signature="e#2426#2427#0" expanded="true" />
+            <element signature="e#2444#2445#0" expanded="true" />
+            <element signature="e#2522#2523#0" expanded="true" />
+            <element signature="e#2540#2541#0" expanded="true" />
+            <element signature="e#2609#2610#0" expanded="true" />
+            <element signature="e#2628#2629#0" expanded="true" />
+            <element signature="e#2832#2833#0" expanded="true" />
+            <element signature="e#2851#2852#0" expanded="true" />
+            <element signature="e#2898#2899#0" expanded="true" />
+            <element signature="e#2916#2917#0" expanded="true" />
+            <element signature="e#2959#2960#0" expanded="true" />
+            <element signature="e#2977#2978#0" expanded="true" />
+            <element signature="e#3102#3103#0" expanded="true" />
+            <element signature="e#3120#3121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-core/src/main/java/net/sourceforge/pmd/lang/BaseLanguageModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-core/src/main/java/net/sourceforge/pmd/lang/AbstractLanguageVersionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/AbstractRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8225">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextParserOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-875">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-core/src/main/java/net/sourceforge/pmd/lang/AbstractParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-core/src/main/java/net/sourceforge/pmd/lang/ParserOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-java/src/main/java/net/sourceforge/pmd/lang/java/AbstractJavaParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-xml/src/main/java/net/sourceforge/pmd/lang/xml/XmlHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#1204#1205#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1491#1492#0" expanded="true" />
+            <element signature="e#1535#1536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/ast/TextParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/TextRuleChainVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/TextRuleViolationFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextLanguageModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/rule/AbstractTextRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pmd-text/src/main/java/net/sourceforge/pmd/lang/text/TextParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -827,11 +1205,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>pmd-xml</last-edited>
+          <last-edited>pmd-text</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

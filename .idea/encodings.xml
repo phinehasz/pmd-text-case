@@ -24,6 +24,7 @@
     <file url="file://$PROJECT_DIR$/pmd-scala" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pmd-swift" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pmd-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pmd-text" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pmd-ui" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pmd-vm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pmd-xml" charset="UTF-8" />

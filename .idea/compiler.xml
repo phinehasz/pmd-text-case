@@ -27,8 +27,14 @@
         <module name="pmd-scala" />
         <module name="pmd-swift" />
         <module name="pmd-test" />
+        <module name="pmd-text" />
         <module name="pmd-ui" />
         <module name="pmd-vm" />
+      </profile>
+      <profile name="Annotation profile for PMD" enabled="true">
+        <sourceOutputDir name="../pmd-text/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../pmd-text/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="pmd-xml" />
       </profile>
     </annotationProcessing>
