@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.5.1" timestamp="2018-12-12T20:08:29.543">
-<file name="D:\workspace\pmd-src-5.5.2\pmd-cs\src\main\java\net\sourceforge\pmd\cpd\CsTokenizer.java">
-<violation beginline="4" endline="306" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.cpd" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/design.html#GodClass" priority="3">
-Possible God class (WMC=67, ATFD=20, TCC=0.3)
-</violation>
-</file>
-</pmd>
