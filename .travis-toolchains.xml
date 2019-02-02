@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF8"?>
 <toolchains>
-  <!-- place this file in ${user.home}/.m2/toolchains.xml -->
+  <!-- place this file in ${user.home}/.m2/toolchains.text -->
 
   <!-- see: https://github.com/travis-ci/travis-cookbooks/blob/master/cookbooks/travis_java/templates/ubuntu/jdk_switcher.sh.erb -->
 

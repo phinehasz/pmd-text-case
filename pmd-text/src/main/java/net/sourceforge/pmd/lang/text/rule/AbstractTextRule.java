@@ -44,4 +44,8 @@ public class AbstractTextRule extends AbstractRule implements ImmutableLanguage 
 	}
 
 	protected void visitLine(RuleContext ctx,String line,int lineNumber) {}
+
+	protected void addViolation(Object data,String message, int beginLine){
+		addViolationWithMessage(data, null, message, beginLine, beginLine);
+	}
 }
