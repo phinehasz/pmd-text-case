@@ -1,4 +1,8 @@
-# PMD
+# pmd-text-case  
+It's a case to add a language module in PMD, what language I tried to add is type of text, just means I want to scan/analysis text strings by PMD. Because PMD's ability of reporting violations and it's powerfully good for the integration with other CI tools such as Jenkins, SonarQube...  
+So I make it. Actually it's also easy to do it. The most dreadful thing is to write your own language AST node(with JavaCC or other tools), but I don't need it now, text format is easy.  
+
+# Introduction Of PMD
 
 [![Build Status](https://travis-ci.org/pmd/pmd.svg?branch=master)](https://travis-ci.org/pmd/pmd)
 
